@@ -76,7 +76,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.0.5.
+Current version: v0.0.6.
 
 The first playable prototype contains two scenes:
 
@@ -100,6 +100,12 @@ v0.0.3 adds the updater foundation and updates the opening plot:
 v0.0.4 is the bootstrap updater build that points at the live manifest URL.
 
 v0.0.5 is the first target update build referenced by `updates/latest.json`.
+
+v0.0.6 adds the shower mistake sequence:
+
+- Alex accidentally enters the adult women's showers because of unclear dorm signage.
+- Clara removes him from the situation and creates a temporary shower schedule.
+- The scene reinforces the theme that mind-reading should create responsibility, not entitlement.
 
 ## Development Notes
 

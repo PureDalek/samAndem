@@ -1,6 +1,6 @@
 {
-  "version": "0.0.5",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.5/com.puredalek.samandem-v0.0.5-release.apk",
-  "sha256": "4AD1B50195E782F7F8A5A1A797220A4548C28358F8DBF106D25D1F98548C37B4",
-  "notes": "Updater live test. This manifest is read by v0.0.4 and should point to the v0.0.5 APK release asset."
+  "version": "0.0.6",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.6/com.puredalek.samandem-v0.0.6-release.apk",
+  "sha256": "C72B4736A7C2B31EA826A51EC99A1E77028EB6918F410AB251096B421B12580B",
+  "notes": "Adds the shower mistake sequence and Clara's temporary shower schedule plan."
 }

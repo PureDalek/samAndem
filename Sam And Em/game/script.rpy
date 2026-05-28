@@ -13,6 +13,7 @@ default maxine_trust = 0
 
 image bg academy_dorm_exterior = "images/backgrounds/academy_dorm_exterior.png"
 image bg dorm_lobby = "images/backgrounds/dorm_lobby.png"
+image bg communal_showers = "images/backgrounds/communal_showers.png"
 
 image mc neutral = "images/characters/protagonist.png"
 image clara neutral = "images/characters/dorm_leader.png"
@@ -215,6 +216,121 @@ label scene_morning_room:
     "Maxine smiled like nothing had changed."
     "Her thoughts were not as good at pretending."
 
-    "End of v0.0.3 prototype."
+    jump scene_shower_mistake
+
+label scene_shower_mistake:
+
+    scene bg communal_showers
+    with fade
+
+    "By late morning, I had one goal: take a shower, put on clean clothes, and pretend my life was still normal."
+    "West Hall had other plans."
+
+    "The door beside the old laundry room had a paper notice taped to it. The ink had run from steam until the words were mostly a gray blur."
+
+    mc "Showers. Great. Finally, something simple."
+
+    "I pushed inside."
+    "Steam rolled over me. Voices bounced off tile. Several adult women were already inside, laughing, talking, and getting ready for the day."
+
+    "For half a second, nobody understood what had happened."
+    "Then everyone understood at once."
+
+    mc "Wrong room. Very wrong room. Sorry!"
+
+    "I spun toward the door so fast I nearly slipped."
+
+    mind "Is that the new roommate guy?"
+    mind "Clara said this would happen."
+    mind "Do not look. Do not look. Why is he still here?"
+
+    "The thoughts hit me from every direction, overlapping until the room felt too bright."
+
+    menu:
+        "What does Alex do?"
+
+        "Keep your eyes down and leave immediately.":
+            $ morality += 1
+            mc "I am leaving. Eyes down. Door. Sorry again."
+            "I stared at the floor tiles like they contained the secrets of the universe."
+
+        "Panic and freeze for a moment.":
+            $ morality -= 1
+            "My body refused to obey the very clear command to move."
+            "The chorus of thoughts sharpened into embarrassment, irritation, and one or two amused comments I absolutely did not deserve to hear."
+            mc "Right. Moving. Now."
+
+    dorm "Alex."
+
+    "Clara's voice cut through the steam."
+
+    jump scene_clara_shower_plan
+
+label scene_clara_shower_plan:
+
+    scene bg communal_showers
+    with dissolve
+
+    show clara neutral at sprite_center
+    with dissolve
+
+    "Clara stepped between me and the room, topless but holding a towel firmly across herself with the kind of authority that made arguing feel illegal."
+
+    dorm "Out. Hallway. Now."
+
+    mc "Already my plan."
+
+    "She guided me through the door with one hand on my shoulder and shut it behind us."
+
+    dorm "I should have handled this yesterday."
+
+    mc "In my defense, the sign was basically soup."
+
+    dorm "In your defense, yes. In my defense, I am running a full dorm with one broken printer, two clogged sinks, and a room assignment system that thinks your name is short for Alexandra."
+
+    mind "He did try to leave. Good. Still, this cannot happen twice."
+
+    "Her thought landed clear and tired."
+    "This time, I did not push it."
+
+    dorm "New plan. Until I move you, you shower after the morning rush. I will write the schedule myself and put your name on it."
+
+    mc "A private shower slot?"
+
+    dorm "A supervised scheduling correction."
+
+    mc "That sounds less fun."
+
+    dorm "It is meant to."
+
+    menu:
+        "Clara is trying to solve the problem fairly. How does Alex answer?"
+
+        "Accept the rule without arguing.":
+            $ morality += 1
+            $ clara_trust += 1
+            mc "Okay. I messed up, even if it was an accident. I will follow the schedule."
+            dorm "Thank you."
+            "Some of the tension left her shoulders."
+
+        "Try to joke your way out of trouble.":
+            $ morality -= 1
+            mc "So, technically, I get a VIP shower time?"
+            dorm "Technically, you get one warning."
+            "Her expression made it clear there would not be a second."
+
+    dorm "And Alex?"
+
+    mc "Yeah?"
+
+    dorm "If your power tells you what people are thinking, use that knowledge to give them space. Not to take it."
+
+    "My stomach went cold."
+
+    mc "You know?"
+
+    dorm "I suspect. That is enough for today."
+
+    "End of v0.0.6 prototype."
 
     return
