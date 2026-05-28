@@ -5,6 +5,7 @@ default update_checking = False
 
 init python:
     import json
+    import ssl
     import urllib.request
     import urllib.error
 
@@ -45,8 +46,17 @@ init python:
                 },
             )
 
-            with urllib.request.urlopen(request, timeout=12) as response:
-                data = response.read().decode("utf-8")
+            try:
+                with urllib.request.urlopen(request, timeout=12) as response:
+                    data = response.read().decode("utf-8")
+
+            except ssl.SSLError:
+                # Some Android Ren'Py builds lack a usable CA bundle for Python.
+                # The APK download still opens in Android's browser/installer;
+                # this fallback only lets us read the small update manifest.
+                context = ssl._create_unverified_context()
+                with urllib.request.urlopen(request, timeout=12, context=context) as response:
+                    data = response.read().decode("utf-8")
 
             manifest = json.loads(data)
             latest_version = manifest.get("version", "")
@@ -63,6 +73,14 @@ init python:
                 update_status = "Version {} is available.".format(latest_version)
             else:
                 update_status = "You are already on the latest version."
+
+        except urllib.error.HTTPError as exc:
+            update_latest = None
+
+            if exc.code == 404:
+                update_status = "Update manifest was not found. The repo or release may be private."
+            else:
+                update_status = "Update check failed: HTTP {}".format(exc.code)
 
         except Exception as exc:
             update_latest = None

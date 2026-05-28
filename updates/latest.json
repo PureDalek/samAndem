@@ -1,6 +1,6 @@
 {
-  "version": "0.0.8",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.8/com.puredalek.samandem-v0.0.8-release.apk",
-  "sha256": "6C9E91864D1F6889CE1C3A10B653BCE49D4E8D6F1712B9AAA7888691D588AF30",
-  "notes": "Adds missing CGs for the dorm room, Maxine morning scene, and Clara shower-plan sequence."
+  "version": "0.0.9",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.9/com.puredalek.samandem-v0.0.9-release.apk",
+  "sha256": "2439A0708A75510A1030E25F0351B94B39C98B1F86C12A242C99F92D99F214CB",
+  "notes": "Fixes Android SSL fallback and clearer private-manifest update errors."
 }

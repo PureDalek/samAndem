@@ -78,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.0.8.
+Current version: v0.0.9.
 
 The first playable prototype contains two scenes:
 
@@ -117,6 +117,8 @@ v0.0.8 adds missing story visuals:
 - Maxine morning CG.
 - Clara shower intervention CG.
 - Clara shower schedule CG.
+
+v0.0.9 fixes updater SSL fallback handling on Android and adds clearer errors when the manifest URL is private or unavailable.
 
 ## Development Notes
 
