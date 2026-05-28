@@ -78,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.0.7.
+Current version: v0.0.8.
 
 The first playable prototype contains two scenes:
 
@@ -110,6 +110,13 @@ v0.0.6 adds the shower mistake sequence:
 - The scene reinforces the theme that mind-reading should create responsibility, not entitlement.
 
 v0.0.7 adds the adult content warning and 18+ entry gate.
+
+v0.0.8 adds missing story visuals:
+
+- Room 214 background.
+- Maxine morning CG.
+- Clara shower intervention CG.
+- Clara shower schedule CG.
 
 ## Development Notes
 

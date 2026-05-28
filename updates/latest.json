@@ -1,6 +1,6 @@
 {
-  "version": "0.0.7",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.7/com.puredalek.samandem-v0.0.7-release.apk",
-  "sha256": "D2287D39E1F871092581175CBFBD0A9148B95DA03D59E1D95A9B7A04F547AF92",
-  "notes": "Adds the adult content warning and 18+ entry gate."
+  "version": "0.0.8",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.8/com.puredalek.samandem-v0.0.8-release.apk",
+  "sha256": "6C9E91864D1F6889CE1C3A10B653BCE49D4E8D6F1712B9AAA7888691D588AF30",
+  "notes": "Adds missing CGs for the dorm room, Maxine morning scene, and Clara shower-plan sequence."
 }

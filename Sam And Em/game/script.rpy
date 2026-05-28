@@ -13,7 +13,12 @@ default maxine_trust = 0
 
 image bg academy_dorm_exterior = "images/backgrounds/academy_dorm_exterior.png"
 image bg dorm_lobby = "images/backgrounds/dorm_lobby.png"
+image bg dorm_room_214 = "images/backgrounds/dorm_room_214.png"
 image bg communal_showers = "images/backgrounds/communal_showers.png"
+
+image cg maxine_morning = "images/cgs/maxine_morning_cg.png"
+image cg clara_intervention = "images/cgs/clara_intervention_cg.png"
+image cg shower_schedule = "images/cgs/shower_schedule_cg.png"
 
 image mc neutral = "images/characters/protagonist.png"
 image clara neutral = "images/characters/dorm_leader.png"
@@ -166,7 +171,7 @@ label scene_dorm_lobby:
 
 label scene_morning_room:
 
-    scene bg dorm_lobby
+    scene bg dorm_room_214
     with fade
 
     "The first night in Room 214 was awkward in the way only old friendship could survive."
@@ -176,6 +181,10 @@ label scene_morning_room:
     maxine "Mmm... stupid heat..."
 
     "I opened my eyes and froze."
+
+    scene cg maxine_morning
+    with dissolve
+
     "Maxine was half-asleep on top of her sheets, topless from the heat, one arm thrown over her face."
     "For a second, my brain forgot every language it had ever learned."
 
@@ -268,10 +277,7 @@ label scene_shower_mistake:
 
 label scene_clara_shower_plan:
 
-    scene bg communal_showers
-    with dissolve
-
-    show clara neutral at sprite_center
+    scene cg clara_intervention
     with dissolve
 
     "Clara stepped between me and the room, topless but holding a towel firmly across herself with the kind of authority that made arguing feel illegal."
@@ -292,6 +298,9 @@ label scene_clara_shower_plan:
 
     "Her thought landed clear and tired."
     "This time, I did not push it."
+
+    scene cg shower_schedule
+    with dissolve
 
     dorm "New plan. Until I move you, you shower after the morning rush. I will write the schedule myself and put your name on it."
 
