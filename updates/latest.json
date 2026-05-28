@@ -1,6 +1,6 @@
 {
-  "version": "0.0.6",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.6/com.puredalek.samandem-v0.0.6-release.apk",
-  "sha256": "C72B4736A7C2B31EA826A51EC99A1E77028EB6918F410AB251096B421B12580B",
-  "notes": "Adds the shower mistake sequence and Clara's temporary shower schedule plan."
+  "version": "0.0.7",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.7/com.puredalek.samandem-v0.0.7-release.apk",
+  "sha256": "D2287D39E1F871092581175CBFBD0A9148B95DA03D59E1D95A9B7A04F547AF92",
+  "notes": "Adds the adult content warning and 18+ entry gate."
 }

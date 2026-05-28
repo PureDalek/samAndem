@@ -57,6 +57,8 @@ All romanceable and sexual characters must be explicitly 18 or older. NSFW conte
 
 Mind-reading and manipulation can create moral tension, but sexual scenes should be based on consent and character agency.
 
+The game includes an 18+ age gate. Players who do not confirm that they are 18 or older are exited from the app before reaching the main menu.
+
 ## Main Features
 
 Planned systems include:
@@ -76,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.0.6.
+Current version: v0.0.7.
 
 The first playable prototype contains two scenes:
 
@@ -106,6 +108,8 @@ v0.0.6 adds the shower mistake sequence:
 - Alex accidentally enters the adult women's showers because of unclear dorm signage.
 - Clara removes him from the situation and creates a temporary shower schedule.
 - The scene reinforces the theme that mind-reading should create responsibility, not entitlement.
+
+v0.0.7 adds the adult content warning and 18+ entry gate.
 
 ## Development Notes
 
