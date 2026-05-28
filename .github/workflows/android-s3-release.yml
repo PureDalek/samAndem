@@ -1,0 +1,107 @@
+name: Android S3 Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-upload:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Download Ren'Py SDK and RAPT
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path tools | Out-Null
+          Invoke-WebRequest -UseBasicParsing -Uri "https://www.renpy.org/dl/8.5.3/renpy-8.5.3-sdk.zip" -OutFile "tools/renpy-sdk.zip"
+          Invoke-WebRequest -UseBasicParsing -Uri "https://www.renpy.org/dl/8.5.3/renpy-8.5.3-rapt.zip" -OutFile "tools/renpy-rapt.zip"
+          Expand-Archive -LiteralPath "tools/renpy-sdk.zip" -DestinationPath "tools" -Force
+          Expand-Archive -LiteralPath "tools/renpy-rapt.zip" -DestinationPath "tools" -Force
+          Copy-Item -LiteralPath "tools/rapt" -Destination "tools/renpy-8.5.3-sdk/rapt" -Recurse -Force
+
+      - name: Install Android SDK packages
+        shell: pwsh
+        run: |
+          $rapt = "tools/renpy-8.5.3-sdk/rapt"
+          $sdk = Join-Path $rapt "Sdk"
+          Invoke-WebRequest -UseBasicParsing -Uri "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip" -OutFile "$rapt/commandlinetools.zip"
+          New-Item -ItemType Directory -Force -Path $sdk | Out-Null
+          Expand-Archive -LiteralPath "$rapt/commandlinetools.zip" -DestinationPath $sdk -Force
+          Rename-Item -LiteralPath "$sdk/cmdline-tools" -NewName "latest"
+          New-Item -ItemType Directory -Force -Path "$sdk/cmdline-tools" | Out-Null
+          Move-Item -LiteralPath "$sdk/latest" -Destination "$sdk/cmdline-tools/latest"
+          $sdkmanager = "$sdk/cmdline-tools/latest/bin/sdkmanager.bat"
+          1..100 | ForEach-Object { "y" } | & $sdkmanager --licenses
+          & $sdkmanager "platform-tools" "platforms;android-36"
+
+      - name: Generate dev signing keys
+        shell: pwsh
+        run: |
+          $project = "Sam And Em"
+          foreach ($name in @("android.keystore", "bundle.keystore")) {
+            $ks = Join-Path $project $name
+            if (-not (Test-Path -LiteralPath $ks)) {
+              keytool -genkeypair -keystore $ks -storepass android -keypass android -alias android -keyalg RSA -keysize 2048 -validity 20000 -dname "CN=Sam And Em Dev,O=Puredalek,C=US"
+            }
+          }
+
+      - name: Lint
+        shell: pwsh
+        run: |
+          & "tools/renpy-8.5.3-sdk/renpy.exe" "$PWD/Sam And Em" lint
+
+      - name: Build APK
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path "builds/android" | Out-Null
+          $args = "`"$PWD/tools/renpy-8.5.3-sdk/launcher`" android_build `"$PWD/Sam And Em`" --destination `"$PWD/builds/android`""
+          $p = Start-Process -FilePath "$PWD/tools/renpy-8.5.3-sdk/renpy.exe" -ArgumentList $args -Wait -PassThru -WindowStyle Hidden -RedirectStandardOutput "builds/android-build.stdout.log" -RedirectStandardError "builds/android-build.stderr.log"
+          if ($p.ExitCode -ne 0) {
+            Get-Content "builds/android-build.stdout.log" -ErrorAction SilentlyContinue
+            Get-Content "builds/android-build.stderr.log" -ErrorAction SilentlyContinue
+            exit $p.ExitCode
+          }
+
+      - name: Prepare update files
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          $bucket = "${{ secrets.S3_BUCKET }}"
+          $baseUrl = "${{ secrets.UPDATE_BASE_URL }}".TrimEnd("/")
+          $apk = Get-ChildItem -Path "builds/android" -Filter "*.apk" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          $releaseApk = "com.puredalek.samandem-v$version-release.apk"
+          Copy-Item -LiteralPath $apk.FullName -Destination "builds/android/$releaseApk"
+          $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath "builds/android/$releaseApk").Hash
+          $manifest = @{
+            version = $version
+            apk_url = "$baseUrl/releases/v$version/$releaseApk"
+            sha256 = $hash
+            notes = "S3 release v$version"
+          } | ConvertTo-Json
+          Set-Content -LiteralPath "builds/android/latest.json" -Value $manifest -NoNewline
+
+      - name: Upload to S3
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          $bucket = "${{ secrets.S3_BUCKET }}"
+          aws s3 cp "builds/android/com.puredalek.samandem-v$version-release.apk" "s3://$bucket/releases/v$version/com.puredalek.samandem-v$version-release.apk" --content-type "application/vnd.android.package-archive"
+          aws s3 cp "builds/android/latest.json" "s3://$bucket/updates/latest.json" --content-type "application/json" --cache-control "no-cache"
