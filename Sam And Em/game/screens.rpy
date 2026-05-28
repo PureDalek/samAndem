@@ -309,6 +309,10 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
+        textbutton _("Gallery") action ShowMenu("character_gallery")
+
+        textbutton _("Update") action ShowMenu("update_screen")
+
         textbutton _("Preferences") action ShowMenu("preferences")
 
         if _in_replay:

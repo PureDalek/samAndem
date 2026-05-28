@@ -1,0 +1,6 @@
+{
+  "version": "0.0.4",
+  "apk_url": "https://updates.example.com/samandem/android/latest.apk",
+  "sha256": "replace-with-apk-sha256",
+  "notes": "Example update manifest. Point update_manifest_url in updater.rpy to your private update gate."
+}

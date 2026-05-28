@@ -1,0 +1,6 @@
+{
+  "version": "0.0.5",
+  "apk_url": "https://github.com/puredalek/samandem/releases/download/v0.0.5/com.puredalek.samandem-v0.0.5-release.apk",
+  "sha256": "5BA3230219325A80F1FDD0653BE32AB93EEFB5FA2DB51527F47C16C6877F55E7",
+  "notes": "Updater live test. This manifest is read by v0.0.4 and should point to the v0.0.5 APK release asset."
+}

@@ -24,3 +24,7 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# Local Android signing keys. Keep release keys private and backed up.
+/android.keystore
+/bundle.keystore
