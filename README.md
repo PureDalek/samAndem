@@ -78,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.0.9.
+Current version: v0.1.0.
 
 The first playable prototype contains two scenes:
 
@@ -119,6 +119,8 @@ v0.0.8 adds missing story visuals:
 - Clara shower schedule CG.
 
 v0.0.9 fixes updater SSL fallback handling on Android and adds clearer errors when the manifest URL is private or unavailable.
+
+v0.1.0 adds the Character Sets screen and optional adult asset slots for user-provided character art.
 
 ## Development Notes
 

@@ -311,6 +311,8 @@ screen navigation():
 
         textbutton _("Gallery") action ShowMenu("character_gallery")
 
+        textbutton _("Character Sets") action ShowMenu("character_sets")
+
         textbutton _("Update") action ShowMenu("update_screen")
 
         textbutton _("Preferences") action ShowMenu("preferences")

@@ -1,6 +1,6 @@
 {
-  "version": "0.0.9",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.9/com.puredalek.samandem-v0.0.9-release.apk",
-  "sha256": "2439A0708A75510A1030E25F0351B94B39C98B1F86C12A242C99F92D99F214CB",
-  "notes": "Fixes Android SSL fallback and clearer private-manifest update errors."
+  "version": "0.1.0",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.1.0/com.puredalek.samandem-v0.1.0-release.apk",
+  "sha256": "EC8FC6955ECB521936A2217ADB7078ECF50C1D5201477B3AF5E8267AD172D334",
+  "notes": "Adds the Character Sets screen and optional adult asset slots."
 }
