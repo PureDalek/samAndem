@@ -1,6 +1,6 @@
 {
   "version": "0.0.4",
-  "apk_url": "https://updates.example.com/samandem/android/latest.apk",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.0.5/com.puredalek.samandem-v0.0.5-release.apk",
   "sha256": "replace-with-apk-sha256",
   "notes": "Example update manifest. Point update_manifest_url in updater.rpy to your private update gate."
 }

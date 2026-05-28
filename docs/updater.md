@@ -39,4 +39,10 @@ The game currently has:
 default update_manifest_url = ""
 ```
 
-Set this in `Sam And Em/game/updater.rpy` when the private update gate exists.
+The current bootstrap URL is:
+
+```renpy
+default update_manifest_url = "https://raw.githubusercontent.com/PureDalek/samAndem/main/updates/latest.json"
+```
+
+For private distribution, replace this later with a Cloudflare Worker or another authenticated update gate.

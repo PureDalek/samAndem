@@ -1,4 +1,4 @@
-default update_manifest_url = "https://raw.githubusercontent.com/puredalek/samandem/main/updates/latest.json"
+default update_manifest_url = "https://raw.githubusercontent.com/PureDalek/samAndem/main/updates/latest.json"
 default update_status = "Ready to check for updates."
 default update_latest = None
 default update_checking = False
