@@ -78,14 +78,14 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.1.0.
+Current version: v0.2.1.
 
-The first playable prototype contains two scenes:
+The base prototype opens with the academy dorm setup:
 
 - The protagonist arrives at the academy dorm and reunites with Maxine.
 - The protagonist meets Clara, the dorm leader, and experiences a second mind-reading incident.
 
-The prototype introduces the first good/evil choices through how the player responds to private thoughts.
+The prototype introduces the first good/evil choices through how the player responds to private thoughts, then v0.2.0 continues into the first complete branching route slice.
 
 v0.0.2 adds the first character gallery with one private image entry each for Alex, Clara, and Maxine.
 
@@ -121,6 +121,17 @@ v0.0.8 adds missing story visuals:
 v0.0.9 fixes updater SSL fallback handling on Android and adds clearer errors when the manifest URL is private or unavailable.
 
 v0.1.0 adds the Character Sets screen and optional adult asset slots for user-provided character art.
+
+v0.2.0 adds the first complete branching route slice:
+
+- Maxine happy ending: The Wedding Garden.
+- Lady happy ending: Two Tickets Anywhere.
+- Max bad ending: The Dropout.
+- Lady bad ending: The Locked Door.
+- Two neutral fallback endings.
+- A documented route choice tree in `docs/route-choice-tree.md`.
+
+v0.2.1 rebuilds the plot route from the corrected repository root, fixes asset generation paths, and updates the local update manifest for the plot/endings build.
 
 ## Development Notes
 

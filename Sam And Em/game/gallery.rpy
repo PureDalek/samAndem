@@ -1,6 +1,9 @@
 image gallery alex private 01 = "images/gallery/alex_private_01.png"
+image gallery alex private 02 = "images/gallery/alex_private_02.png"
 image gallery clara private 01 = "images/gallery/clara_private_01.png"
+image gallery clara private 02 = "images/gallery/clara_private_02.png"
 image gallery maxine private 01 = "images/gallery/maxine_private_01.png"
+image gallery maxine private 02 = "images/gallery/maxine_private_02.png"
 
 default gallery_character = "alex"
 
@@ -10,18 +13,21 @@ init python:
             "name": "Alex",
             "images": [
                 ("Private 01", "gallery alex private 01"),
+                ("Private 02", "gallery alex private 02"),
             ],
         },
         "clara": {
             "name": "Clara",
             "images": [
                 ("Private 01", "gallery clara private 01"),
+                ("Private 02", "gallery clara private 02"),
             ],
         },
         "maxine": {
             "name": "Maxine",
             "images": [
                 ("Private 01", "gallery maxine private 01"),
+                ("Private 02", "gallery maxine private 02"),
             ],
         },
     }

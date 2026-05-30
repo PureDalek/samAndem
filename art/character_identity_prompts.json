@@ -1,0 +1,20 @@
+{
+  "alex": {
+    "source_sprite": "Sam And Em/game/images/characters/protagonist.png",
+    "trigger_name": "samandem_alex",
+    "identity_prompt": "samandem_alex, young adult male 18+, short messy black hair, soft brown eyes, slim average build, gentle anxious expression, black hoodie, white shirt, modern academy dorm visual novel character, polished semi-realistic anime sprite",
+    "negative_prompt": "different hair color, beard, muscular bodybuilder, childlike face, different outfit palette, watermark, text, logo, low quality"
+  },
+  "maxine": {
+    "source_sprite": "Sam And Em/game/images/characters/maxine.png",
+    "trigger_name": "samandem_maxine",
+    "identity_prompt": "samandem_maxine, young adult woman 18+, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident grin, navy sporty outfit palette, sleeveless hoodie, hand wraps, polished semi-realistic anime visual novel sprite",
+    "negative_prompt": "long hair, missing blue hair streak, delicate frail build, different eye color, formal dress, watermark, text, logo, low quality"
+  },
+  "clara": {
+    "source_sprite": "Sam And Em/game/images/characters/dorm_leader.png",
+    "trigger_name": "samandem_clara",
+    "identity_prompt": "samandem_clara, young adult woman 18+, long auburn red-brown hair swept to one side, warm brown eyes, composed confident smile, elegant dorm leader, curvy build, beige cardigan, white blouse, cream and brown palette, polished semi-realistic anime visual novel sprite",
+    "negative_prompt": "short hair, black hair, blue hair, sporty tomboy outfit, different face, different palette, watermark, text, logo, low quality"
+  }
+}

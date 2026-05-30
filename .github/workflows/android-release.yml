@@ -80,3 +80,27 @@ jobs:
           files: builds/android/com.puredalek.samandem-${{ github.ref_name }}-release.apk
           draft: false
           prerelease: true
+
+      - name: Email release notification
+        shell: pwsh
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_SUBJECT: Sam And Em ${{ github.ref_name }} APK release ready
+          MAIL_BODY: |
+            A new Sam And Em Android release build is ready.
+
+            Version:
+            ${{ github.ref_name }}
+
+            Release:
+            ${{ github.server_url }}/${{ github.repository }}/releases/tag/${{ github.ref_name }}
+
+            APK:
+            com.puredalek.samandem-${{ github.ref_name }}-release.apk
+        run: |
+          python scripts/send_build_email.py

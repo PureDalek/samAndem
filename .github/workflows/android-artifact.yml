@@ -76,3 +76,24 @@ jobs:
           name: sam-and-em-android
           path: builds/android/*.apk
           retention-days: 30
+
+      - name: Email build notification
+        shell: pwsh
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_SUBJECT: Sam And Em Android artifact build ready
+          MAIL_BODY: |
+            A new Sam And Em Android artifact build is ready.
+
+            Workflow run:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Artifact:
+            sam-and-em-android
+        run: |
+          python scripts/send_build_email.py

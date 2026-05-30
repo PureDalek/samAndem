@@ -340,6 +340,7 @@ label scene_clara_shower_plan:
 
     dorm "I suspect. That is enough for today."
 
-    "End of v0.0.6 prototype."
+    "The schedule solved one problem."
+    "The power in my head promised a hundred more."
 
-    return
+    jump route_act_one

@@ -1,0 +1,40 @@
+{
+  "api_url": "http://127.0.0.1:7860",
+  "output_dir": "art/generated/nsfw",
+  "renpy_root": "Sam And Em",
+  "renpy_pattern": "game/images/nsfw/{character}/{slot}.png",
+  "defaults": {
+    "negative_prompt": "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, explicit nudity, exposed nipples, visible genitals, sex act, penetration, oral sex, see-through clothing, minor, child, teen",
+    "steps": 28,
+    "cfg_scale": 7,
+    "width": 768,
+    "height": 1024,
+    "sampler_name": "DPM++ 2M Karras",
+    "seed": -1,
+    "batch_size": 1,
+    "n_iter": 1
+  },
+  "assets": [
+    {
+      "name": "alex_base",
+      "character": "alex",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "prompt": "18+ young adult man, short messy black hair, soft brown eyes, slim average build, black hoodie over white shirt, visual novel character sprite, full body, neutral standing pose, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_base",
+      "character": "maxine",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "prompt": "18+ young adult woman, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident grin, navy sporty jacket, hand wraps, visual novel character sprite, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "clara_base",
+      "character": "clara",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "prompt": "18+ young adult woman, long auburn hair swept to one side, warm brown eyes, composed dorm leader presence, beige cardigan and cream blouse, visual novel character sprite, full body, plain light background, clean linework, polished game asset"
+    }
+  ]
+}

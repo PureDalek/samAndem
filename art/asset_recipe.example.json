@@ -1,0 +1,39 @@
+{
+  "defaults": {
+    "api": "http://127.0.0.1:7860",
+    "width": 1024,
+    "height": 1536,
+    "steps": 28,
+    "cfg_scale": 7.0,
+    "denoise": 0.55,
+    "sampler": "DPM++ 2M Karras",
+    "timeout": 600,
+    "no_backup": false
+  },
+  "jobs": [
+    {
+      "character": "maxine",
+      "prompt": "covered sporty dorm sprite variant, navy hoodie, confident pose",
+      "destination": {
+        "type": "sprite",
+        "id": "maxine_hoodie"
+      }
+    },
+    {
+      "character": "clara",
+      "prompt": "covered cream lounge robe, warm light, soft steam, elegant pose",
+      "destination": {
+        "type": "gallery",
+        "id": "private_03"
+      }
+    },
+    {
+      "character": "alex",
+      "prompt": "covered dark robe outfit, shy pose, soft warm light",
+      "destination": {
+        "type": "slot",
+        "id": "nude_alt"
+      }
+    }
+  ]
+}

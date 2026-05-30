@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.1.0/com.puredalek.samandem-v0.1.0-release.apk",
-  "sha256": "EC8FC6955ECB521936A2217ADB7078ECF50C1D5201477B3AF5E8267AD172D334",
-  "notes": "Adds the Character Sets screen and optional adult asset slots."
+  "version": "0.2.1",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.1/com.puredalek.samandem-v0.2.1-release.apk",
+  "sha256": "E764106D065F53C215F2BB493DE92EF63548F3552AFF5AF9F9954E9C190E3BE9",
+  "notes": "Rebuilds the complete plot route from the corrected repository root with all v0.2 endings and asset path fixes."
 }

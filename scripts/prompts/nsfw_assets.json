@@ -1,0 +1,159 @@
+{
+    "api_url":  "http://127.0.0.1:7860",
+    "output_dir":  "art/generated/nsfw",
+    "renpy_root":  "Sam And Em",
+    "renpy_pattern":  "game/images/nsfw/{character}/{slot}.png",
+    "defaults":  {
+                     "negative_prompt":  "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, explicit nudity, exposed nipples, visible genitals, sex act, penetration, oral sex, see-through clothing, minor, child, teen",
+                     "steps":  30,
+                     "cfg_scale":  7,
+                     "width":  768,
+                     "height":  1024,
+                     "sampler_name":  "DPM++ 2M Karras",
+                     "seed":  -1,
+                     "batch_size":  1,
+                     "n_iter":  1
+                 },
+    "assets":  [
+                   {
+                       "name":  "alex_base_nsfw",
+                       "character":  "alex",
+                       "slot":  "base",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult man, mature NSFW visual novel sprite, short messy black hair, soft brown eyes, slim average build, gentle anxious expression, black hoodie and white shirt palette, relaxed late-night dorm loungewear, rumpled bed behind him, heated private-room mood, fully clothed, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "alex_underwear",
+                       "character":  "alex",
+                       "slot":  "underwear",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult man, mature NSFW visual novel sprite, short messy black hair, soft brown eyes, slim average build, shy heated expression, opaque dark boxer-brief style sleep shorts, loose open black hoodie over opaque undershirt, rumpled dorm bed, intimate bedroom lighting, fully covered private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "alex_nude_front_covered",
+                       "character":  "alex",
+                       "slot":  "nude_front",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult man, mature NSFW visual novel sprite, short messy black hair, soft brown eyes, slim average build, opaque spa robe barely but securely tied closed, towel at shoulders, damp hair, heavy steam, implied nudity under the robe, fully covered private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "alex_nude_alt_covered",
+                       "character":  "alex",
+                       "slot":  "nude_alt",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult man, mature NSFW visual novel sprite, short messy black hair, soft brown eyes, slim average build, backlit opaque bathrobe tied closed, seated on dorm bed edge, sheets pulled around waist, intense vulnerable eye contact, implied nudity under robe, fully covered private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "maxine_base_nsfw",
+                       "character":  "maxine",
+                       "slot":  "base",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident grin, navy sporty loungewear, hand wraps, late-night dorm bedroom styling, rumpled bed behind her, charged private-room mood, fully clothed, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "maxine_underwear",
+                       "character":  "maxine",
+                       "slot":  "underwear",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident teasing grin, opaque navy sports bra and opaque sleep shorts, covered dorm loungewear, hand wraps, athletic sensual pose, rumpled sheets, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "maxine_nude_front_covered",
+                       "character":  "maxine",
+                       "slot":  "nude_front",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident flushed expression, opaque bath towel wrapped high and secure, damp shoulders, heavy spa steam, implied nudity under towel, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "maxine_nude_alt_covered",
+                       "character":  "maxine",
+                       "slot":  "nude_alt",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, soft vulnerable grin, opaque navy robe loosely but securely tied closed, backlit dorm room, rumpled bed, implied nudity under robe, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "clara_base_nsfw",
+                       "character":  "clara",
+                       "slot":  "base",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed dorm-leader poise, cream robe over beige loungewear, private-room lamplight, rumpled bed behind her, elegant charged mood, fully clothed, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "clara_underwear",
+                       "character":  "clara",
+                       "slot":  "underwear",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed teasing expression, opaque cream camisole and opaque sleep shorts, elegant covered loungewear, bedroom lamplight, sensual relaxed pose, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "clara_nude_front_covered",
+                       "character":  "clara",
+                       "slot":  "nude_front",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, calm composed gaze, opaque ivory towel wrapped high and secure, damp hair, heavy bathroom steam, implied nudity under towel, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "clara_nude_alt_covered",
+                       "character":  "clara",
+                       "slot":  "nude_alt",
+                       "filename":  "{name}_{index:02d}.png",
+                       "prompt":  "18+ young adult woman, mature NSFW visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed vulnerable expression, opaque silk robe loosely but securely tied closed, warm lamplight, rumpled bed, implied nudity under robe, fully covered chest and private anatomy, full body, plain light background, clean linework, polished game asset"
+                   },
+                   {
+                       "name":  "cg_b2_maxine_almost_date",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW college romance visual novel CG, Maxine with short spiky black hair and blue streaks sits very close beside the young adult male MC during a late library almost-date, knees touching, heated eye contact, both fully clothed in casual campus outfits, warm desk lamps, books and phone face down, intimate temptation, no sexual contact, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_c1_gala_private_balcony",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW visual novel CG, campus gala private balcony at night, Maxine in elegant navy formalwear stands close to the young adult male MC, almost-kiss tension, the mysterious Lady in cream and shadowed black observes from the doorway, charged romantic triangle jealousy, everyone fully clothed, city lights, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_c2m_maxine_last_lie",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW visual novel CG, Maxine route confession in a dorm room, Maxine with blue-streaked short hair wears an opaque navy robe loosely but securely tied closed, young adult male MC sits close nearby fully clothed, rumpled bed, emotional intimacy, difficult honesty, rain at the window, implied nudity under robe, fully covered, no sexual contact, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_c2l_lady_real_name",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW visual novel CG, mysterious auburn-haired Lady reveals her real name in a quiet hotel room, opaque cream silk robe loosely but securely tied closed, young adult male MC fully clothed near the window, unmade hotel bed, two passports on the table, intimate trust and danger, warm lamplight, implied nudity under robe, fully covered, no sexual contact, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_c2j_lady_no_questions",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW visual novel CG, Lady bad route hotel room, auburn-haired Lady in opaque robe loosely but securely tied closed points to a sealed envelope on the unmade bed, young adult male MC hesitates fully clothed in the doorway, sensual suspense and danger, police lights faint outside the curtains, implied nudity under robe, fully covered, no sexual contact, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_e1_wedding_garden_private_vow",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature romance visual novel CG, small outdoor wedding garden after graduation, Maxine with blue-streaked short hair teases the young adult male MC during a private vow moment, elegant wedding outfits slightly loosened after the ceremony, close affectionate almost-kiss pose, fully clothed, golden afternoon light, mature romantic payoff, polished cinematic game CG"
+                   },
+                   {
+                       "name":  "cg_e2_two_tickets_private_compartment",
+                       "filename":  "{name}_{index:02d}.png",
+                       "copy_to":  "Sam And Em/game/images/nsfw/cg/{name}.png",
+                       "width":  1024,
+                       "height":  768,
+                       "prompt":  "18+ mature NSFW visual novel romance CG, late-night train private compartment, auburn-haired Lady and young adult male MC sit close with two open-ended tickets on the table, travel bags, charged intimate trust, her elegant travel outfit slightly loosened but opaque, both fully clothed, no sexual contact, city lights through window, polished cinematic game CG"
+                   }
+               ]
+}

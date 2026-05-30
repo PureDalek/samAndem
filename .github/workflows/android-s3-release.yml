@@ -105,3 +105,30 @@ jobs:
           $bucket = "${{ secrets.S3_BUCKET }}"
           aws s3 cp "builds/android/com.puredalek.samandem-v$version-release.apk" "s3://$bucket/releases/v$version/com.puredalek.samandem-v$version-release.apk" --content-type "application/vnd.android.package-archive"
           aws s3 cp "builds/android/latest.json" "s3://$bucket/updates/latest.json" --content-type "application/json" --cache-control "no-cache"
+
+      - name: Email S3 release notification
+        shell: pwsh
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_SUBJECT: Sam And Em ${{ github.ref_name }} S3 APK release ready
+          MAIL_BODY: |
+            A new Sam And Em Android S3 release build is ready.
+
+            Version:
+            ${{ github.ref_name }}
+
+            APK URL:
+            ${{ secrets.UPDATE_BASE_URL }}/releases/${{ github.ref_name }}/com.puredalek.samandem-${{ github.ref_name }}-release.apk
+
+            Update manifest:
+            ${{ secrets.UPDATE_BASE_URL }}/updates/latest.json
+
+            Workflow run:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python scripts/send_build_email.py

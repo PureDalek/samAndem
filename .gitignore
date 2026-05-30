@@ -1,2 +1,16 @@
 # Local build outputs.
 /builds/
+
+# Local backup/output folders that should not be committed.
+/asset_backups/
+/dist/
+/art/generated/
+
+# Accidental wrong-root outputs. The Ren'Py project lives in /Sam And Em.
+/game/
+/prompts/
+/scripts/art/
+
+# Python caches.
+**/__pycache__/
+*.pyc
