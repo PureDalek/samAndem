@@ -343,4 +343,4 @@ label scene_clara_shower_plan:
     "The schedule solved one problem."
     "The power in my head promised a hundred more."
 
-    jump route_act_one
+    jump expanded_route_hub
