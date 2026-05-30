@@ -399,7 +399,7 @@ label expanded_route_brielle:
     mc "I need to understand your route, Brielle Ashford. No shortcuts."
     brielle "Then every answer has to cost something. Choose carefully."
 
-    show brielle base at sprite_right
+    scene cg brielle_cg_01
     with dissolve
 
     "Brielle Ashford: Notice her first contradiction."
@@ -419,7 +419,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle base at sprite_right
+    scene cg brielle_cg_02
     with dissolve
 
     "Brielle Ashford: A public scene pulls her into Alex's trouble."
@@ -439,7 +439,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle base at sprite_right
+    scene cg brielle_cg_03
     with dissolve
 
     "Brielle Ashford: She offers private help with a hidden cost."
@@ -459,7 +459,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle base at sprite_right
+    scene cg brielle_cg_04
     with dissolve
 
     "Brielle Ashford: Max or another rival twists the moment."
@@ -479,7 +479,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle training at sprite_right
+    scene cg brielle_cg_05
     with dissolve
 
     "Brielle Ashford: She changes context and outfit for her real world."
@@ -499,7 +499,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle training at sprite_right
+    scene cg brielle_cg_06
     with dissolve
 
     "Brielle Ashford: A restricted room becomes available."
@@ -519,7 +519,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle training at sprite_right
+    scene cg brielle_cg_07
     with dissolve
 
     "Brielle Ashford: Evidence points at the wrong person."
@@ -539,7 +539,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle training at sprite_right
+    scene cg brielle_cg_08
     with dissolve
 
     "Brielle Ashford: She admits why this matters to her."
@@ -559,7 +559,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle training at sprite_right
+    scene cg brielle_cg_09
     with dissolve
 
     "Brielle Ashford: The route threatens Alex's scholarship."
@@ -579,7 +579,7 @@ label expanded_route_brielle:
             mc "If the truth is already there, I can use it before someone else does."
             brielle "That sounds like protection. It also sounds like control."
 
-    show brielle formal at sprite_right
+    scene cg brielle_cg_10
     with dissolve
 
     "Brielle Ashford: She appears in a formal or role-specific outfit."

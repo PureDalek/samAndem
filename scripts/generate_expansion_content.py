@@ -84,7 +84,7 @@ CHARACTERS = [
             "donor gala balcony where her father calls during a threat",
             "empty classroom apology that almost turns into another attack",
             "rain-soaked parking lot after Max betrays her",
-            "student council office with blackmail photos spread out",
+            "student council office with blackmail evidence printouts and donor records spread out",
             "public assembly where she chooses truth over family money",
             "bad route corridor where she gives Max the final rumor",
             "happy ending scholarship fundraiser she rebuilds honestly",

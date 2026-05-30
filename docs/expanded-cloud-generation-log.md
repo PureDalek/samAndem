@@ -549,3 +549,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: happy ending private study room opening after graduation. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
 ```
+
+### Brielle Ashford - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b6378f810819180e43ef8d7ccb0d3.png`
+- Prompt catalog entry: `brielle_cg_01`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: cafeteria table where she blocks Alex's seat with a smile. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b63e3eb448191ae7803c385edac2b.png`
+- Prompt catalog entry: `brielle_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: locker hallway confrontation while her friends record everything. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b644124508191975b58290c3fc9db.png`
+- Prompt catalog entry: `brielle_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: training room challenge after she insults Maxine. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b64a1d7a88191b1ab585f097429e0.png`
+- Prompt catalog entry: `brielle_cg_04`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: donor gala balcony where her father calls during a threat. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b653d87748191a816083b49464b89.png`
+- Prompt catalog entry: `brielle_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: empty classroom apology that almost turns into another attack. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b65b40c4c8191bd1619c9f4ae6910.png`
+- Prompt catalog entry: `brielle_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: rain-soaked parking lot after Max betrays her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b66d7b59081918af0d5c490562871.png`
+- Prompt catalog entry: `brielle_cg_07`
+- Status: accepted CG after safer evidence-printout prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: student council office with blackmail evidence printouts and donor records spread out. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b678080cc8191b89ace552f6fcd1c.png`
+- Prompt catalog entry: `brielle_cg_08`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: public assembly where she chooses truth over family money. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b682ad4e88191a368cbe89f07d625.png`
+- Prompt catalog entry: `brielle_cg_09`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: bad route corridor where she gives Max the final rumor. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/brielle_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b6892a5b88191aea96a345fda385c.png`
+- Prompt catalog entry: `brielle_cg_10`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: happy ending scholarship fundraiser she rebuilds honestly. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
