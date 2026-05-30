@@ -37,8 +37,9 @@ $env:Path = (Join-Path $JavaHome 'bin') + ';' + $env:Path
 
 Write-Host 'Running Ren''Py lint...'
 & $renpy $project lint
-if ($LASTEXITCODE -ne 0) {
-    throw "Ren'Py lint failed with exit code $LASTEXITCODE."
+$lintExitCode = if ($null -eq $LASTEXITCODE) { 0 } else { $LASTEXITCODE }
+if ($lintExitCode -ne 0) {
+    throw "Ren'Py lint failed with exit code $lintExitCode."
 }
 
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'

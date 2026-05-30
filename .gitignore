@@ -1,5 +1,8 @@
-# Local build outputs.
-/builds/
+# Local build outputs. Keep Android APKs available for Git LFS releases.
+/builds/*
+!/builds/android/
+/builds/android/*
+!/builds/android/*-v*-release.apk
 
 # Local backup/output folders that should not be committed.
 /asset_backups/
