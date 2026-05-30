@@ -9,6 +9,7 @@
 # Accidental wrong-root outputs. The Ren'Py project lives in /Sam And Em.
 /game/
 /prompts/
+/scripts/Sam And Em/
 /scripts/art/
 
 # Python caches.

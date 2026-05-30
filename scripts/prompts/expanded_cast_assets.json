@@ -1,0 +1,1112 @@
+{
+  "api_url": "cloud-imagegen-or-http://127.0.0.1:7860",
+  "output_dir": "art/generated/expanded_cast",
+  "renpy_root": "Sam And Em",
+  "negative_prompt": "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, explicit nudity, exposed nipples, visible genitals, sex act, penetration, oral sex, see-through clothing, minor, child, teen",
+  "notes": [
+    "Generate cloud images from cloud_prompt first.",
+    "Use local_a1111_prompt to recreate locally with Automatic1111.",
+    "All characters are adults. Keep generated assets non-explicit and fully covered.",
+    "Any outfit/context change has a dedicated sprite prompt."
+  ],
+  "characters": [
+    {
+      "id": "morrigan",
+      "name": "Morrigan Vale",
+      "role": "nerd goth occult-studies tutor",
+      "age": 22,
+      "identity": "short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit",
+      "palette": "black, violet, silver, library green",
+      "route_theme": "truth hidden in forbidden books",
+      "happy_end": "Alex helps her publish the buried archive safely and they open a tiny midnight study room together.",
+      "bad_end": "Alex uses her research as leverage and she vanishes from campus before the archive burns."
+    },
+    {
+      "id": "brielle",
+      "name": "Brielle Ashford",
+      "role": "blonde bully and legacy-donor queen",
+      "age": 22,
+      "identity": "long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon",
+      "palette": "white, gold, powder blue, black accents",
+      "route_theme": "power, humiliation, and choosing whether to protect the person who hurt you",
+      "happy_end": "Alex forces Brielle to face what her family bought, and she publicly breaks from them.",
+      "bad_end": "Alex humiliates her back until she becomes Max's most useful ally."
+    },
+    {
+      "id": "mina",
+      "name": "Mina Sato",
+      "role": "art major and mural rebel",
+      "age": 23,
+      "identity": "messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm",
+      "palette": "teal, coral, denim, warm paint colors",
+      "route_theme": "art as evidence and confession",
+      "happy_end": "Alex helps Mina finish a forbidden mural that exposes the academy without destroying her future.",
+      "bad_end": "Alex pushes her into vandalism, and she takes the fall for his need to be dramatic."
+    },
+    {
+      "id": "kira",
+      "name": "Kira Sol",
+      "role": "cosplayer and prop-engineering prodigy",
+      "age": 21,
+      "identity": "warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin",
+      "palette": "pink, black, neon cyan, chrome",
+      "route_theme": "identity, performance, and what remains when the costume comes off",
+      "happy_end": "Alex protects her real identity during a convention scandal and helps her choose the stage on her own terms.",
+      "bad_end": "Alex leaks her secret to win a fight and destroys her convention career."
+    },
+    {
+      "id": "sienna",
+      "name": "Sienna Cross",
+      "role": "swimmer and scholarship rival",
+      "age": 22,
+      "identity": "deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace",
+      "palette": "navy, aqua, white, lane-line red",
+      "route_theme": "discipline, rivalry, and refusing to cheat even when everyone expects it",
+      "happy_end": "Alex clears her name in a doping accusation and she chooses trust over perfect control.",
+      "bad_end": "Alex lets suspicion win and she loses her scholarship defending him."
+    },
+    {
+      "id": "nadia",
+      "name": "Nadia Quinn",
+      "role": "campus nurse and quiet whistleblower",
+      "age": 27,
+      "identity": "soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards",
+      "palette": "teal, cream, copper, clinic white",
+      "route_theme": "care, consent, and the cost of medical secrets",
+      "happy_end": "Alex helps Nadia expose falsified clinic records without violating patient privacy.",
+      "bad_end": "Alex pressures her for private files and she loses her license protecting students."
+    },
+    {
+      "id": "helena",
+      "name": "Headmaster Helena Voss",
+      "role": "evil headmaster and academy power broker",
+      "age": 39,
+      "identity": "tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes",
+      "palette": "black, emerald, ivory, antique gold",
+      "route_theme": "authority, corruption, and the temptation to trade truth for protection",
+      "happy_end": "Alex exposes Voss through evidence rather than revenge, forcing her resignation.",
+      "bad_end": "Alex accepts her bargain and becomes her informant."
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea Mallory",
+      "role": "campus reporter and debate-club tactician",
+      "age": 24,
+      "identity": "sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination",
+      "palette": "red, charcoal, paper white, brass",
+      "route_theme": "truth, privacy, and who gets hurt when a story breaks",
+      "happy_end": "Alex helps Rhea publish the truth with consent from the students involved.",
+      "bad_end": "Alex feeds her secrets for revenge and the story ruins innocent people."
+    }
+  ],
+  "assets": [
+    {
+      "name": "morrigan_sprite_base",
+      "character": "morrigan",
+      "slot": "base",
+      "filename": "morrigan_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/morrigan/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: black cardigan, pleated charcoal skirt, opaque tights, round glasses, moon pins. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, black cardigan, pleated charcoal skirt, opaque tights, round glasses, moon pins, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "morrigan_sprite_raincoat",
+      "character": "morrigan",
+      "slot": "raincoat",
+      "filename": "morrigan_sprite_raincoat_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/morrigan/raincoat.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: oversized black raincoat, violet scarf, messenger bag full of annotated books. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, oversized black raincoat, violet scarf, messenger bag full of annotated books, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "morrigan_sprite_formal",
+      "character": "morrigan",
+      "slot": "formal",
+      "filename": "morrigan_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/morrigan/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: black velvet formal dress with high neckline, silver constellation jewelry. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, black velvet formal dress with high neckline, silver constellation jewelry, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "morrigan_sprite_archive",
+      "character": "morrigan",
+      "slot": "archive",
+      "filename": "morrigan_sprite_archive_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/morrigan/archive.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: rolled sleeves, ink-stained gloves, lanyard access card, practical boots. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, rolled sleeves, ink-stained gloves, lanyard access card, practical boots, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "morrigan_cg_01",
+      "character": "morrigan",
+      "filename": "morrigan_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_01.png",
+      "scene": "late library table surrounded by coded notes and cold coffee",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: late library table surrounded by coded notes and cold coffee. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, late library table surrounded by coded notes and cold coffee, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_02",
+      "character": "morrigan",
+      "filename": "morrigan_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_02.png",
+      "scene": "rainy archive doorway with a forbidden key between her fingers",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: rainy archive doorway with a forbidden key between her fingers. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, rainy archive doorway with a forbidden key between her fingers, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_03",
+      "character": "morrigan",
+      "filename": "morrigan_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_03.png",
+      "scene": "occult club basement where candles are electric but the fear is real",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: occult club basement where candles are electric but the fear is real. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, occult club basement where candles are electric but the fear is real, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_04",
+      "character": "morrigan",
+      "filename": "morrigan_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_04.png",
+      "scene": "gala corner where she recognizes the headmaster's forged signature",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: gala corner where she recognizes the headmaster's forged signature. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, gala corner where she recognizes the headmaster's forged signature, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_05",
+      "character": "morrigan",
+      "filename": "morrigan_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_05.png",
+      "scene": "quiet stairwell confession after Alex hears a thought she meant to bury",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: quiet stairwell confession after Alex hears a thought she meant to bury. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, quiet stairwell confession after Alex hears a thought she meant to bury, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_06",
+      "character": "morrigan",
+      "filename": "morrigan_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_06.png",
+      "scene": "server room discovery with violet monitor light on her glasses",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: server room discovery with violet monitor light on her glasses. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, server room discovery with violet monitor light on her glasses, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_07",
+      "character": "morrigan",
+      "filename": "morrigan_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_07.png",
+      "scene": "greenhouse midnight study break under glass roof rain",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: greenhouse midnight study break under glass roof rain. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, greenhouse midnight study break under glass roof rain, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_08",
+      "character": "morrigan",
+      "filename": "morrigan_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_08.png",
+      "scene": "disciplinary hearing where she risks expulsion to tell the truth",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: disciplinary hearing where she risks expulsion to tell the truth. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, disciplinary hearing where she risks expulsion to tell the truth, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_09",
+      "character": "morrigan",
+      "filename": "morrigan_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_09.png",
+      "scene": "burned archive aftermath with soot on her sleeves",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: burned archive aftermath with soot on her sleeves. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, burned archive aftermath with soot on her sleeves, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "morrigan_cg_10",
+      "character": "morrigan",
+      "filename": "morrigan_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/morrigan_cg_10.png",
+      "scene": "happy ending private study room opening after graduation",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: happy ending private study room opening after graduation. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Morrigan Vale, nerd goth occult-studies tutor, short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit, happy ending private study room opening after graduation, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_sprite_base",
+      "character": "brielle",
+      "slot": "base",
+      "filename": "brielle_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/brielle/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: white varsity jacket, gold-trimmed top, tailored campus skirt, diamond hairclip. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, white varsity jacket, gold-trimmed top, tailored campus skirt, diamond hairclip, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "brielle_sprite_training",
+      "character": "brielle",
+      "slot": "training",
+      "filename": "brielle_sprite_training_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/brielle/training.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: opaque pale blue athletic set, varsity warmup jacket, high ponytail. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, opaque pale blue athletic set, varsity warmup jacket, high ponytail, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "brielle_sprite_formal",
+      "character": "brielle",
+      "slot": "formal",
+      "filename": "brielle_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/brielle/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: gold-and-white gala dress with structured shoulders and modest neckline. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, gold-and-white gala dress with structured shoulders and modest neckline, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "brielle_sprite_detention",
+      "character": "brielle",
+      "slot": "detention",
+      "filename": "brielle_sprite_detention_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/brielle/detention.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: rumpled uniform jacket, makeup smudged, phone clutched like armor. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, rumpled uniform jacket, makeup smudged, phone clutched like armor, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "brielle_cg_01",
+      "character": "brielle",
+      "filename": "brielle_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_01.png",
+      "scene": "cafeteria table where she blocks Alex's seat with a smile",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: cafeteria table where she blocks Alex's seat with a smile. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, cafeteria table where she blocks Alex's seat with a smile, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_02",
+      "character": "brielle",
+      "filename": "brielle_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_02.png",
+      "scene": "locker hallway confrontation while her friends record everything",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: locker hallway confrontation while her friends record everything. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, locker hallway confrontation while her friends record everything, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_03",
+      "character": "brielle",
+      "filename": "brielle_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_03.png",
+      "scene": "training room challenge after she insults Maxine",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: training room challenge after she insults Maxine. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, training room challenge after she insults Maxine, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_04",
+      "character": "brielle",
+      "filename": "brielle_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_04.png",
+      "scene": "donor gala balcony where her father calls during a threat",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: donor gala balcony where her father calls during a threat. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, donor gala balcony where her father calls during a threat, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_05",
+      "character": "brielle",
+      "filename": "brielle_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_05.png",
+      "scene": "empty classroom apology that almost turns into another attack",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: empty classroom apology that almost turns into another attack. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, empty classroom apology that almost turns into another attack, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_06",
+      "character": "brielle",
+      "filename": "brielle_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_06.png",
+      "scene": "rain-soaked parking lot after Max betrays her",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: rain-soaked parking lot after Max betrays her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, rain-soaked parking lot after Max betrays her, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_07",
+      "character": "brielle",
+      "filename": "brielle_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_07.png",
+      "scene": "student council office with blackmail photos spread out",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: student council office with blackmail photos spread out. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, student council office with blackmail photos spread out, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_08",
+      "character": "brielle",
+      "filename": "brielle_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_08.png",
+      "scene": "public assembly where she chooses truth over family money",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: public assembly where she chooses truth over family money. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, public assembly where she chooses truth over family money, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_09",
+      "character": "brielle",
+      "filename": "brielle_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_09.png",
+      "scene": "bad route corridor where she gives Max the final rumor",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: bad route corridor where she gives Max the final rumor. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, bad route corridor where she gives Max the final rumor, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "brielle_cg_10",
+      "character": "brielle",
+      "filename": "brielle_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/brielle_cg_10.png",
+      "scene": "happy ending scholarship fundraiser she rebuilds honestly",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: happy ending scholarship fundraiser she rebuilds honestly. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Brielle Ashford, blonde bully and legacy-donor queen, long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon, happy ending scholarship fundraiser she rebuilds honestly, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_sprite_base",
+      "character": "mina",
+      "slot": "base",
+      "filename": "mina_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/mina/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: paint-splattered denim jacket, opaque black tank, loose cargo pants. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, paint-splattered denim jacket, opaque black tank, loose cargo pants, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "mina_sprite_studio",
+      "character": "mina",
+      "slot": "studio",
+      "filename": "mina_sprite_studio_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/mina/studio.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: oversized apron, tied hair, fingerless gloves, paint-stained sneakers. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, oversized apron, tied hair, fingerless gloves, paint-stained sneakers, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "mina_sprite_formal",
+      "character": "mina",
+      "slot": "formal",
+      "filename": "mina_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/mina/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: asymmetric teal gallery dress, coral earrings, clean boots. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, asymmetric teal gallery dress, coral earrings, clean boots, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "mina_sprite_mural",
+      "character": "mina",
+      "slot": "mural",
+      "filename": "mina_sprite_mural_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/mina/mural.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: hooded work jumpsuit, respirator around neck, paint roller harness. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, hooded work jumpsuit, respirator around neck, paint roller harness, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "mina_cg_01",
+      "character": "mina",
+      "filename": "mina_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_01.png",
+      "scene": "studio introduction with canvas facing the wall",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: studio introduction with canvas facing the wall. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, studio introduction with canvas facing the wall, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_02",
+      "character": "mina",
+      "filename": "mina_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_02.png",
+      "scene": "roof mural sketch under campus security lights",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: roof mural sketch under campus security lights. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, roof mural sketch under campus security lights, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_03",
+      "character": "mina",
+      "filename": "mina_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_03.png",
+      "scene": "gallery critique where Alex hears the professor's cruel thought",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: gallery critique where Alex hears the professor's cruel thought. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, gallery critique where Alex hears the professor's cruel thought, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_04",
+      "character": "mina",
+      "filename": "mina_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_04.png",
+      "scene": "paint fight that stays playful and fully clothed",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: paint fight that stays playful and fully clothed. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, paint fight that stays playful and fully clothed, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_05",
+      "character": "mina",
+      "filename": "mina_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_05.png",
+      "scene": "storage closet discovery of stolen donor portraits",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: storage closet discovery of stolen donor portraits. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, storage closet discovery of stolen donor portraits, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_06",
+      "character": "mina",
+      "filename": "mina_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_06.png",
+      "scene": "night wall-painting decision with lookouts posted",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: night wall-painting decision with lookouts posted. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, night wall-painting decision with lookouts posted, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_07",
+      "character": "mina",
+      "filename": "mina_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_07.png",
+      "scene": "formal gallery opening where her work accuses the headmaster",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: formal gallery opening where her work accuses the headmaster. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, formal gallery opening where her work accuses the headmaster, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_08",
+      "character": "mina",
+      "filename": "mina_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_08.png",
+      "scene": "disciplinary board where she refuses to name Alex",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: disciplinary board where she refuses to name Alex. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, disciplinary board where she refuses to name Alex, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_09",
+      "character": "mina",
+      "filename": "mina_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_09.png",
+      "scene": "bad ending whitewashed mural and empty studio",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: bad ending whitewashed mural and empty studio. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, bad ending whitewashed mural and empty studio, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "mina_cg_10",
+      "character": "mina",
+      "filename": "mina_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/mina_cg_10.png",
+      "scene": "happy ending public mural unveiling after the academy backs down",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: happy ending public mural unveiling after the academy backs down. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Mina Sato, art major and mural rebel, messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm, happy ending public mural unveiling after the academy backs down, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_sprite_base",
+      "character": "kira",
+      "slot": "base",
+      "filename": "kira_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/kira/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: pin-covered black bomber jacket, pink hoodie, cargo skirt over opaque leggings. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, pin-covered black bomber jacket, pink hoodie, cargo skirt over opaque leggings, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "kira_sprite_workshop",
+      "character": "kira",
+      "slot": "workshop",
+      "filename": "kira_sprite_workshop_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/kira/workshop.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: safety goggles, tool belt, oversized graphic tee, fingerless gloves. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, safety goggles, tool belt, oversized graphic tee, fingerless gloves, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "kira_sprite_hero_cosplay",
+      "character": "kira",
+      "slot": "hero_cosplay",
+      "filename": "kira_sprite_hero_cosplay_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/kira/hero_cosplay.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: original armored heroine costume, opaque bodysuit, chrome shoulder plates, cape. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, original armored heroine costume, opaque bodysuit, chrome shoulder plates, cape, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "kira_sprite_formal",
+      "character": "kira",
+      "slot": "formal",
+      "filename": "kira_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/kira/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: sleek black-and-pink event dress with prop-star hairpiece. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, sleek black-and-pink event dress with prop-star hairpiece, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "kira_cg_01",
+      "character": "kira",
+      "filename": "kira_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_01.png",
+      "scene": "prop workshop where sparks fly from a harmless broken sword",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: prop workshop where sparks fly from a harmless broken sword. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, prop workshop where sparks fly from a harmless broken sword, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_02",
+      "character": "kira",
+      "filename": "kira_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_02.png",
+      "scene": "campus convention booth surrounded by handmade armor",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: campus convention booth surrounded by handmade armor. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, campus convention booth surrounded by handmade armor, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_03",
+      "character": "kira",
+      "filename": "kira_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_03.png",
+      "scene": "masked hallway rescue when Max tries to expose her",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: masked hallway rescue when Max tries to expose her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, masked hallway rescue when Max tries to expose her, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_04",
+      "character": "kira",
+      "filename": "kira_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_04.png",
+      "scene": "late-night sewing floor with fabric everywhere",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: late-night sewing floor with fabric everywhere. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, late-night sewing floor with fabric everywhere, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_05",
+      "character": "kira",
+      "filename": "kira_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_05.png",
+      "scene": "stage rehearsal where Alex hears panic under her perfect voice",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: stage rehearsal where Alex hears panic under her perfect voice. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, stage rehearsal where Alex hears panic under her perfect voice, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_06",
+      "character": "kira",
+      "filename": "kira_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_06.png",
+      "scene": "storage room choice to hide or reveal the costume damage",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: storage room choice to hide or reveal the costume damage. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, storage room choice to hide or reveal the costume damage, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_07",
+      "character": "kira",
+      "filename": "kira_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_07.png",
+      "scene": "cosplay contest finale under neon lights",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: cosplay contest finale under neon lights. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, cosplay contest finale under neon lights, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_08",
+      "character": "kira",
+      "filename": "kira_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_08.png",
+      "scene": "green room confrontation after her legal name leaks",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: green room confrontation after her legal name leaks. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, green room confrontation after her legal name leaks, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_09",
+      "character": "kira",
+      "filename": "kira_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_09.png",
+      "scene": "bad ending empty convention table with torn badge",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: bad ending empty convention table with torn badge. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, bad ending empty convention table with torn badge, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "kira_cg_10",
+      "character": "kira",
+      "filename": "kira_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/kira_cg_10.png",
+      "scene": "happy ending original hero premiere with Alex in the front row",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: happy ending original hero premiere with Alex in the front row. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Kira Sol, cosplayer and prop-engineering prodigy, warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin, happy ending original hero premiere with Alex in the front row, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_sprite_base",
+      "character": "sienna",
+      "slot": "base",
+      "filename": "sienna_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/sienna/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: navy team tracksuit, white sneakers, stopwatch necklace. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, navy team tracksuit, white sneakers, stopwatch necklace, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "sienna_sprite_pool",
+      "character": "sienna",
+      "slot": "pool",
+      "filename": "sienna_sprite_pool_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/sienna/pool.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: modest one-piece racing swimsuit, swim cap, towel over shoulders. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, modest one-piece racing swimsuit, swim cap, towel over shoulders, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "sienna_sprite_formal",
+      "character": "sienna",
+      "slot": "formal",
+      "filename": "sienna_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/sienna/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: aqua formal jumpsuit, silver chain, sleek curls. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, aqua formal jumpsuit, silver chain, sleek curls, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "sienna_sprite_rehab",
+      "character": "sienna",
+      "slot": "rehab",
+      "filename": "sienna_sprite_rehab_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/sienna/rehab.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: team hoodie, kinesiology tape, recovery sandals, duffel bag. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, team hoodie, kinesiology tape, recovery sandals, duffel bag, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "sienna_cg_01",
+      "character": "sienna",
+      "filename": "sienna_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_01.png",
+      "scene": "pool deck first rivalry with stopwatch between them",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: pool deck first rivalry with stopwatch between them. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, pool deck first rivalry with stopwatch between them, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_02",
+      "character": "sienna",
+      "filename": "sienna_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_02.png",
+      "scene": "early morning lane practice while campus is empty",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: early morning lane practice while campus is empty. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, early morning lane practice while campus is empty, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_03",
+      "character": "sienna",
+      "filename": "sienna_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_03.png",
+      "scene": "trainer office where test results look suspicious",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: trainer office where test results look suspicious. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, trainer office where test results look suspicious, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_04",
+      "character": "sienna",
+      "filename": "sienna_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_04.png",
+      "scene": "rainy bus stop after an away meet loss",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: rainy bus stop after an away meet loss. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, rainy bus stop after an away meet loss, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_05",
+      "character": "sienna",
+      "filename": "sienna_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_05.png",
+      "scene": "locker room hallway where Alex chooses privacy over mind-reading",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: locker room hallway where Alex chooses privacy over mind-reading. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, locker room hallway where Alex chooses privacy over mind-reading, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_06",
+      "character": "sienna",
+      "filename": "sienna_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_06.png",
+      "scene": "scholarship hearing with chlorine still in her hair",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: scholarship hearing with chlorine still in her hair. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, scholarship hearing with chlorine still in her hair, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_07",
+      "character": "sienna",
+      "filename": "sienna_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_07.png",
+      "scene": "infirmary recovery after she swims injured",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: infirmary recovery after she swims injured. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, infirmary recovery after she swims injured, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_08",
+      "character": "sienna",
+      "filename": "sienna_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_08.png",
+      "scene": "championship pool moment before the final race",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: championship pool moment before the final race. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, championship pool moment before the final race, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_09",
+      "character": "sienna",
+      "filename": "sienna_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_09.png",
+      "scene": "bad ending empty lane and revoked scholarship board",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: bad ending empty lane and revoked scholarship board. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, bad ending empty lane and revoked scholarship board, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "sienna_cg_10",
+      "character": "sienna",
+      "filename": "sienna_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/sienna_cg_10.png",
+      "scene": "happy ending sunrise swim after her record is restored",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: happy ending sunrise swim after her record is restored. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Sienna Cross, swimmer and scholarship rival, deep brown skin, short natural curls under swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace, happy ending sunrise swim after her record is restored, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_sprite_base",
+      "character": "nadia",
+      "slot": "base",
+      "filename": "nadia_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/nadia/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Outfit: teal scrubs, cream cardigan, badge, practical flats. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, teal scrubs, cream cardigan, badge, practical flats, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "nadia_sprite_night_shift",
+      "character": "nadia",
+      "slot": "night_shift",
+      "filename": "nadia_sprite_night_shift_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/nadia/night_shift.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Outfit: navy scrub jacket, messy bun, coffee, emergency pager. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, navy scrub jacket, messy bun, coffee, emergency pager, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "nadia_sprite_formal",
+      "character": "nadia",
+      "slot": "formal",
+      "filename": "nadia_sprite_formal_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/nadia/formal.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Outfit: modest copper wrap dress, cream shawl, small gold earrings. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, modest copper wrap dress, cream shawl, small gold earrings, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "nadia_sprite_field",
+      "character": "nadia",
+      "slot": "field",
+      "filename": "nadia_sprite_field_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/nadia/field.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Outfit: first-aid vest, trauma bag, rain boots, tied-back curls. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, first-aid vest, trauma bag, rain boots, tied-back curls, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "nadia_cg_01",
+      "character": "nadia",
+      "filename": "nadia_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_01.png",
+      "scene": "clinic intake where she notices Alex hiding a bruise",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: clinic intake where she notices Alex hiding a bruise. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, clinic intake where she notices Alex hiding a bruise, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_02",
+      "character": "nadia",
+      "filename": "nadia_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_02.png",
+      "scene": "medicine cabinet audit with missing labels",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: medicine cabinet audit with missing labels. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, medicine cabinet audit with missing labels, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_03",
+      "character": "nadia",
+      "filename": "nadia_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_03.png",
+      "scene": "night shift hallway lit by vending machines",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: night shift hallway lit by vending machines. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, night shift hallway lit by vending machines, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_04",
+      "character": "nadia",
+      "filename": "nadia_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_04.png",
+      "scene": "field injury at the pool where she protects Sienna's privacy",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: field injury at the pool where she protects Sienna's privacy. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, field injury at the pool where she protects Sienna's privacy, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_05",
+      "character": "nadia",
+      "filename": "nadia_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_05.png",
+      "scene": "records room moral test with locked patient files",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: records room moral test with locked patient files. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, records room moral test with locked patient files, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_06",
+      "character": "nadia",
+      "filename": "nadia_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_06.png",
+      "scene": "coffee break confession about the headmaster's pressure",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: coffee break confession about the headmaster's pressure. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, coffee break confession about the headmaster's pressure, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_07",
+      "character": "nadia",
+      "filename": "nadia_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_07.png",
+      "scene": "gala medical emergency staged to steal records",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: gala medical emergency staged to steal records. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, gala medical emergency staged to steal records, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_08",
+      "character": "nadia",
+      "filename": "nadia_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_08.png",
+      "scene": "licensing board call while Alex waits outside",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: licensing board call while Alex waits outside. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, licensing board call while Alex waits outside, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_09",
+      "character": "nadia",
+      "filename": "nadia_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_09.png",
+      "scene": "bad ending clinic door with her name removed",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: bad ending clinic door with her name removed. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, bad ending clinic door with her name removed, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "nadia_cg_10",
+      "character": "nadia",
+      "filename": "nadia_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/nadia_cg_10.png",
+      "scene": "happy ending mobile clinic day after the whistleblower case",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards. Scene: happy ending mobile clinic day after the whistleblower case. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Nadia Quinn, campus nurse and quiet whistleblower, soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under cream cardigan, tired kindness, badge clipped backwards, happy ending mobile clinic day after the whistleblower case, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_sprite_base",
+      "character": "helena",
+      "slot": "base",
+      "filename": "helena_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/helena/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Outfit: tailored black suit, ivory blouse, emerald brooch, polished heels. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, tailored black suit, ivory blouse, emerald brooch, polished heels, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "helena_sprite_gala",
+      "character": "helena",
+      "slot": "gala",
+      "filename": "helena_sprite_gala_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/helena/gala.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Outfit: black-and-emerald formal gown with high collar, gold academy chain. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, black-and-emerald formal gown with high collar, gold academy chain, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "helena_sprite_office",
+      "character": "helena",
+      "slot": "office",
+      "filename": "helena_sprite_office_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/helena/office.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Outfit: rolled sleeves, reading glasses, legal folders, severe bun. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, rolled sleeves, reading glasses, legal folders, severe bun, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "helena_sprite_trial",
+      "character": "helena",
+      "slot": "trial",
+      "filename": "helena_sprite_trial_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/helena/trial.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Outfit: charcoal court-ready suit, no jewelry except academy ring. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, charcoal court-ready suit, no jewelry except academy ring, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "helena_cg_01",
+      "character": "helena",
+      "filename": "helena_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_01.png",
+      "scene": "headmaster office introduction with Alex's file open",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: headmaster office introduction with Alex's file open. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, headmaster office introduction with Alex's file open, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_02",
+      "character": "helena",
+      "filename": "helena_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_02.png",
+      "scene": "scholarship threat delivered as a polite offer",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: scholarship threat delivered as a polite offer. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, scholarship threat delivered as a polite offer, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_03",
+      "character": "helena",
+      "filename": "helena_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_03.png",
+      "scene": "gala toast where every donor applauds at once",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: gala toast where every donor applauds at once. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, gala toast where every donor applauds at once, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_04",
+      "character": "helena",
+      "filename": "helena_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_04.png",
+      "scene": "private elevator bargain after Alex reads her thought",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: private elevator bargain after Alex reads her thought. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, private elevator bargain after Alex reads her thought, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_05",
+      "character": "helena",
+      "filename": "helena_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_05.png",
+      "scene": "archive confrontation with Morrigan's evidence",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: archive confrontation with Morrigan's evidence. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, archive confrontation with Morrigan's evidence, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_06",
+      "character": "helena",
+      "filename": "helena_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_06.png",
+      "scene": "clinic-record blackmail over Nadia's shoulder",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: clinic-record blackmail over Nadia's shoulder. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, clinic-record blackmail over Nadia's shoulder, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_07",
+      "character": "helena",
+      "filename": "helena_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_07.png",
+      "scene": "student assembly where Mina's mural goes live behind her",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: student assembly where Mina's mural goes live behind her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, student assembly where Mina's mural goes live behind her, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_08",
+      "character": "helena",
+      "filename": "helena_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_08.png",
+      "scene": "trial preparation room with her ring on the table",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: trial preparation room with her ring on the table. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, trial preparation room with her ring on the table, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_09",
+      "character": "helena",
+      "filename": "helena_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_09.png",
+      "scene": "bad ending office contract signing in cold lamplight",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: bad ending office contract signing in cold lamplight. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, bad ending office contract signing in cold lamplight, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "helena_cg_10",
+      "character": "helena",
+      "filename": "helena_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/helena_cg_10.png",
+      "scene": "happy ending resignation walk past silent students",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: happy ending resignation walk past silent students. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Headmaster Helena Voss, evil headmaster and academy power broker, tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes, happy ending resignation walk past silent students, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_sprite_base",
+      "character": "rhea",
+      "slot": "base",
+      "filename": "rhea_sprite_base_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/rhea/base.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Outfit: red blazer, black trousers, press badge, recorder pen. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, red blazer, black trousers, press badge, recorder pen, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "rhea_sprite_field",
+      "character": "rhea",
+      "slot": "field",
+      "filename": "rhea_sprite_field_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/rhea/field.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Outfit: charcoal trench coat, camera bag, rain-specked notebook. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, charcoal trench coat, camera bag, rain-specked notebook, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "rhea_sprite_debate",
+      "character": "rhea",
+      "slot": "debate",
+      "filename": "rhea_sprite_debate_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/rhea/debate.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Outfit: crisp white shirt, red tie, lapel mic, formal slacks. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, crisp white shirt, red tie, lapel mic, formal slacks, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "rhea_sprite_late_night",
+      "character": "rhea",
+      "slot": "late_night",
+      "filename": "rhea_sprite_late_night_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/rhea/late_night.png",
+      "cloud_prompt": "Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Outfit: oversized academy sweatshirt, messy curls, laptop glow. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult visual novel sprite, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, oversized academy sweatshirt, messy curls, laptop glow, full body standing pose, plain light background, clean linework, polished game asset, non-explicit"
+    },
+    {
+      "name": "rhea_cg_01",
+      "character": "rhea",
+      "filename": "rhea_cg_01_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_01.png",
+      "scene": "newspaper office interrogation over cold pizza",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: newspaper office interrogation over cold pizza. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, newspaper office interrogation over cold pizza, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_02",
+      "character": "rhea",
+      "filename": "rhea_cg_02_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_02.png",
+      "scene": "debate club ambush where she proves Alex lied by omission",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: debate club ambush where she proves Alex lied by omission. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, debate club ambush where she proves Alex lied by omission, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_03",
+      "character": "rhea",
+      "filename": "rhea_cg_03_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_03.png",
+      "scene": "rainy stakeout outside the donor building",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: rainy stakeout outside the donor building. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, rainy stakeout outside the donor building, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_04",
+      "character": "rhea",
+      "filename": "rhea_cg_04_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_04.png",
+      "scene": "audio booth where a recording can save or ruin Maxine",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: audio booth where a recording can save or ruin Maxine. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, audio booth where a recording can save or ruin Maxine, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_05",
+      "character": "rhea",
+      "filename": "rhea_cg_05_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_05.png",
+      "scene": "library microfilm discovery with Morrigan beside her",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: library microfilm discovery with Morrigan beside her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, library microfilm discovery with Morrigan beside her, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_06",
+      "character": "rhea",
+      "filename": "rhea_cg_06_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_06.png",
+      "scene": "anonymous source meeting that could be a trap",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: anonymous source meeting that could be a trap. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, anonymous source meeting that could be a trap, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_07",
+      "character": "rhea",
+      "filename": "rhea_cg_07_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_07.png",
+      "scene": "gala press line where she asks the forbidden question",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: gala press line where she asks the forbidden question. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, gala press line where she asks the forbidden question, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_08",
+      "character": "rhea",
+      "filename": "rhea_cg_08_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_08.png",
+      "scene": "deadline night with the story title still blank",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: deadline night with the story title still blank. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, deadline night with the story title still blank, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_09",
+      "character": "rhea",
+      "filename": "rhea_cg_09_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_09.png",
+      "scene": "bad ending printed article that names the wrong student",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: bad ending printed article that names the wrong student. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, bad ending printed article that names the wrong student, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    },
+    {
+      "name": "rhea_cg_10",
+      "character": "rhea",
+      "filename": "rhea_cg_10_{index:02d}.png",
+      "renpy_path": "Sam And Em/game/images/expanded/cg/rhea_cg_10.png",
+      "scene": "happy ending consent-based expose on the academy steps",
+      "cloud_prompt": "Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: happy ending consent-based expose on the academy steps. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.",
+      "local_a1111_prompt": "18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit, Rhea Mallory, campus reporter and debate-club tactician, sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination, happy ending consent-based expose on the academy steps, cinematic 16:9 visual novel event CG, campus setting, no text, no watermark"
+    }
+  ]
+}

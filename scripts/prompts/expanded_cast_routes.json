@@ -1,0 +1,2305 @@
+{
+  "requirements": {
+    "new_character_count": 8,
+    "minimum_female_characters_requested": 4,
+    "binary_situation_count": 10,
+    "minimum_route_depth": 15,
+    "cg_prompts_per_character": 10
+  },
+  "binary_situations": [
+    {
+      "id": "bs01",
+      "title": "Rumor Screenshot",
+      "choice_a": "Delete the screenshot and ask the person directly.",
+      "choice_b": "Forward it to gain leverage."
+    },
+    {
+      "id": "bs02",
+      "title": "Locked Archive",
+      "choice_a": "Find an authorized witness before opening it.",
+      "choice_b": "Pick the lock before security returns."
+    },
+    {
+      "id": "bs03",
+      "title": "Clinic File",
+      "choice_a": "Protect patient privacy.",
+      "choice_b": "Search the file for useful dirt."
+    },
+    {
+      "id": "bs04",
+      "title": "Pool Test",
+      "choice_a": "Demand a retest in public.",
+      "choice_b": "Quietly swap the sample labels."
+    },
+    {
+      "id": "bs05",
+      "title": "Gala Lie",
+      "choice_a": "Tell Maxine why the Lady is there.",
+      "choice_b": "Pretend the Lady is just a donor guest."
+    },
+    {
+      "id": "bs06",
+      "title": "Mural Night",
+      "choice_a": "Paint only the approved wall.",
+      "choice_b": "Use the forbidden wall for maximum impact."
+    },
+    {
+      "id": "bs07",
+      "title": "Cosplay Mask",
+      "choice_a": "Protect Kira's real name.",
+      "choice_b": "Reveal it to stop a rumor faster."
+    },
+    {
+      "id": "bs08",
+      "title": "Bully Apology",
+      "choice_a": "Let Brielle apologize without an audience.",
+      "choice_b": "Make her apologize in public."
+    },
+    {
+      "id": "bs09",
+      "title": "Headmaster Bargain",
+      "choice_a": "Refuse protection that costs someone else.",
+      "choice_b": "Accept the deal and stay enrolled."
+    },
+    {
+      "id": "bs10",
+      "title": "Reporter Deadline",
+      "choice_a": "Delay the story until consent is clear.",
+      "choice_b": "Publish now before the evidence disappears."
+    }
+  ],
+  "route_trees": {
+    "morrigan": {
+      "character": "Morrigan Vale",
+      "theme": "truth hidden in forbidden books",
+      "happy_end": "Alex helps her publish the buried archive safely and they open a tiny midnight study room together.",
+      "bad_end": "Alex uses her research as leverage and she vanishes from campus before the archive burns.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "morrigan_01_first_signal",
+          "situation": "Morrigan Vale: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_02_public_pressure",
+          "situation": "Morrigan Vale: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_03_private_offer",
+          "situation": "Morrigan Vale: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_04_max_interference",
+          "situation": "Morrigan Vale: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_05_first_outfit_shift",
+          "situation": "Morrigan Vale: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_06_secret_room",
+          "situation": "Morrigan Vale: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_07_false_evidence",
+          "situation": "Morrigan Vale: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_08_vulnerable_confession",
+          "situation": "Morrigan Vale: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_09_scholarship_cost",
+          "situation": "Morrigan Vale: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_10_second_outfit_shift",
+          "situation": "Morrigan Vale: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_11_headmaster_move",
+          "situation": "Morrigan Vale: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_12_friendship_test",
+          "situation": "Morrigan Vale: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_13_route_lock",
+          "situation": "Morrigan Vale: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_14_final_evidence",
+          "situation": "Morrigan Vale: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "morrigan_15_ending_choice",
+          "situation": "Morrigan Vale: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "brielle": {
+      "character": "Brielle Ashford",
+      "theme": "power, humiliation, and choosing whether to protect the person who hurt you",
+      "happy_end": "Alex forces Brielle to face what her family bought, and she publicly breaks from them.",
+      "bad_end": "Alex humiliates her back until she becomes Max's most useful ally.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "brielle_01_first_signal",
+          "situation": "Brielle Ashford: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_02_public_pressure",
+          "situation": "Brielle Ashford: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_03_private_offer",
+          "situation": "Brielle Ashford: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_04_max_interference",
+          "situation": "Brielle Ashford: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_05_first_outfit_shift",
+          "situation": "Brielle Ashford: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_06_secret_room",
+          "situation": "Brielle Ashford: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_07_false_evidence",
+          "situation": "Brielle Ashford: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_08_vulnerable_confession",
+          "situation": "Brielle Ashford: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_09_scholarship_cost",
+          "situation": "Brielle Ashford: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_10_second_outfit_shift",
+          "situation": "Brielle Ashford: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_11_headmaster_move",
+          "situation": "Brielle Ashford: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_12_friendship_test",
+          "situation": "Brielle Ashford: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_13_route_lock",
+          "situation": "Brielle Ashford: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_14_final_evidence",
+          "situation": "Brielle Ashford: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "brielle_15_ending_choice",
+          "situation": "Brielle Ashford: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "mina": {
+      "character": "Mina Sato",
+      "theme": "art as evidence and confession",
+      "happy_end": "Alex helps Mina finish a forbidden mural that exposes the academy without destroying her future.",
+      "bad_end": "Alex pushes her into vandalism, and she takes the fall for his need to be dramatic.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "mina_01_first_signal",
+          "situation": "Mina Sato: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_02_public_pressure",
+          "situation": "Mina Sato: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_03_private_offer",
+          "situation": "Mina Sato: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_04_max_interference",
+          "situation": "Mina Sato: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_05_first_outfit_shift",
+          "situation": "Mina Sato: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_06_secret_room",
+          "situation": "Mina Sato: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_07_false_evidence",
+          "situation": "Mina Sato: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_08_vulnerable_confession",
+          "situation": "Mina Sato: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_09_scholarship_cost",
+          "situation": "Mina Sato: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_10_second_outfit_shift",
+          "situation": "Mina Sato: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_11_headmaster_move",
+          "situation": "Mina Sato: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_12_friendship_test",
+          "situation": "Mina Sato: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_13_route_lock",
+          "situation": "Mina Sato: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_14_final_evidence",
+          "situation": "Mina Sato: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "mina_15_ending_choice",
+          "situation": "Mina Sato: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "kira": {
+      "character": "Kira Sol",
+      "theme": "identity, performance, and what remains when the costume comes off",
+      "happy_end": "Alex protects her real identity during a convention scandal and helps her choose the stage on her own terms.",
+      "bad_end": "Alex leaks her secret to win a fight and destroys her convention career.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "kira_01_first_signal",
+          "situation": "Kira Sol: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_02_public_pressure",
+          "situation": "Kira Sol: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_03_private_offer",
+          "situation": "Kira Sol: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_04_max_interference",
+          "situation": "Kira Sol: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_05_first_outfit_shift",
+          "situation": "Kira Sol: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_06_secret_room",
+          "situation": "Kira Sol: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_07_false_evidence",
+          "situation": "Kira Sol: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_08_vulnerable_confession",
+          "situation": "Kira Sol: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_09_scholarship_cost",
+          "situation": "Kira Sol: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_10_second_outfit_shift",
+          "situation": "Kira Sol: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_11_headmaster_move",
+          "situation": "Kira Sol: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_12_friendship_test",
+          "situation": "Kira Sol: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_13_route_lock",
+          "situation": "Kira Sol: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_14_final_evidence",
+          "situation": "Kira Sol: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "kira_15_ending_choice",
+          "situation": "Kira Sol: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "sienna": {
+      "character": "Sienna Cross",
+      "theme": "discipline, rivalry, and refusing to cheat even when everyone expects it",
+      "happy_end": "Alex clears her name in a doping accusation and she chooses trust over perfect control.",
+      "bad_end": "Alex lets suspicion win and she loses her scholarship defending him.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "sienna_01_first_signal",
+          "situation": "Sienna Cross: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_02_public_pressure",
+          "situation": "Sienna Cross: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_03_private_offer",
+          "situation": "Sienna Cross: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_04_max_interference",
+          "situation": "Sienna Cross: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_05_first_outfit_shift",
+          "situation": "Sienna Cross: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_06_secret_room",
+          "situation": "Sienna Cross: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_07_false_evidence",
+          "situation": "Sienna Cross: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_08_vulnerable_confession",
+          "situation": "Sienna Cross: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_09_scholarship_cost",
+          "situation": "Sienna Cross: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_10_second_outfit_shift",
+          "situation": "Sienna Cross: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_11_headmaster_move",
+          "situation": "Sienna Cross: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_12_friendship_test",
+          "situation": "Sienna Cross: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_13_route_lock",
+          "situation": "Sienna Cross: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_14_final_evidence",
+          "situation": "Sienna Cross: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "sienna_15_ending_choice",
+          "situation": "Sienna Cross: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "nadia": {
+      "character": "Nadia Quinn",
+      "theme": "care, consent, and the cost of medical secrets",
+      "happy_end": "Alex helps Nadia expose falsified clinic records without violating patient privacy.",
+      "bad_end": "Alex pressures her for private files and she loses her license protecting students.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "nadia_01_first_signal",
+          "situation": "Nadia Quinn: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_02_public_pressure",
+          "situation": "Nadia Quinn: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_03_private_offer",
+          "situation": "Nadia Quinn: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_04_max_interference",
+          "situation": "Nadia Quinn: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_05_first_outfit_shift",
+          "situation": "Nadia Quinn: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_06_secret_room",
+          "situation": "Nadia Quinn: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_07_false_evidence",
+          "situation": "Nadia Quinn: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_08_vulnerable_confession",
+          "situation": "Nadia Quinn: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_09_scholarship_cost",
+          "situation": "Nadia Quinn: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_10_second_outfit_shift",
+          "situation": "Nadia Quinn: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_11_headmaster_move",
+          "situation": "Nadia Quinn: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_12_friendship_test",
+          "situation": "Nadia Quinn: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_13_route_lock",
+          "situation": "Nadia Quinn: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_14_final_evidence",
+          "situation": "Nadia Quinn: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "nadia_15_ending_choice",
+          "situation": "Nadia Quinn: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "helena": {
+      "character": "Headmaster Helena Voss",
+      "theme": "authority, corruption, and the temptation to trade truth for protection",
+      "happy_end": "Alex exposes Voss through evidence rather than revenge, forcing her resignation.",
+      "bad_end": "Alex accepts her bargain and becomes her informant.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "helena_01_first_signal",
+          "situation": "Headmaster Helena Voss: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_02_public_pressure",
+          "situation": "Headmaster Helena Voss: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_03_private_offer",
+          "situation": "Headmaster Helena Voss: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_04_max_interference",
+          "situation": "Headmaster Helena Voss: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_05_first_outfit_shift",
+          "situation": "Headmaster Helena Voss: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_06_secret_room",
+          "situation": "Headmaster Helena Voss: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_07_false_evidence",
+          "situation": "Headmaster Helena Voss: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_08_vulnerable_confession",
+          "situation": "Headmaster Helena Voss: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_09_scholarship_cost",
+          "situation": "Headmaster Helena Voss: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_10_second_outfit_shift",
+          "situation": "Headmaster Helena Voss: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_11_headmaster_move",
+          "situation": "Headmaster Helena Voss: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_12_friendship_test",
+          "situation": "Headmaster Helena Voss: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_13_route_lock",
+          "situation": "Headmaster Helena Voss: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_14_final_evidence",
+          "situation": "Headmaster Helena Voss: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "helena_15_ending_choice",
+          "situation": "Headmaster Helena Voss: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    },
+    "rhea": {
+      "character": "Rhea Mallory",
+      "theme": "truth, privacy, and who gets hurt when a story breaks",
+      "happy_end": "Alex helps Rhea publish the truth with consent from the students involved.",
+      "bad_end": "Alex feeds her secrets for revenge and the story ruins innocent people.",
+      "depth": 15,
+      "nodes": [
+        {
+          "id": "rhea_01_first_signal",
+          "situation": "Rhea Mallory: Notice her first contradiction.",
+          "choice_a": {
+            "text": "Ask a direct, respectful question",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use mind-reading before she consents",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_02_public_pressure",
+          "situation": "Rhea Mallory: A public scene pulls her into Alex's trouble.",
+          "choice_a": {
+            "text": "Lower the temperature",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Turn the crowd into a weapon",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_03_private_offer",
+          "situation": "Rhea Mallory: She offers private help with a hidden cost.",
+          "choice_a": {
+            "text": "Ask what the cost is",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Accept because it feels intimate",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_04_max_interference",
+          "situation": "Rhea Mallory: Max or another rival twists the moment.",
+          "choice_a": {
+            "text": "Document it",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Answer with humiliation",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_05_first_outfit_shift",
+          "situation": "Rhea Mallory: She changes context and outfit for her real world.",
+          "choice_a": {
+            "text": "Notice the emotional shift",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Comment only on how she looks",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_06_secret_room",
+          "situation": "Rhea Mallory: A restricted room becomes available.",
+          "choice_a": {
+            "text": "Bring a witness",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Go alone for speed",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_07_false_evidence",
+          "situation": "Rhea Mallory: Evidence points at the wrong person.",
+          "choice_a": {
+            "text": "Slow down and verify",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it immediately",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_08_vulnerable_confession",
+          "situation": "Rhea Mallory: She admits why this matters to her.",
+          "choice_a": {
+            "text": "Keep the confession private",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Trade it for leverage",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_09_scholarship_cost",
+          "situation": "Rhea Mallory: The route threatens Alex's scholarship.",
+          "choice_a": {
+            "text": "Accept consequences openly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Hide the connection",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_10_second_outfit_shift",
+          "situation": "Rhea Mallory: She appears in a formal or role-specific outfit.",
+          "choice_a": {
+            "text": "Meet the role she is choosing",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Treat the outfit as permission",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_11_headmaster_move",
+          "situation": "Rhea Mallory: The headmaster offers a bargain.",
+          "choice_a": {
+            "text": "Refuse the bargain",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Take protection now",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_12_friendship_test",
+          "situation": "Rhea Mallory: Maxine/Clara asks what Alex is doing.",
+          "choice_a": {
+            "text": "Tell the partial truth clearly",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Lie until the route is locked",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_13_route_lock",
+          "situation": "Rhea Mallory: The route asks for a visible commitment.",
+          "choice_a": {
+            "text": "Choose her path with boundaries",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Choose possession or secrecy",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_14_final_evidence",
+          "situation": "Rhea Mallory: The final proof is dangerous to use.",
+          "choice_a": {
+            "text": "Use it with consent",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Use it for revenge",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        },
+        {
+          "id": "rhea_15_ending_choice",
+          "situation": "Rhea Mallory: Final binary ending gate.",
+          "choice_a": {
+            "text": "Protect truth and autonomy",
+            "effect": [
+              "trust +1",
+              "integrity +1"
+            ]
+          },
+          "choice_b": {
+            "text": "Win at any cost",
+            "effect": [
+              "heat +1",
+              "control +1"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
