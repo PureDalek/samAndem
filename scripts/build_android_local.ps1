@@ -67,6 +67,11 @@ if (-not $apk) {
     throw "Android build completed but no APK was found in $Destination."
 }
 
+$androidConfigPath = Join-Path $project 'android.json'
+$androidConfig = Get-Content -LiteralPath $androidConfigPath -Raw | ConvertFrom-Json
+$stableApk = Join-Path $Destination "$($androidConfig.package)-v$($androidConfig.version)-release.apk"
+Copy-Item -LiteralPath $apk.FullName -Destination $stableApk -Force
+
 if (-not $env:MAIL_SUBJECT) {
     $env:MAIL_SUBJECT = "Sam And Em local build ready on git"
 }
@@ -99,3 +104,4 @@ $stderrLog
 python $emailScript
 
 Write-Host "APK ready: $($apk.FullName)"
+Write-Host "Stable APK ready: $stableApk"

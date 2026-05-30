@@ -78,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.2.1.
+Current version: v0.2.2.
 
 The base prototype opens with the academy dorm setup:
 
@@ -132,6 +132,8 @@ v0.2.0 adds the first complete branching route slice:
 - A documented route choice tree in `docs/route-choice-tree.md`.
 
 v0.2.1 rebuilds the plot route from the corrected repository root, fixes asset generation paths, and updates the local update manifest for the plot/endings build.
+
+v0.2.2 adds the expanded cast route hub, eight 15-choice route scaffolds, the 10-situation binary gauntlet, and generated cloud sprite coverage for all expanded outfit slots.
 
 ## Development Notes
 
