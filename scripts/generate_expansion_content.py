@@ -217,9 +217,9 @@ CHARACTERS = [
         "bad_end": "Alex accepts her bargain and becomes her informant.",
         "outfits": [
             ("base", "tailored black suit, ivory blouse, emerald brooch, polished heels"),
-            ("gala", "black-and-emerald formal gown with high collar, gold academy chain"),
-            ("office", "rolled sleeves, reading glasses, legal folders, severe bun"),
-            ("trial", "charcoal court-ready suit, no jewelry except academy ring"),
+            ("gala", "black-and-emerald floor-length formal gown with high collar, long sleeves, opaque structured bodice, gold academy chain, black velvet capelet, polished closed-toe heels, fully covered chest and torso"),
+            ("office", "charcoal tailored office suit, high-neck ivory blouse, reading glasses, emerald brooch, severe bun, legal folders, academy keys, polished closed-toe heels, fully covered chest and torso"),
+            ("trial", "charcoal court-ready suit under a dark academic robe, high-neck ivory blouse, academy ring, legal folder, black gloves, polished closed-toe heels, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "headmaster office introduction with Alex's file open",
@@ -246,9 +246,9 @@ CHARACTERS = [
         "bad_end": "Alex feeds her secrets for revenge and the story ruins innocent people.",
         "outfits": [
             ("base", "red blazer, black trousers, press badge, recorder pen"),
-            ("field", "charcoal trench coat, camera bag, rain-specked notebook"),
-            ("debate", "crisp white shirt, red tie, lapel mic, formal slacks"),
-            ("late_night", "oversized academy sweatshirt, messy curls, laptop glow"),
+            ("field", "charcoal trench coat over an opaque black turtleneck, black trousers, camera bag, rain-specked notebook, press badge lanyard, practical boots, fully covered chest and torso"),
+            ("debate", "crisp white buttoned shirt, red tie, fitted red debate blazer, formal black slacks, lapel mic, index cards, press badge tucked into pocket, polished shoes, fully covered chest and torso"),
+            ("late_night", "oversized maroon academy sweatshirt over an opaque crewneck shirt, black jeans, laptop bag, coffee cup, messy curls pinned back, press badge lanyard, sneakers, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "newspaper office interrogation over cold pizza",

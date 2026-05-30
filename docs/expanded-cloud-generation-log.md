@@ -341,3 +341,81 @@ Prompt:
 ```text
 Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, tired kindness, badge clipped backwards. Outfit: bright first-aid vest over an opaque long-sleeve shirt, utility pants, trauma bag across one shoulder, rain boots, tied-back curls, ID badge, fully covered chest and torso. Pose and mood: full body standing pose, practical field-response readiness, professional and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
 ```
+
+### Headmaster Helena Voss - Gala Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/helena/gala.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b545ad2f881919b896291d713b6fc.png`
+- Prompt catalog entry: `helena_sprite_gala`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored presence, emerald brooch, calm smile that never reaches her eyes. Outfit: black-and-emerald floor-length formal gown with high collar, long sleeves, opaque structured bodice, gold academy chain, black velvet capelet, polished closed-toe heels, fully covered chest and torso. Pose and mood: full body standing pose, controlled gala-host authority, intimidating and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Headmaster Helena Voss - Office Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/helena/office.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b54c6518c81919f2636a89ee5fc31.png`
+- Prompt catalog entry: `helena_sprite_office`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored presence, emerald brooch, calm smile that never reaches her eyes. Outfit: charcoal tailored office suit, high-neck ivory blouse, reading glasses, emerald brooch, severe bun, legal folders under one arm, academy keys, polished closed-toe heels, fully covered chest and torso. Pose and mood: full body standing pose, cold administrative control, intimidating and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Headmaster Helena Voss - Trial Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/helena/trial.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b54ff87b88191b8a3c39ea5c2ac14.png`
+- Prompt catalog entry: `helena_sprite_trial`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored presence, emerald brooch, calm smile that never reaches her eyes. Outfit: charcoal court-ready suit under a dark academic robe, high-neck ivory blouse, academy ring, legal folder, black gloves, polished closed-toe heels, fully covered chest and torso. Pose and mood: full body standing pose, preparing for a disciplinary trial, icy confidence, intimidating and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Rhea Mallory - Field Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/rhea/field.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b55685ec88191ac274609760926aa.png`
+- Prompt catalog entry: `rhea_sprite_field`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, recorder pen, old press badge, smile like a cross-examination. Outfit: charcoal trench coat over an opaque black turtleneck, black trousers, camera bag, rain-specked notebook, press badge lanyard, practical boots, fully covered chest and torso. Pose and mood: full body standing pose, alert field-reporting posture, investigative and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Rhea Mallory - Debate Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/rhea/debate.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b55a21bb08191b8e8d1a77f8abef8.png`
+- Prompt catalog entry: `rhea_sprite_debate`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, recorder pen, old press badge, smile like a cross-examination. Outfit: crisp white buttoned shirt, red tie, fitted red debate blazer, formal black slacks, lapel mic, index cards, press badge tucked into pocket, polished shoes, fully covered chest and torso. Pose and mood: full body standing pose, debate-floor confidence, sharp and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Rhea Mallory - Late Night Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/rhea/late_night.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5617bc788191a6eb9e373a95473b.png`
+- Prompt catalog entry: `rhea_sprite_late_night`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, recorder pen, old press badge, smile like a cross-examination. Outfit: oversized maroon academy sweatshirt over an opaque crewneck shirt, black jeans, laptop bag, coffee cup, messy curls pinned back, press badge lanyard, sneakers, fully covered chest and torso. Pose and mood: full body standing pose, late-night newsroom focus, tired but determined, non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
