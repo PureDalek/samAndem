@@ -73,8 +73,8 @@ CHARACTERS = [
         "outfits": [
             ("base", "white varsity jacket, gold-trimmed top, tailored campus skirt, diamond hairclip"),
             ("training", "opaque pale blue athletic set, varsity warmup jacket, high ponytail"),
-            ("formal", "gold-and-white gala dress with structured shoulders and modest neckline"),
-            ("detention", "rumpled uniform jacket, makeup smudged, phone clutched like armor"),
+            ("formal", "elegant gold-and-white gala dress with structured shoulders, high collar, opaque bodice, floor-length closed skirt with no slit, fully covered chest, diamond hairclip"),
+            ("detention", "rumpled school uniform jacket over a buttoned white shirt and opaque undershirt, tailored skirt, phone clutched like armor, makeup slightly smudged, fully covered chest"),
         ],
         "cg_scenes": [
             "cafeteria table where she blocks Alex's seat with a smile",

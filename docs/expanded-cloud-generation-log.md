@@ -107,3 +107,81 @@ Prompt:
 ```text
 Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Outfit: red blazer, black trousers, press badge, recorder pen. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
 ```
+
+### Morrigan Vale - Raincoat Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/morrigan/raincoat.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b46563c2c8191aa6fe7666de04d72.png`
+- Prompt catalog entry: `morrigan_sprite_raincoat`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: oversized black raincoat, violet scarf, messenger bag full of annotated books. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/morrigan/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b46db101c8191a36082625f9aeacb.png`
+- Prompt catalog entry: `morrigan_sprite_formal`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: black velvet formal dress with high neckline, silver constellation jewelry. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - Archive Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/morrigan/archive.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b47520bb48191b13b0394a6ac0c76.png`
+- Prompt catalog entry: `morrigan_sprite_archive`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Outfit: rolled sleeves, ink-stained gloves, lanyard access card, practical boots. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - Training Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/brielle/training.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b47c5e0e881919badcf3ed9f46ac6.png`
+- Prompt catalog entry: `brielle_sprite_training`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: opaque pale blue athletic set, varsity warmup jacket, high ponytail. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/brielle/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b48ac124c81918cd30314838452f9.png`
+- Prompt catalog entry: `brielle_sprite_formal`
+- Status: accepted first-pass sprite after stricter coverage regeneration
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: elegant gold-and-white gala dress with structured shoulders, high collar, opaque bodice, floor-length closed skirt with no slit, fully covered chest, diamond hairclip. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Brielle Ashford - Detention Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/brielle/detention.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b498881a88191ba7d8185a76482ac.png`
+- Prompt catalog entry: `brielle_sprite_detention`
+- Status: accepted first-pass sprite after stricter coverage regeneration
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: rumpled school uniform jacket over a buttoned white shirt and opaque undershirt, tailored skirt, phone clutched like armor, makeup slightly smudged, fully covered chest. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```

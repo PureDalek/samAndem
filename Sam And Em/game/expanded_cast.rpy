@@ -10,7 +10,13 @@ define headmaster = Character("Headmaster Voss", color="#5f9b67")
 define rhea = Character("Rhea", color="#d75d5d")
 
 image morrigan base = "images/expanded/morrigan/base.png"
+image morrigan raincoat = "images/expanded/morrigan/raincoat.png"
+image morrigan formal = "images/expanded/morrigan/formal.png"
+image morrigan archive = "images/expanded/morrigan/archive.png"
 image brielle base = "images/expanded/brielle/base.png"
+image brielle training = "images/expanded/brielle/training.png"
+image brielle formal = "images/expanded/brielle/formal.png"
+image brielle detention = "images/expanded/brielle/detention.png"
 image mina base = "images/expanded/mina/base.png"
 image kira base = "images/expanded/kira/base.png"
 image sienna base = "images/expanded/sienna/base.png"
