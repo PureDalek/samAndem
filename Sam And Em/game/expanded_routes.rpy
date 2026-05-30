@@ -60,7 +60,7 @@ label expanded_route_morrigan:
     mc "I need to understand your route, Morrigan Vale. No shortcuts."
     morrigan "Then every answer has to cost something. Choose carefully."
 
-    show morrigan base at sprite_right
+    scene cg morrigan_cg_01
     with dissolve
 
     "Morrigan Vale: Notice her first contradiction."
@@ -80,7 +80,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan base at sprite_right
+    scene cg morrigan_cg_02
     with dissolve
 
     "Morrigan Vale: A public scene pulls her into Alex's trouble."
@@ -100,7 +100,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan base at sprite_right
+    scene cg morrigan_cg_03
     with dissolve
 
     "Morrigan Vale: She offers private help with a hidden cost."
@@ -120,7 +120,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan base at sprite_right
+    scene cg morrigan_cg_04
     with dissolve
 
     "Morrigan Vale: Max or another rival twists the moment."
@@ -140,7 +140,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan raincoat at sprite_right
+    scene cg morrigan_cg_05
     with dissolve
 
     "Morrigan Vale: She changes context and outfit for her real world."
@@ -160,7 +160,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan raincoat at sprite_right
+    scene cg morrigan_cg_06
     with dissolve
 
     "Morrigan Vale: A restricted room becomes available."
@@ -180,7 +180,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan raincoat at sprite_right
+    scene cg morrigan_cg_07
     with dissolve
 
     "Morrigan Vale: Evidence points at the wrong person."
@@ -200,7 +200,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan raincoat at sprite_right
+    scene cg morrigan_cg_08
     with dissolve
 
     "Morrigan Vale: She admits why this matters to her."
@@ -220,7 +220,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan raincoat at sprite_right
+    scene cg morrigan_cg_09
     with dissolve
 
     "Morrigan Vale: The route threatens Alex's scholarship."
@@ -240,7 +240,7 @@ label expanded_route_morrigan:
             mc "If the truth is already there, I can use it before someone else does."
             morrigan "That sounds like protection. It also sounds like control."
 
-    show morrigan formal at sprite_right
+    scene cg morrigan_cg_10
     with dissolve
 
     "Morrigan Vale: She appears in a formal or role-specific outfit."

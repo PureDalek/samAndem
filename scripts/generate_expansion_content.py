@@ -583,10 +583,21 @@ def build_playable_routes_rpy(routes: dict[str, object]) -> str:
             situation = str(node["situation"])
             choice_a = str(node["choice_a"]["text"])
             choice_b = str(node["choice_b"]["text"])
-            lines.extend(
+            cg_path = GAME_DIR / "images" / "expanded" / "cg" / f"{cid}_cg_{index:02d}.png"
+            scene_lines = (
                 [
+                    f"    scene cg {cid}_cg_{index:02d}",
+                    "    with dissolve",
+                ]
+                if cg_path.exists()
+                else [
                     f"    show {cid} {slot} at sprite_right",
                     "    with dissolve",
+                ]
+            )
+            lines.extend(
+                [
+                    *scene_lines,
                     "",
                     f"    {renpy_string(situation)}",
                     "",

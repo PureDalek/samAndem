@@ -419,3 +419,133 @@ Prompt:
 ```text
 Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, recorder pen, old press badge, smile like a cross-examination. Outfit: oversized maroon academy sweatshirt over an opaque crewneck shirt, black jeans, laptop bag, coffee cup, messy curls pinned back, press badge lanyard, sneakers, fully covered chest and torso. Pose and mood: full body standing pose, late-night newsroom focus, tired but determined, non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
 ```
+
+### Morrigan Vale - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5b4132f48191b9cd1b9205199d95.png`
+- Prompt catalog entry: `morrigan_cg_01`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: late library table surrounded by coded notes and cold coffee. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5b8fdc7c8191b93837614677df92.png`
+- Prompt catalog entry: `morrigan_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: rainy archive doorway with a forbidden key between her fingers. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5c13ff0881919ab8afc41b673806.png`
+- Prompt catalog entry: `morrigan_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: occult club basement where candles are electric but the fear is real. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5ca285a0819185eeb60da5a4e6d1.png`
+- Prompt catalog entry: `morrigan_cg_04`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: gala corner where she recognizes the headmaster's forged signature. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5cfbf7e08191b8e34a8b5fad774d.png`
+- Prompt catalog entry: `morrigan_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: quiet stairwell confession after Alex hears a thought she meant to bury. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5d8c7500819199193c91277aef02.png`
+- Prompt catalog entry: `morrigan_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: server room discovery with violet monitor light on her glasses. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5e1850c88191b6fc4f820684188b.png`
+- Prompt catalog entry: `morrigan_cg_07`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: greenhouse midnight study break under glass roof rain. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5ea79a908191857d58c93bc35e7c.png`
+- Prompt catalog entry: `morrigan_cg_08`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: disciplinary hearing where she risks expulsion to tell the truth. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5f3923e481919b6143148e9be4a9.png`
+- Prompt catalog entry: `morrigan_cg_09`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: burned archive aftermath with soot on her sleeves. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Morrigan Vale - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/morrigan_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b6013e5a08191b9fbe94c800163af.png`
+- Prompt catalog entry: `morrigan_cg_10`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Morrigan Vale, 22 year old adult, nerd goth occult-studies tutor; short black bob with violet underlights, pale olive skin, gray eyes, round glasses, black cardigan, silver moon pins, anxious sharp wit. Scene: happy ending private study room opening after graduation. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
