@@ -185,3 +185,81 @@ Prompt:
 ```text
 Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Outfit: rumpled school uniform jacket over a buttoned white shirt and opaque undershirt, tailored skirt, phone clutched like armor, makeup slightly smudged, fully covered chest. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
 ```
+
+### Mina Sato - Studio Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/mina/studio.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4b4884f481919c3604d3cb642a80.png`
+- Prompt catalog entry: `mina_sprite_studio`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: oversized apron over opaque work clothes, tied hair, fingerless gloves, paint-stained sneakers, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/mina/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4b8ce1b08191b5e9776c4f3eae8c.png`
+- Prompt catalog entry: `mina_sprite_formal`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: asymmetric teal gallery dress with high neckline, opaque bodice, knee-length layered skirt, coral earrings, clean boots, fully covered chest. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - Mural Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/mina/mural.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4bf3cd2081919fdb672607e6ad32.png`
+- Prompt catalog entry: `mina_sprite_mural`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Outfit: hooded work jumpsuit zipped over an opaque shirt, respirator around neck, paint roller harness, work boots, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Kira Sol - Workshop Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/kira/workshop.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4c4d4e408191b1032e2dab25bd23.png`
+- Prompt catalog entry: `kira_sprite_workshop`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: safety goggles, tool belt, oversized graphic tee over opaque undershirt, cargo pants, fingerless gloves, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Kira Sol - Hero Cosplay Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/kira/hero_cosplay.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4ce0d6188191ad473365ebebec65.png`
+- Prompt catalog entry: `kira_sprite_hero_cosplay`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: original armored heroine costume with opaque full-coverage bodysuit, chrome shoulder plates, armored gloves, boots, cape, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Kira Sol - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/kira/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_08b37b51c8c608c8016a1b4d741e948191847cdb895e8b3d35.png`
+- Prompt catalog entry: `kira_sprite_formal`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: sleek black-and-pink event dress with high neckline, opaque bodice, knee-length skirt, prop-star hairpiece, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
+```

@@ -101,9 +101,9 @@ CHARACTERS = [
         "bad_end": "Alex pushes her into vandalism, and she takes the fall for his need to be dramatic.",
         "outfits": [
             ("base", "paint-splattered denim jacket, opaque black tank, loose cargo pants"),
-            ("studio", "oversized apron, tied hair, fingerless gloves, paint-stained sneakers"),
-            ("formal", "asymmetric teal gallery dress, coral earrings, clean boots"),
-            ("mural", "hooded work jumpsuit, respirator around neck, paint roller harness"),
+            ("studio", "oversized apron over opaque work clothes, tied hair, fingerless gloves, paint-stained sneakers, fully covered chest and torso"),
+            ("formal", "asymmetric teal gallery dress with high neckline, opaque bodice, knee-length layered skirt, coral earrings, clean boots, fully covered chest"),
+            ("mural", "hooded work jumpsuit zipped over an opaque shirt, respirator around neck, paint roller harness, work boots, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "studio introduction with canvas facing the wall",
@@ -130,9 +130,9 @@ CHARACTERS = [
         "bad_end": "Alex leaks her secret to win a fight and destroys her convention career.",
         "outfits": [
             ("base", "pin-covered black bomber jacket, pink hoodie, cargo skirt over opaque leggings"),
-            ("workshop", "safety goggles, tool belt, oversized graphic tee, fingerless gloves"),
-            ("hero_cosplay", "original armored heroine costume, opaque bodysuit, chrome shoulder plates, cape"),
-            ("formal", "sleek black-and-pink event dress with prop-star hairpiece"),
+            ("workshop", "safety goggles, tool belt, oversized graphic tee over opaque undershirt, cargo pants, fingerless gloves, fully covered chest and torso"),
+            ("hero_cosplay", "original armored heroine costume with opaque full-coverage bodysuit, chrome shoulder plates, armored gloves, boots, cape, fully covered chest and torso"),
+            ("formal", "sleek black-and-pink event dress with high neckline, opaque bodice, knee-length skirt, prop-star hairpiece, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "prop workshop where sparks fly from a harmless broken sword",
