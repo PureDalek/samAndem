@@ -78,7 +78,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.2.2.
+Current version: v0.2.3.
 
 The base prototype opens with the academy dorm setup:
 
@@ -134,6 +134,8 @@ v0.2.0 adds the first complete branching route slice:
 v0.2.1 rebuilds the plot route from the corrected repository root, fixes asset generation paths, and updates the local update manifest for the plot/endings build.
 
 v0.2.2 adds the expanded cast route hub, eight 15-choice route scaffolds, the 10-situation binary gauntlet, and generated cloud sprite coverage for all expanded outfit slots.
+
+v0.2.3 adds the first two expanded CG image sets for testing: Morrigan and Brielle.
 
 ## Development Notes
 

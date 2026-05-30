@@ -1,6 +1,6 @@
 {
-  "version": "0.2.2",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.2/com.puredalek.samandem-v0.2.2-release.apk",
-  "sha256": "8D6BCA0629A333EE7CE1B99882D74512583F1841BADBB4A7AACE5B0B43EE5182",
-  "notes": "Adds the expanded cast route hub, eight 15-choice route scaffolds, the 10-situation binary gauntlet, and cloud sprite coverage for all expanded outfit slots."
+  "version": "0.2.3",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.3/com.puredalek.samandem-v0.2.3-release.apk",
+  "sha256": "6F38C8CF5E1F580A943246DCD9F2EE302F1A8BD697761E9BEEA90199F660C708",
+  "notes": "Adds the first two expanded CG image sets for testing: Morrigan and Brielle."
 }
