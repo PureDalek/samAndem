@@ -263,3 +263,81 @@ Prompt:
 ```text
 Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Outfit: sleek black-and-pink event dress with high neckline, opaque bodice, knee-length skirt, prop-star hairpiece, fully covered chest and torso. Style: polished Sam And Em visual novel sprite, full body standing pose, plain light background, clean linework, no text, no watermark, non-explicit.
 ```
+
+### Sienna Cross - Pool Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/sienna/pool.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b514fc5608191ad3549343f4d9f94.png`
+- Prompt catalog entry: `sienna_sprite_pool`
+- Status: accepted first-pass covered warmup sprite after swimsuit wording was rejected by the safety filter
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful athletic shoulders, calm green eyes, stopwatch necklace. Outfit: zip-front navy team warmup jacket over a high-neck opaque training top, loose team track pants, towel draped over shoulders, team sandals, whistle and stopwatch accessories, fully covered chest and torso. Pose and mood: full body standing pose, relaxed confident pool-deck posture, non-sensual, neutral expression. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Sienna Cross - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/sienna/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b51aebd288191822d96911bfaf3aa.png`
+- Prompt catalog entry: `sienna_sprite_formal`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls, powerful athletic shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: aqua formal jumpsuit with high neckline, opaque structured bodice, long tailored pants, silver chain, sleek curls, dress shoes, fully covered chest and torso. Pose and mood: full body standing pose, composed and confident, non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Sienna Cross - Rehab Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/sienna/rehab.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b520e7a208191b5cf41167c3099c6.png`
+- Prompt catalog entry: `sienna_sprite_rehab`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls, powerful athletic shoulders, calm green eyes, navy team jacket, stopwatch necklace. Outfit: oversized navy team hoodie zipped over an opaque crewneck shirt, loose athletic recovery pants, kinesiology tape visible on covered shoulder and forearm, recovery sandals, duffel bag, fully covered chest and torso. Pose and mood: full body standing pose, focused but tired recovery-day posture, non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Nadia Quinn - Night Shift Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/nadia/night_shift.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5243344c8191ab6125f8f0c1c0f0.png`
+- Prompt catalog entry: `nadia_sprite_night_shift`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, tired kindness, badge clipped backwards. Outfit: navy scrub jacket over opaque teal scrubs, zipped modestly, messy bun, coffee cup, emergency pager, practical shoes, fully covered chest and torso. Pose and mood: full body standing pose, weary but alert night-shift posture, professional and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Nadia Quinn - Formal Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/nadia/formal.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b529abc0c81919134d85a71e28e41.png`
+- Prompt catalog entry: `nadia_sprite_formal`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, tired kindness, badge clipped backwards. Outfit: modest copper wrap-style formal dress with high neckline, opaque bodice, knee-length hem, cream shawl around shoulders, small gold earrings, low bun, dress flats, fully covered chest and torso. Pose and mood: full body standing pose, calm guarded warmth, professional and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```
+
+### Nadia Quinn - Field Sprite
+
+- Repo path: `Sam And Em/game/images/expanded/nadia/field.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b5301993c819183a9fe898ae3d625.png`
+- Prompt catalog entry: `nadia_sprite_field`
+- Status: accepted first-pass sprite
+
+Prompt:
+
+```text
+Use case: stylized-concept. Asset type: Ren'Py character sprite. Subject: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, tired kindness, badge clipped backwards. Outfit: bright first-aid vest over an opaque long-sleeve shirt, utility pants, trauma bag across one shoulder, rain boots, tied-back curls, ID badge, fully covered chest and torso. Pose and mood: full body standing pose, practical field-response readiness, professional and non-sensual. Style: polished Sam And Em visual novel sprite, plain light background, clean linework, no text, no watermark, non-explicit.
+```

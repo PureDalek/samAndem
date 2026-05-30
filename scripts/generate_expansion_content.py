@@ -159,9 +159,9 @@ CHARACTERS = [
         "bad_end": "Alex lets suspicion win and she loses her scholarship defending him.",
         "outfits": [
             ("base", "navy team tracksuit, white sneakers, stopwatch necklace"),
-            ("pool", "modest one-piece racing swimsuit, swim cap, towel over shoulders"),
-            ("formal", "aqua formal jumpsuit, silver chain, sleek curls"),
-            ("rehab", "team hoodie, kinesiology tape, recovery sandals, duffel bag"),
+            ("pool", "zip-front navy team warmup jacket over a high-neck opaque training top, loose team track pants, towel over shoulders, team sandals, whistle and stopwatch accessories, fully covered chest and torso"),
+            ("formal", "aqua formal jumpsuit with high neckline, opaque structured bodice, long tailored pants, silver chain, sleek curls, dress shoes, fully covered chest and torso"),
+            ("rehab", "oversized navy team hoodie zipped over an opaque crewneck shirt, loose athletic recovery pants, kinesiology tape, recovery sandals, duffel bag, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "pool deck first rivalry with stopwatch between them",
@@ -188,9 +188,9 @@ CHARACTERS = [
         "bad_end": "Alex pressures her for private files and she loses her license protecting students.",
         "outfits": [
             ("base", "teal scrubs, cream cardigan, badge, practical flats"),
-            ("night_shift", "navy scrub jacket, messy bun, coffee, emergency pager"),
-            ("formal", "modest copper wrap dress, cream shawl, small gold earrings"),
-            ("field", "first-aid vest, trauma bag, rain boots, tied-back curls"),
+            ("night_shift", "navy scrub jacket over opaque teal scrubs, zipped modestly, messy bun, coffee cup, emergency pager, practical shoes, fully covered chest and torso"),
+            ("formal", "modest copper wrap-style formal dress with high neckline, opaque bodice, knee-length hem, cream shawl, small gold earrings, low bun, dress flats, fully covered chest and torso"),
+            ("field", "bright first-aid vest over an opaque long-sleeve shirt, utility pants, trauma bag, rain boots, tied-back curls, ID badge, fully covered chest and torso"),
         ],
         "cg_scenes": [
             "clinic intake where she notices Alex hiding a bruise",
