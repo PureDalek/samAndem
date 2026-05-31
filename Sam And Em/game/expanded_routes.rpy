@@ -1755,7 +1755,7 @@ label expanded_route_nadia:
     mc "I need to understand your route, Nadia Quinn. No shortcuts."
     nadia "Then every answer has to cost something. Choose carefully."
 
-    show nadia base at sprite_right
+    scene cg nadia_cg_01
     with dissolve
 
     "Nadia Quinn: Notice her first contradiction."
@@ -1775,7 +1775,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia base at sprite_right
+    scene cg nadia_cg_02
     with dissolve
 
     "Nadia Quinn: A public scene pulls her into Alex's trouble."
@@ -1795,7 +1795,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia base at sprite_right
+    scene cg nadia_cg_03
     with dissolve
 
     "Nadia Quinn: She offers private help with a hidden cost."
@@ -1815,7 +1815,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia base at sprite_right
+    scene cg nadia_cg_04
     with dissolve
 
     "Nadia Quinn: Max or another rival twists the moment."
@@ -1835,7 +1835,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia night_shift at sprite_right
+    scene cg nadia_cg_05
     with dissolve
 
     "Nadia Quinn: She changes context and outfit for her real world."
@@ -1855,7 +1855,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia night_shift at sprite_right
+    scene cg nadia_cg_06
     with dissolve
 
     "Nadia Quinn: A restricted room becomes available."
@@ -1875,7 +1875,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia night_shift at sprite_right
+    scene cg nadia_cg_07
     with dissolve
 
     "Nadia Quinn: Evidence points at the wrong person."
@@ -1895,7 +1895,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia night_shift at sprite_right
+    scene cg nadia_cg_08
     with dissolve
 
     "Nadia Quinn: She admits why this matters to her."
@@ -1915,7 +1915,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia night_shift at sprite_right
+    scene cg nadia_cg_09
     with dissolve
 
     "Nadia Quinn: The route threatens Alex's scholarship."
@@ -1935,7 +1935,7 @@ label expanded_route_nadia:
             mc "If the truth is already there, I can use it before someone else does."
             nadia "That sounds like protection. It also sounds like control."
 
-    show nadia formal at sprite_right
+    scene cg nadia_cg_10
     with dissolve
 
     "Nadia Quinn: She appears in a formal or role-specific outfit."

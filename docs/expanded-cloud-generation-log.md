@@ -1069,3 +1069,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: happy ending sunrise pool-deck practice after her record is restored. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, outdoor campus pool deck at sunrise, warm golden light, Sienna in a navy zip-front warmup jacket over a high-neck opaque training shirt and loose track pants, Alex beside her smiling, restored record represented by a blank medal ribbon and stopwatch on a towel, joyful relief, no swimsuit, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
 ```
+
+### Nadia Quinn - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8ddc90d08191b61ae9a21663c5e9.png`
+- Prompt catalog entry: `nadia_cg_01`
+- Status: accepted CG after sore-wrist prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: clinic intake where she notices Alex guarding a sore wrist. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus clinic intake room, Nadia seated across from Alex with a clipboard, Alex holding one wrist close but no visible wound, gentle concern and professional boundaries, no blood, no medical procedure, no exposed patient body, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8e3351188191a525c7d1ccaa99f6.png`
+- Prompt catalog entry: `nadia_cg_02`
+- Status: accepted CG after blank-label prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: medicine cabinet audit with blank missing labels. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, locked campus clinic supply cabinet open under cool fluorescent light, Nadia in teal scrubs and cream cardigan comparing inventory sheets with Alex, bottles and boxes use plain blank labels and color bands only, no medication names, investigative mood, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8ee111308191bb695590328a7875.png`
+- Prompt catalog entry: `nadia_cg_03`
+- Status: accepted CG after rejecting a vending-machine pass with visible product branding
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: night shift hallway lit by vending machines. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, quiet campus clinic hallway after midnight, abstract vending-machine light from frosted glass with no visible products, no packaging, no logos, no readable labels, Nadia carrying a coffee cup and clinic keys while Alex walks beside her, tired but trusting mood, no medical procedure, no readable text, no watermark, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8f47a7cc8191ae12930ab69e9788.png`
+- Prompt catalog entry: `nadia_cg_04`
+- Status: accepted CG after first-aid privacy prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: pool-deck first-aid response where she protects Sienna's privacy. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, indoor campus pool deck, Nadia in a bright first-aid vest over opaque long sleeves creating a privacy screen with towels while Sienna sits fully clothed in navy warmups behind her, Alex holds a first-aid bag nearby, no visible wound, no blood, no swimsuit, no shirtless people, no exposed patient body, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9002657c8191af8644ff10cf29e6.png`
+- Prompt catalog entry: `nadia_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: records room moral test with locked patient files. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, locked campus clinic records room with shelves of sealed file boxes, Nadia holding a key ring and looking conflicted while Alex stands beside a locked cabinet, patient files represented by blank folders with colored tabs and no readable labels, privacy and consent theme, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b90653484819190c5f180ab050cd4.png`
+- Prompt catalog entry: `nadia_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: coffee break confession about the headmaster's pressure. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, quiet clinic break room with dim morning light, Nadia and Alex seated across from each other with coffee cups, Nadia's badge turned backward and her expression exhausted but honest, sealed blank documents on the table, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9115923c81918717216e605ba864.png`
+- Prompt catalog entry: `nadia_cg_07`
+- Status: accepted CG after false-alarm prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: gala first-aid false alarm staged to steal records. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, formal campus gala side room, Nadia in a modest copper formal dress with cream shawl crouching beside a closed first-aid kit while Alex spots a shadowy figure near a locked records cabinet, false alarm mood, no visible medical emergency, no patient on floor, no blood, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b918361b881919e38d183a1f0f9eb.png`
+- Prompt catalog entry: `nadia_cg_08`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: licensing board call while Alex waits outside. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus clinic office with glass-panel door, Nadia inside on a serious phone call with a closed laptop showing no screen text, Alex waiting in the hallway outside with a worried posture, privacy boundary visible through the door, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b923243508191a24481568ed1d77e.png`
+- Prompt catalog entry: `nadia_cg_09`
+- Status: accepted CG after blank removed-name plate prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. Non-explicit. Scene: bad ending clinic door with a blank removed-name plate for Nadia Quinn's route. Composition: cinematic 16:9 visual novel event CG, quiet campus clinic hallway after hours, closed clinic door with an empty rectangular nameplate area and adhesive marks where a name used to be, a cardboard box of personal items on the floor, cold fluorescent light, no people in the scene, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Nadia Quinn - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/nadia_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b929fb074819191a4b56163cc7ea7.png`
+- Prompt catalog entry: `nadia_cg_10`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: happy ending mobile clinic day after the whistleblower case. Composition: cinematic 16:9 visual novel event CG, warm daylight campus courtyard, small mobile clinic table and supply cases with blank labels, Nadia smiling in teal scrubs and cream cardigan while Alex helps organize supplies, students in the background as soft fully clothed silhouettes, hopeful community care mood, no readable signs, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
