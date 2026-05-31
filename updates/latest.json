@@ -1,6 +1,6 @@
 {
-  "version": "0.2.5",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.5/com.puredalek.samandem-v0.2.5-release.apk",
-  "sha256": "C8E9E9FC034170ECF17AD57EDEF51522007C8FC112D7C1701DDA3650BF60FCE9",
-  "notes": "Adds expanded CG image sets through Nadia for route testing."
+  "version": "0.2.6",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.6/com.puredalek.samandem-v0.2.6-release.apk",
+  "sha256": "CEDF67D07C9FC5A5D8A80D3DB4898121076D38B7AA2AFA4718033B2DE3B303A7",
+  "notes": "Adds all expanded cast CG image sets for route testing."
 }
