@@ -1,6 +1,6 @@
 {
-  "version": "0.2.3",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.3/com.puredalek.samandem-v0.2.3-release.apk",
-  "sha256": "6F38C8CF5E1F580A943246DCD9F2EE302F1A8BD697761E9BEEA90199F660C708",
-  "notes": "Adds the first two expanded CG image sets for testing: Morrigan and Brielle."
+  "version": "0.2.4",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.4/com.puredalek.samandem-v0.2.4-release.apk",
+  "sha256": "8FC113081A77BAA197D90000E2E73DACEB19D4D7E145293EB0ECEA14E55D6A4F",
+  "notes": "Adds expanded CG image sets through Kira for route testing."
 }
