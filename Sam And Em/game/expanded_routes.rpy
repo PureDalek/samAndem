@@ -2433,7 +2433,7 @@ label expanded_route_rhea:
     mc "I need to understand your route, Rhea Mallory. No shortcuts."
     rhea "Then every answer has to cost something. Choose carefully."
 
-    show rhea base at sprite_right
+    scene cg rhea_cg_01
     with dissolve
 
     "Rhea Mallory: Notice her first contradiction."
@@ -2453,7 +2453,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea base at sprite_right
+    scene cg rhea_cg_02
     with dissolve
 
     "Rhea Mallory: A public scene pulls her into Alex's trouble."
@@ -2473,7 +2473,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea base at sprite_right
+    scene cg rhea_cg_03
     with dissolve
 
     "Rhea Mallory: She offers private help with a hidden cost."
@@ -2493,7 +2493,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea base at sprite_right
+    scene cg rhea_cg_04
     with dissolve
 
     "Rhea Mallory: Max or another rival twists the moment."
@@ -2513,7 +2513,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea field at sprite_right
+    scene cg rhea_cg_05
     with dissolve
 
     "Rhea Mallory: She changes context and outfit for her real world."
@@ -2533,7 +2533,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea field at sprite_right
+    scene cg rhea_cg_06
     with dissolve
 
     "Rhea Mallory: A restricted room becomes available."
@@ -2553,7 +2553,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea field at sprite_right
+    scene cg rhea_cg_07
     with dissolve
 
     "Rhea Mallory: Evidence points at the wrong person."
@@ -2573,7 +2573,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea field at sprite_right
+    scene cg rhea_cg_08
     with dissolve
 
     "Rhea Mallory: She admits why this matters to her."
@@ -2593,7 +2593,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea field at sprite_right
+    scene cg rhea_cg_09
     with dissolve
 
     "Rhea Mallory: The route threatens Alex's scholarship."
@@ -2613,7 +2613,7 @@ label expanded_route_rhea:
             mc "If the truth is already there, I can use it before someone else does."
             rhea "That sounds like protection. It also sounds like control."
 
-    show rhea debate at sprite_right
+    scene cg rhea_cg_10
     with dissolve
 
     "Rhea Mallory: She appears in a formal or role-specific outfit."

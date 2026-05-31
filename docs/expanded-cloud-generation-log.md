@@ -1329,3 +1329,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, charcoal court-ready suit under a dark academic robe, emerald brooch, controlled expression. Scene: happy ending resignation walk past silent students. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, academy front hall in morning light, Helena walking out with a closed blank folder and academy ring removed, silent students standing aside fully clothed, Alex in the background beside an open doorway, consequence and release, no protest signs, no readable text, no watermark, no logos, no nudity, no sexual content.
 ```
+
+### Rhea Mallory - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1ba4d5ef6081918736746700d27f2b.png`
+- Prompt catalog entry: `rhea_cg_01`
+- Status: accepted CG after interview-language prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, old press badge, smile like a cross-examination. Scene: newspaper office interview over cold pizza. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, cluttered campus newspaper office at night, Rhea in a red blazer leaning over a desk with Alex, cold pizza box with no logos, blank notes and recorders scattered around, tense questioning but no intimidation, no readable text on papers or walls, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1ba5ac894c8191be841312ed5aef10.png`
+- Prompt catalog entry: `rhea_cg_02`
+- Status: accepted CG after debate-challenge prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red debate blazer, recorder pen, old press badge, smile like a cross-examination. Scene: debate club challenge where she proves Alex lied by omission. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus debate room with podiums and index cards, Rhea calmly presenting a blank evidence card while Alex stands at the opposite podium, debate club students watching, no shouting violence, no readable text on cards, boards, or podiums, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1ba656e2448191b1d7f52342cb70a8.png`
+- Prompt catalog entry: `rhea_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, charcoal trench coat over an opaque black turtleneck, camera bag, recorder pen, old press badge, smile like a cross-examination. Scene: rainy stakeout outside the donor building. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, rainy night outside a dark campus donor building, Rhea and Alex crouched under an awning with a camera and notebook, wet pavement reflections, distant silhouettes entering the building, investigative tension, no readable signs, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1ba87933f0819186d7b8d82f29a56c.png`
+- Prompt catalog entry: `rhea_cg_04`
+- Status: accepted CG after rejecting a pass with readable press/newsroom text
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, blank old press-style badge with no letters, smile like a cross-examination. Scene: audio booth where a recording could protect or harm Maxine. Composition: cinematic 16:9 visual novel event CG, campus radio/audio booth with soundproof glass and plain acoustic panels, Rhea at the mixing board holding a small recorder, Alex beside her, Maxine visible through the glass in the hallway as a fully clothed adult student, serious ethical decision moment. The room has no posters, no newspapers, no readable badges, no readable labels, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1ba94ae6f081918e00fc18a96e0014.png`
+- Prompt catalog entry: `rhea_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, blank old press-style badge with no letters, smile like a cross-examination. Scene: library microfilm discovery with Morrigan beside her. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, quiet campus library microfilm room, Rhea and Morrigan hunched over a glowing microfilm reader, Morrigan in black cardigan with round glasses, blank document shapes projected as abstract blocks with no readable words, investigative excitement, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1baa314b008191a52c61588efe9e5c.png`
+- Prompt catalog entry: `rhea_cg_06`
+- Status: accepted CG after anonymous-source prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, charcoal trench coat over opaque black turtleneck, recorder pen, blank old press-style badge with no letters. Scene: uncertain anonymous source meeting. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, quiet campus courtyard at night under a single lamp, Rhea waiting with Alex near a bench while a distant anonymous source silhouette stands partly in shadow, cautious but nonviolent, no weapons, no chase, no readable notes, no signs, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1bab3a9c48819186522ff8b5ffd59a.png`
+- Prompt catalog entry: `rhea_cg_07`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, blank old press-style badge with no letters, smile like a cross-examination. Scene: gala press line where she asks the forbidden question. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, academy gala press line with velvet ropes, Rhea holding a plain unbranded microphone toward Headmaster Voss while Alex watches, donors in formal wear behind them, tense public accountability, no readable press signs, no logos on microphones or badges, no readable text, no watermark, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1bace801a48191bfe72a2d90255279.png`
+- Prompt catalog entry: `rhea_cg_08`
+- Status: accepted CG after rejecting a pass with a readable deadline sign
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, oversized maroon academy sweatshirt over a plain opaque crewneck shirt, recorder pen, blank old press-style badge with no letters. Scene: deadline night with the story title still blank. Composition: cinematic 16:9 visual novel event CG, campus newspaper office late at night, Rhea at a laptop with Alex beside her, laptop screen shows only abstract grey layout boxes and one empty headline rectangle, coffee cups and blank notes, exhausted deadline pressure. The room has no wall signs, no clocks with numbers, no readable papers, no readable screen text, no logos, no watermark, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1bada3985c81918fbb64c2b04ca166.png`
+- Prompt catalog entry: `rhea_cg_09`
+- Status: accepted CG after blank-article prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. Non-explicit. Scene: bad ending blank article proof that points at the wrong student for Rhea Mallory's route. Composition: cinematic 16:9 visual novel event CG, quiet campus newspaper office after publication, a printed article proof on a desk shown as a newspaper layout with blank grey headline bars, blank photo box, and abstract columns with no letters or words, red correction marks without readable symbols, Rhea's recorder pen lying beside it, cold regret mood, no people in the scene, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Rhea Mallory - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/rhea_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1bae5a4f608191b973c898eb019c1a.png`
+- Prompt catalog entry: `rhea_cg_10`
+- Status: accepted CG after investigative-report prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Rhea Mallory, 24 year old adult, campus reporter and debate-club tactician; sharp dark curls, russet skin, intense hazel eyes, red blazer, recorder pen, blank old press-style badge with no letters, smile like a cross-examination. Scene: happy ending consent-based investigative report on the academy steps. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, sunny academy front steps, Rhea holding a blank printed report with only abstract layout boxes while Alex and several students stand beside her willingly, supportive accountable mood, no protest signs, no readable papers, no readable badges, no logos, no watermark, no nudity, no sexual content.
+```
