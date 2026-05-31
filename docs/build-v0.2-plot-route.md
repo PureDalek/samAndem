@@ -40,4 +40,4 @@ python --version
 powershell -ExecutionPolicy Bypass -File scripts\build_android_local.ps1
 ```
 
-The project version and Android metadata are set to `0.2.4`.
+The project version and Android metadata are set to `0.2.5`.

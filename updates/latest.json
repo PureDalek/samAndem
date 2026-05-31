@@ -1,6 +1,6 @@
 {
-  "version": "0.2.4",
-  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.4/com.puredalek.samandem-v0.2.4-release.apk",
-  "sha256": "8FC113081A77BAA197D90000E2E73DACEB19D4D7E145293EB0ECEA14E55D6A4F",
-  "notes": "Adds expanded CG image sets through Kira for route testing."
+  "version": "0.2.5",
+  "apk_url": "https://github.com/PureDalek/samAndem/releases/download/v0.2.5/com.puredalek.samandem-v0.2.5-release.apk",
+  "sha256": "C8E9E9FC034170ECF17AD57EDEF51522007C8FC112D7C1701DDA3650BF60FCE9",
+  "notes": "Adds expanded CG image sets through Nadia for route testing."
 }

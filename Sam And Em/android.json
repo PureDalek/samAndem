@@ -8,7 +8,7 @@
     "include_sqlite": false,
     "layout": null,
     "name": "Sam And Em",
-    "numeric_version": 24,
+    "numeric_version": 25,
     "orientation": "sensorLandscape",
     "package": "com.puredalek.samandem",
     "permissions": [
@@ -20,5 +20,5 @@
     "update_always": true,
     "update_icons": true,
     "update_keystores": true,
-    "version": "0.2.4"
+    "version": "0.2.5"
 }
