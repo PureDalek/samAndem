@@ -939,3 +939,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: happy ending original hero premiere with Alex in the front row. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus auditorium premiere for Kira's own original hero story, Kira on stage in a stylish full-coverage creator outfit beside an original armored costume display, Alex seated in the front row smiling proudly, warm stage lights, happy ending mood, no copyrighted characters, no readable text, no watermark, no logos, no nudity, no sexual content.
 ```
+
+### Sienna Cross - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b866b0f84819190a525f1528fd9c1.png`
+- Prompt catalog entry: `sienna_cg_01`
+- Status: accepted CG after rejecting a background with shirtless swimmers
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: pool deck first rivalry with stopwatch between them. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, indoor campus pool deck beside the lanes, Sienna wearing a zip-front navy team warmup jacket over a high-neck opaque training shirt with loose team track pants and towel over shoulders, Alex opposite her holding a stopwatch between them, rivalry tension but no violence. Background must be empty or show only fully clothed team staff in warmup jackets. No swimsuit, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b870b3c908191adc1e111a23faef0.png`
+- Prompt catalog entry: `sienna_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: early morning pool-deck training while campus is empty. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, empty indoor campus pool at dawn, pale light across still water, Sienna in a zip-front navy team warmup jacket over a high-neck opaque training shirt with loose track pants, practicing starts beside the lane with a kickboard and towel nearby, no swimsuit, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b87a86f68819185c1c0df745c97b8.png`
+- Prompt catalog entry: `sienna_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: trainer office where test results look suspicious. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus athletic trainer office, Sienna wearing a navy team jacket and loose track pants seated beside Alex, a desk covered with sealed folders and charts that use abstract unreadable blocks instead of text, tense investigative mood, no medical procedure, no injuries shown, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b883a46a4819191f636e1820c95a6.png`
+- Prompt catalog entry: `sienna_cg_04`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: rainy bus stop after an away meet loss. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, night rain at a campus bus stop, Sienna in a navy team warmup jacket and loose track pants with a towel and gym bag, Alex standing nearby under the shelter, wet pavement reflections, quiet disappointment and trust, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b88ba2bdc819188334aef84db3196.png`
+- Prompt catalog entry: `sienna_cg_05`
+- Status: accepted CG after athletics-hallway prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: athletics hallway outside the locker rooms where Alex chooses privacy over mind-reading. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, hallway outside campus athletics offices with closed locker-room doors in the distance, Sienna in navy warmup jacket, high-neck training shirt, and loose track pants, Alex turning away from a private conversation to respect her boundaries, no locker room interior, no changing, no swimsuit, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b890e43f881918701245656408eff.png`
+- Prompt catalog entry: `sienna_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: scholarship hearing with chlorine still in her hair. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus scholarship hearing room, Sienna in a navy team warmup jacket and loose track pants sitting at a table with Alex beside her, damp curls tucked back, committee silhouettes across the table, folders and forms with abstract unreadable blocks only, tense institutional mood, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b89a6150481919d2ddfd83c25b47d.png`
+- Prompt catalog entry: `sienna_cg_07`
+- Status: accepted CG after shoulder-injury prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: infirmary recovery after she pushes through a shoulder injury. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus infirmary recovery room, Sienna fully clothed in a navy zip-front team jacket and loose track pants, one shoulder wrapped over the jacket with a soft athletic ice pack, Alex sitting nearby with concern, nurse station in the background, no exposed patient body, no blood, no medical procedure, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8a3947e08191896ebc260f4565df.png`
+- Prompt catalog entry: `sienna_cg_08`
+- Status: accepted CG after pool-deck prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: championship pool-deck moment before the final race. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, brightly lit indoor championship pool deck, Sienna standing at the lane edge in a navy warmup jacket over a high-neck opaque training shirt and loose track pants, towel over shoulders, Alex just behind her with a supportive look, crowd as blurred silhouettes wearing shirts, no swimsuit closeup, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8aceafe08191adaecac612ef9b35.png`
+- Prompt catalog entry: `sienna_cg_09`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. Non-explicit. Scene: bad ending empty lane and revoked scholarship board for Sienna Cross's route. Composition: cinematic 16:9 visual novel event CG, emotionally heavy indoor campus pool after hours, empty swimming lane, a dark bulletin board beside the pool with pinned abstract papers and no readable words, a stopwatch lying face down on a towel, cool blue lighting, no people in the scene, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Sienna Cross - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/sienna_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8b246ffc8191b728275cbd3f0053.png`
+- Prompt catalog entry: `sienna_cg_10`
+- Status: accepted CG after pool-deck practice prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Sienna Cross, 22 year old adult, swimmer and scholarship rival; deep brown skin, short natural curls under a navy swim cap, powerful shoulders, calm green eyes, navy team jacket, stopwatch necklace. Scene: happy ending sunrise pool-deck practice after her record is restored. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, outdoor campus pool deck at sunrise, warm golden light, Sienna in a navy zip-front warmup jacket over a high-neck opaque training shirt and loose track pants, Alex beside her smiling, restored record represented by a blank medal ribbon and stopwatch on a towel, joyful relief, no swimsuit, no shirtless people, no exposed torso, no readable text, no watermark, no logos, no nudity, no sexual content.
+```

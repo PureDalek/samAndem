@@ -1416,7 +1416,7 @@ label expanded_route_sienna:
     mc "I need to understand your route, Sienna Cross. No shortcuts."
     sienna "Then every answer has to cost something. Choose carefully."
 
-    show sienna base at sprite_right
+    scene cg sienna_cg_01
     with dissolve
 
     "Sienna Cross: Notice her first contradiction."
@@ -1436,7 +1436,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna base at sprite_right
+    scene cg sienna_cg_02
     with dissolve
 
     "Sienna Cross: A public scene pulls her into Alex's trouble."
@@ -1456,7 +1456,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna base at sprite_right
+    scene cg sienna_cg_03
     with dissolve
 
     "Sienna Cross: She offers private help with a hidden cost."
@@ -1476,7 +1476,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna base at sprite_right
+    scene cg sienna_cg_04
     with dissolve
 
     "Sienna Cross: Max or another rival twists the moment."
@@ -1496,7 +1496,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna pool at sprite_right
+    scene cg sienna_cg_05
     with dissolve
 
     "Sienna Cross: She changes context and outfit for her real world."
@@ -1516,7 +1516,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna pool at sprite_right
+    scene cg sienna_cg_06
     with dissolve
 
     "Sienna Cross: A restricted room becomes available."
@@ -1536,7 +1536,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna pool at sprite_right
+    scene cg sienna_cg_07
     with dissolve
 
     "Sienna Cross: Evidence points at the wrong person."
@@ -1556,7 +1556,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna pool at sprite_right
+    scene cg sienna_cg_08
     with dissolve
 
     "Sienna Cross: She admits why this matters to her."
@@ -1576,7 +1576,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna pool at sprite_right
+    scene cg sienna_cg_09
     with dissolve
 
     "Sienna Cross: The route threatens Alex's scholarship."
@@ -1596,7 +1596,7 @@ label expanded_route_sienna:
             mc "If the truth is already there, I can use it before someone else does."
             sienna "That sounds like protection. It also sounds like control."
 
-    show sienna formal at sprite_right
+    scene cg sienna_cg_10
     with dissolve
 
     "Sienna Cross: She appears in a formal or role-specific outfit."
