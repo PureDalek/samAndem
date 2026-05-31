@@ -113,10 +113,10 @@ CHARACTERS = [
             "paint fight that stays playful and fully clothed",
             "storage closet discovery of stolen donor portraits",
             "night wall-painting decision with lookouts posted",
-            "formal gallery opening where her work accuses the headmaster",
+            "formal gallery opening where an abstract evidence mural of symbols and donor documents accuses the headmaster, no human figures in the artwork",
             "disciplinary board where she refuses to name Alex",
             "bad ending whitewashed mural and empty studio",
-            "happy ending public mural unveiling after the academy backs down",
+            "happy ending public unveiling of an abstract campus mural with symbols, color fields, and donor-document motifs after the academy backs down, no human figures in the artwork",
         ],
     },
     {

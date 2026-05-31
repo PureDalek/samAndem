@@ -738,7 +738,7 @@ label expanded_route_mina:
     mc "I need to understand your route, Mina Sato. No shortcuts."
     mina "Then every answer has to cost something. Choose carefully."
 
-    show mina base at sprite_right
+    scene cg mina_cg_01
     with dissolve
 
     "Mina Sato: Notice her first contradiction."
@@ -758,7 +758,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina base at sprite_right
+    scene cg mina_cg_02
     with dissolve
 
     "Mina Sato: A public scene pulls her into Alex's trouble."
@@ -778,7 +778,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina base at sprite_right
+    scene cg mina_cg_03
     with dissolve
 
     "Mina Sato: She offers private help with a hidden cost."
@@ -798,7 +798,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina base at sprite_right
+    scene cg mina_cg_04
     with dissolve
 
     "Mina Sato: Max or another rival twists the moment."
@@ -818,7 +818,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina studio at sprite_right
+    scene cg mina_cg_05
     with dissolve
 
     "Mina Sato: She changes context and outfit for her real world."
@@ -838,7 +838,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina studio at sprite_right
+    scene cg mina_cg_06
     with dissolve
 
     "Mina Sato: A restricted room becomes available."
@@ -858,7 +858,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina studio at sprite_right
+    scene cg mina_cg_07
     with dissolve
 
     "Mina Sato: Evidence points at the wrong person."
@@ -878,7 +878,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina studio at sprite_right
+    scene cg mina_cg_08
     with dissolve
 
     "Mina Sato: She admits why this matters to her."
@@ -898,7 +898,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina studio at sprite_right
+    scene cg mina_cg_09
     with dissolve
 
     "Mina Sato: The route threatens Alex's scholarship."
@@ -918,7 +918,7 @@ label expanded_route_mina:
             mc "If the truth is already there, I can use it before someone else does."
             mina "That sounds like protection. It also sounds like control."
 
-    show mina formal at sprite_right
+    scene cg mina_cg_10
     with dissolve
 
     "Mina Sato: She appears in a formal or role-specific outfit."

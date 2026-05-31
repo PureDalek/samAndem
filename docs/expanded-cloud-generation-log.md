@@ -679,3 +679,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Brielle Ashford, 22 year old adult, blonde bully and legacy-donor queen; long glossy blonde ponytail, icy blue eyes, athletic rich-girl posture, white varsity jacket, diamond hairclip, perfect smile used like a weapon. Scene: happy ending scholarship fundraiser she rebuilds honestly. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
 ```
+
+### Mina Sato - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b6f0170f8819194c1222bd54935e1.png`
+- Prompt catalog entry: `mina_cg_01`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: studio introduction with canvas facing the wall. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b6fadad248191be02e3e902b4165b.png`
+- Prompt catalog entry: `mina_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: roof mural sketch under campus security lights. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b7073c07881918dbc1fbbebc960b2.png`
+- Prompt catalog entry: `mina_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: gallery critique where Alex hears the professor's cruel thought. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b7129d7a48191be6366c7a0754c0c.png`
+- Prompt catalog entry: `mina_cg_04`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: paint fight that stays playful and fully clothed. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b7206b1188191b828dd964d40dc5f.png`
+- Prompt catalog entry: `mina_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: storage closet discovery of stolen donor portraits. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b72c05724819190ae385488cb8136.png`
+- Prompt catalog entry: `mina_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: night wall-painting decision with lookouts posted. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b747c60dc8191bf7301c7ecb66538.png`
+- Prompt catalog entry: `mina_cg_07`
+- Status: accepted CG after abstract no-human-figures mural prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: formal gallery opening where an abstract evidence mural of symbols and donor documents accuses the headmaster, no human figures in the artwork. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b753cef548191baf91c7e6c8f4a30.png`
+- Prompt catalog entry: `mina_cg_08`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: disciplinary board where she refuses to name Alex. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b765e17248191bbf63dd048e6fd93.png`
+- Prompt catalog entry: `mina_cg_09`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: bad ending whitewashed mural and empty studio. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
+
+### Mina Sato - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/mina_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_006b0d55f1fc71ad016a1b785a97d88191a421bb43053d1272.png`
+- Prompt catalog entry: `mina_cg_10`
+- Status: accepted CG after abstract no-human-figures mural prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: happy ending public unveiling of an abstract campus mural with symbols, color fields, and donor-document motifs after the academy backs down, no human figures in the artwork. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
+```
