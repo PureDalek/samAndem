@@ -1077,7 +1077,7 @@ label expanded_route_kira:
     mc "I need to understand your route, Kira Sol. No shortcuts."
     kira "Then every answer has to cost something. Choose carefully."
 
-    show kira base at sprite_right
+    scene cg kira_cg_01
     with dissolve
 
     "Kira Sol: Notice her first contradiction."
@@ -1097,7 +1097,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira base at sprite_right
+    scene cg kira_cg_02
     with dissolve
 
     "Kira Sol: A public scene pulls her into Alex's trouble."
@@ -1117,7 +1117,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira base at sprite_right
+    scene cg kira_cg_03
     with dissolve
 
     "Kira Sol: She offers private help with a hidden cost."
@@ -1137,7 +1137,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira base at sprite_right
+    scene cg kira_cg_04
     with dissolve
 
     "Kira Sol: Max or another rival twists the moment."
@@ -1157,7 +1157,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira workshop at sprite_right
+    scene cg kira_cg_05
     with dissolve
 
     "Kira Sol: She changes context and outfit for her real world."
@@ -1177,7 +1177,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira workshop at sprite_right
+    scene cg kira_cg_06
     with dissolve
 
     "Kira Sol: A restricted room becomes available."
@@ -1197,7 +1197,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira workshop at sprite_right
+    scene cg kira_cg_07
     with dissolve
 
     "Kira Sol: Evidence points at the wrong person."
@@ -1217,7 +1217,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira workshop at sprite_right
+    scene cg kira_cg_08
     with dissolve
 
     "Kira Sol: She admits why this matters to her."
@@ -1237,7 +1237,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira workshop at sprite_right
+    scene cg kira_cg_09
     with dissolve
 
     "Kira Sol: The route threatens Alex's scholarship."
@@ -1257,7 +1257,7 @@ label expanded_route_kira:
             mc "If the truth is already there, I can use it before someone else does."
             kira "That sounds like protection. It also sounds like control."
 
-    show kira hero_cosplay at sprite_right
+    scene cg kira_cg_10
     with dissolve
 
     "Kira Sol: She appears in a formal or role-specific outfit."

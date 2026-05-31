@@ -809,3 +809,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG. 18+ adult cast, mature college visual novel CG, polished cinematic game art, everyone fully clothed or securely covered, emotionally charged but non-explicit. Main character: Mina Sato, 23 year old adult, art major and mural rebel; messy teal-black pixie cut, warm brown eyes, paint on hands, cropped denim jacket over opaque black tank, sketchbook always under one arm. Scene: happy ending public unveiling of an abstract campus mural with symbols, color fields, and donor-document motifs after the academy backs down, no human figures in the artwork. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus setting, no text, no watermark, non-explicit.
 ```
+
+### Kira Sol - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b7f8df4608191b4aae36113266de3.png`
+- Prompt catalog entry: `kira_cg_01`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: prop workshop where sparks fly from a harmless broken sword. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus maker-space/workshop setting, dramatic but safe sparks from a broken prop sword on a bench, no injuries, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b7fd80f288191a7e9c9a0f09677e4.png`
+- Prompt catalog entry: `kira_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: campus convention booth surrounded by handmade armor. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus convention booth display with foam armor, painted shields, crafting tools, bright friendly college event lighting, no copyrighted characters, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b808a649c8191b1cf1547ce1ad224.png`
+- Prompt catalog entry: `kira_cg_03`
+- Status: accepted CG after neutral privacy-conflict prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: masked hallway rescue during a cosplay identity privacy conflict. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus hallway setting after a convention event, Kira wearing a full-coverage original armored heroine costume and decorative mask, Alex calmly stepping between her and a rival student, protective but nonviolent, no physical struggle, no copyrighted characters, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b80c945108191a8526282cade90d1.png`
+- Prompt catalog entry: `kira_cg_04`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: late-night sewing floor with fabric everywhere. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus costume studio at night, colorful fabric rolls and pattern paper spread across the floor, Kira sitting amid safe sewing tools and soft lamp light, tired but determined, original costumes only, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b810630288191bbefb540de0d4858.png`
+- Prompt catalog entry: `kira_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: stage rehearsal where Alex hears panic under her perfect voice. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus auditorium rehearsal, Kira on stage in a full-coverage original performance costume holding a microphone, anxious expression behind a polished smile, Alex visible at the edge of the stage listening with concern, soft theatrical lights, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b8180f6f48191a0357e0d33c9bde1.png`
+- Prompt catalog entry: `kira_cg_06`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: storage room choice to hide or reveal the costume damage. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus theater storage room lined with garment racks and prop boxes, Kira kneeling beside a damaged full-coverage original armored costume on a worktable, Alex holding a phone and repair notes, emotional decision moment, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b81bc363081919c69c05ef9141a4c.png`
+- Prompt catalog entry: `kira_cg_07`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: cosplay contest finale under neon lights with her original full-coverage armored heroine costume. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus convention stage, Kira proudly posing in a full-coverage original armored heroine costume under neon stage lights, cheering silhouettes in the background, handcrafted armor details, triumphant mood, no copyrighted characters, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b82461588819190ad58401697e30e.png`
+- Prompt catalog entry: `kira_cg_08`
+- Status: accepted CG after neutral rumor-flyer prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: green room confrontation after her legal name is exposed on a rumor flyer. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus green room backstage, Kira facing a rival student while Alex stands nearby, a crumpled rumor flyer on the makeup table with only abstract unreadable blocks and no legible words, tense but nonviolent privacy conflict, no physical struggle, no text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b82c263dc81918f5f5ea2efbb69bf.png`
+- Prompt catalog entry: `kira_cg_09`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit. Scene: bad ending empty convention table with torn badge for Kira Sol's route. Composition: cinematic 16:9 visual novel event CG, emotionally heavy campus convention hall after closing, empty booth with handmade armor pieces packed away, a torn blank badge on the table, scattered fabric scraps and soft abandoned stage light, no people in the scene, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Kira Sol - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/kira_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b82f837a0819186be1874964b4dd3.png`
+- Prompt catalog entry: `kira_cg_10`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed or securely covered. Main character: Kira Sol, 21 year old adult, cosplayer and prop-engineering prodigy; warm tan skin, dark brown twin buns with pink clips, bright hazel eyes, cropped bomber jacket covered in enamel pins, confident theatrical grin. Scene: happy ending original hero premiere with Alex in the front row. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, campus auditorium premiere for Kira's own original hero story, Kira on stage in a stylish full-coverage creator outfit beside an original armored costume display, Alex seated in the front row smiling proudly, warm stage lights, happy ending mood, no copyrighted characters, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
