@@ -1199,3 +1199,133 @@ Prompt:
 ```text
 Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Nadia Quinn, 27 year old adult, campus nurse and quiet whistleblower; soft copper curls in a low bun, amber eyes, warm brown skin, teal scrubs under a cream cardigan, tired kindness, badge clipped backwards. Scene: happy ending mobile clinic day after the whistleblower case. Composition: cinematic 16:9 visual novel event CG, warm daylight campus courtyard, small mobile clinic table and supply cases with blank labels, Nadia smiling in teal scrubs and cream cardigan while Alex helps organize supplies, students in the background as soft fully clothed silhouettes, hopeful community care mood, no readable signs, no readable text, no watermark, no logos, no nudity, no sexual content.
 ```
+
+### Headmaster Helena Voss - CG 01
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_01.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b98645cd4819185b2130d2d26ed8e.png`
+- Prompt catalog entry: `helena_cg_01`
+- Status: accepted CG after blank-folder prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: headmaster office introduction with a blank file folder open. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, imposing academy headmaster office with dark wood and green banker lamp, Helena behind the desk with a blank open folder, Alex seated opposite her, polite menace, no readable text on papers or folders, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 02
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_02.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b98de2ae8819180ef5b1131f319c6.png`
+- Prompt catalog entry: `helena_cg_02`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: scholarship threat delivered as a polite offer. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, academy finance office at dusk, Helena sliding a blank sealed envelope across a polished desk toward Alex, scholarship folder with no readable text, perfectly calm intimidation, no violence, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 03
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_03.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b99a5d1308191a8fd45042a141857.png`
+- Prompt catalog entry: `helena_cg_03`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, black-and-emerald floor-length formal gown with high collar and long sleeves, emerald brooch, calm smile that never reaches her eyes. Scene: gala toast where every donor applauds at once. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, grand academy gala ballroom, Helena raising a crystal glass at a podium while formally dressed donor silhouettes applaud in perfect unison, gold and emerald lighting, unsettling control, no readable signs or banners, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 04
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_04.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9a948d1c8191a9d4afee6ce56518.png`
+- Prompt catalog entry: `helena_cg_04`
+- Status: accepted CG after intuition-language prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: tense private elevator bargain after Alex intuits her plan. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, polished academy elevator with mirrored walls and cold green indicator lights, Helena standing composed beside Alex with a blank sealed folder, close psychological tension but no physical contact, no threat gesture, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 05
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_05.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9b4f937081918605fd2a9f9a2b80.png`
+- Prompt catalog entry: `helena_cg_05`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: archive confrontation with Morrigan's evidence. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, old academy archive room with shelves and green desk lamps, Helena facing Morrigan and Alex across a table of blank evidence folders, Morrigan in black cardigan with glasses holding a key, tense confrontation with no violence, no readable text on evidence, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 06
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_06.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9c0687288191866372f586a65252.png`
+- Prompt catalog entry: `helena_cg_06`
+- Status: accepted CG after clinic-record leverage prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: clinic-record leverage scene with Nadia present. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, private clinic records office, Helena standing calmly with a sealed blank folder while Nadia in teal scrubs and cream cardigan stands between Helena and a locked cabinet, Alex nearby, privacy violation implied only through blank folders and locked drawers, no readable patient data, no medical procedure, no blood, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 07
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_07.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9d48bbb88191ac342332708f5c8f.png`
+- Prompt catalog entry: `helena_cg_07`
+- Status: accepted CG after rejecting a mural pass with a portrait silhouette
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile cracking under pressure. Scene: student assembly where Mina's abstract mural projection goes live behind her. Composition: cinematic 16:9 visual novel event CG, auditorium stage during student assembly, Helena at a podium while a large projection behind her shows ONLY abstract geometric symbols, color fields, blank paper rectangles, seals, arrows, and bar-chart shapes. The projection contains no portraits, no silhouettes, no faces, no human figures, no readable words or letters. Students watch in silence, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 08
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_08.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9e154ab88191a3c5fdfa502f069b.png`
+- Prompt catalog entry: `helena_cg_08`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, charcoal court-ready suit under a dark academic robe, high-neck ivory blouse, emerald brooch, calm smile that never reaches her eyes. Scene: trial preparation room with her ring on the table. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, quiet legal preparation room, Helena seated alone at a table with her academy ring placed beside a closed blank legal folder, cold window light, controlled anxiety, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 09
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_09.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9ef411bc819186463615dde772f9.png`
+- Prompt catalog entry: `helena_cg_09`
+- Status: accepted CG after blank-contract prompt revision
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, tailored black suit, emerald brooch, calm smile that never reaches her eyes. Scene: bad ending blank contract signing in cold lamplight. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, headmaster office at night under a cold green desk lamp, Helena watching as Alex signs a blank contract with no readable words, pen and academy seal stamp on the desk, oppressive bad-ending mood, no readable text, no watermark, no logos, no nudity, no sexual content.
+```
+
+### Headmaster Helena Voss - CG 10
+
+- Repo path: `Sam And Em/game/images/expanded/cg/helena_cg_10.png`
+- Cloud source retained at: `C:\Users\pured\.codex\generated_images\019e758a-917f-7850-9518-1d0ddc5b792c\ig_06f16af9d6cafb0d016a1b9fc759b08191b8cf22171f3e6a0f.png`
+- Prompt catalog entry: `helena_cg_10`
+- Status: accepted first-pass CG
+
+Prompt:
+
+```text
+Use case: illustration-story. Asset type: Ren'Py CG for a mature college visual novel. 18+ adult cast only. Polished cinematic game art, non-explicit, everyone fully clothed and securely covered. Main character: Headmaster Helena Voss, 39 year old adult, evil headmaster and academy power broker; tall poised woman, silver-streaked black hair in a severe bun, dark green eyes, charcoal court-ready suit under a dark academic robe, emerald brooch, controlled expression. Scene: happy ending resignation walk past silent students. Composition: cinematic 16:9 visual novel event CG, clear emotional focus, academy front hall in morning light, Helena walking out with a closed blank folder and academy ring removed, silent students standing aside fully clothed, Alex in the background beside an open doorway, consequence and release, no protest signs, no readable text, no watermark, no logos, no nudity, no sexual content.
+```

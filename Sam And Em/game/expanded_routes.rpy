@@ -2094,7 +2094,7 @@ label expanded_route_helena:
     mc "I need to understand your route, Headmaster Helena Voss. No shortcuts."
     headmaster "Then every answer has to cost something. Choose carefully."
 
-    show helena base at sprite_right
+    scene cg helena_cg_01
     with dissolve
 
     "Headmaster Helena Voss: Notice her first contradiction."
@@ -2114,7 +2114,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena base at sprite_right
+    scene cg helena_cg_02
     with dissolve
 
     "Headmaster Helena Voss: A public scene pulls her into Alex's trouble."
@@ -2134,7 +2134,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena base at sprite_right
+    scene cg helena_cg_03
     with dissolve
 
     "Headmaster Helena Voss: She offers private help with a hidden cost."
@@ -2154,7 +2154,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena base at sprite_right
+    scene cg helena_cg_04
     with dissolve
 
     "Headmaster Helena Voss: Max or another rival twists the moment."
@@ -2174,7 +2174,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena gala at sprite_right
+    scene cg helena_cg_05
     with dissolve
 
     "Headmaster Helena Voss: She changes context and outfit for her real world."
@@ -2194,7 +2194,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena gala at sprite_right
+    scene cg helena_cg_06
     with dissolve
 
     "Headmaster Helena Voss: A restricted room becomes available."
@@ -2214,7 +2214,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena gala at sprite_right
+    scene cg helena_cg_07
     with dissolve
 
     "Headmaster Helena Voss: Evidence points at the wrong person."
@@ -2234,7 +2234,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena gala at sprite_right
+    scene cg helena_cg_08
     with dissolve
 
     "Headmaster Helena Voss: She admits why this matters to her."
@@ -2254,7 +2254,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena gala at sprite_right
+    scene cg helena_cg_09
     with dissolve
 
     "Headmaster Helena Voss: The route threatens Alex's scholarship."
@@ -2274,7 +2274,7 @@ label expanded_route_helena:
             mc "If the truth is already there, I can use it before someone else does."
             headmaster "That sounds like protection. It also sounds like control."
 
-    show helena office at sprite_right
+    scene cg helena_cg_10
     with dissolve
 
     "Headmaster Helena Voss: She appears in a formal or role-specific outfit."
