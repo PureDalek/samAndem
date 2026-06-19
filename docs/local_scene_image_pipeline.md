@@ -11,9 +11,12 @@ $py = "C:\Users\pured\.cache\codex-runtimes\codex-primary-runtime\dependencies\p
 ```
 
 The GUI exposes scene text, art-direction guidelines, quality/style prompt,
-base negative prompt, extra positive/negative prompt text, Ollama model,
-A1111 checkpoint, sampler, scheduler, seed, variants, img2img source image,
-denoise, and dry-run/generate buttons.
+base negative prompt, always-on negative prompt, extra positive/negative
+prompt text, Ollama model, A1111 checkpoint, sampler, scheduler, seed,
+variants, img2img source image, denoise, and dry-run/generate buttons.
+
+The Prompt tab also has a tag editor. Pick a prompt field, type one or more
+comma-separated tags, then use Add, Remove, or Sort Unique.
 
 The flow is:
 
@@ -75,6 +78,12 @@ If you want to use a different installed Ollama model, add `--llm-model`:
 
 ```powershell
 & $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --llm-model "<installed model name>" --refresh-prompt --dry-run
+```
+
+Tune always-on negative tags from the CLI with `--always-negative`:
+
+```powershell
+& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run --always-negative "flat lighting, plastic skin, text, watermark"
 ```
 
 After the first good prompt, omit `--refresh-prompt` so future runs reuse the

@@ -42,6 +42,16 @@ DEFAULT_GUIDELINES = (
 FALLBACK_SAMPLERS = ["DPM++ 2M", "DPM++ 2M SDE", "Euler a", "Euler", "DDIM"]
 FALLBACK_SCHEDULERS = ["Karras", "Exponential", "Polyexponential", "Automatic", "Simple", "Normal"]
 
+TAG_TARGETS = {
+    "Guidelines": "guidelines",
+    "Quality / Style Prefix": "style_prefix",
+    "Composition / Style Suffix": "style_suffix",
+    "Base Negative Prompt": "negative_prompt",
+    "Always-On Negative Prompt": "always_negative",
+    "Extra Positive Prompt": "extra_positive",
+    "Extra Negative Prompt": "extra_negative",
+}
+
 
 def fetch_json(url: str, timeout: int = 10) -> Any:
     with urllib.request.urlopen(url, timeout=timeout) as response:
@@ -91,6 +101,8 @@ class SceneImageGui:
         self.seed_step = tk.StringVar(value="9973")
         self.init_image = tk.StringVar(value="")
         self.denoise = tk.StringVar(value="0.32")
+        self.tag_target = tk.StringVar(value="Base Negative Prompt")
+        self.tag_value = tk.StringVar(value="")
 
         self._build_ui()
         self.root.after(100, self._drain_queue)
@@ -132,16 +144,11 @@ class SceneImageGui:
 
         self._add_text(right, "style_prefix", "Quality / Style Prefix", STYLE_PREFIX, height=6, row=0)
         self._add_text(right, "style_suffix", "Composition / Style Suffix", STYLE_SUFFIX, height=4, row=1)
-        self._add_text(right, "negative_prompt", "Base Negative Prompt", DEFAULT_NEGATIVE, height=7, row=2)
-        self._add_text(right, "extra_negative", "Extra Negative Prompt", "", height=4, row=3)
+        self._add_text(right, "negative_prompt", "Base Negative Prompt", DEFAULT_NEGATIVE, height=6, row=2)
+        self._add_text(right, "extra_negative", "Extra Negative Prompt", "", height=3, row=3)
+        self._add_text(right, "always_negative", "Always-On Negative Prompt", SAFETY_NEGATIVE, height=4, row=4)
 
-        safety_frame = ttk.LabelFrame(right, text="Always-On Safety Negative")
-        safety_frame.grid(row=4, column=0, sticky="ew", pady=(8, 0))
-        safety_frame.columnconfigure(0, weight=1)
-        safety = tk.Text(safety_frame, height=2, wrap="word")
-        safety.grid(row=0, column=0, sticky="ew", padx=6, pady=6)
-        safety.insert("1.0", SAFETY_NEGATIVE)
-        safety.configure(state="disabled")
+        self._build_tag_editor(parent)
 
     def _build_settings_tab(self, parent: ttk.Frame) -> None:
         parent.columnconfigure(0, weight=1)
@@ -228,6 +235,19 @@ class SceneImageGui:
         self.text_fields[key] = widget
         return widget
 
+    def _build_tag_editor(self, parent: ttk.Frame) -> None:
+        frame = ttk.LabelFrame(parent, text="Tag Editor")
+        frame.grid(row=1, column=0, columnspan=2, sticky="ew", pady=(8, 0))
+        frame.columnconfigure(3, weight=1)
+        ttk.Label(frame, text="Field").grid(row=0, column=0, sticky="w", padx=6, pady=6)
+        target = ttk.Combobox(frame, textvariable=self.tag_target, values=list(TAG_TARGETS), state="readonly", width=28)
+        target.grid(row=0, column=1, sticky="w", padx=6, pady=6)
+        ttk.Label(frame, text="Tag(s)").grid(row=0, column=2, sticky="w", padx=6, pady=6)
+        ttk.Entry(frame, textvariable=self.tag_value).grid(row=0, column=3, sticky="ew", padx=6, pady=6)
+        ttk.Button(frame, text="Add", command=self.add_tag).grid(row=0, column=4, padx=6, pady=6)
+        ttk.Button(frame, text="Remove", command=self.remove_tag).grid(row=0, column=5, padx=6, pady=6)
+        ttk.Button(frame, text="Sort Unique", command=self.sort_unique_tags).grid(row=0, column=6, padx=6, pady=6)
+
     def _entry(
         self,
         parent: ttk.Frame,
@@ -277,6 +297,66 @@ class SceneImageGui:
         if value:
             variable.set(value)
 
+    def selected_tag_widget(self) -> tk.Text:
+        key = TAG_TARGETS.get(self.tag_target.get())
+        if not key or key not in self.text_fields:
+            raise ValueError("Choose a prompt field first.")
+        return self.text_fields[key]
+
+    def split_tags(self, value: str) -> list[str]:
+        tags: list[str] = []
+        seen: set[str] = set()
+        for raw in value.replace("\n", ",").split(","):
+            tag = " ".join(raw.strip().split())
+            key = tag.casefold()
+            if tag and key not in seen:
+                tags.append(tag)
+                seen.add(key)
+        return tags
+
+    def set_tags(self, widget: tk.Text, tags: list[str]) -> None:
+        text_set(widget, ", ".join(tags))
+
+    def add_tag(self) -> None:
+        additions = self.split_tags(self.tag_value.get())
+        if not additions:
+            messagebox.showinfo("Tag Editor", "Type one or more comma-separated tags to add.")
+            return
+        try:
+            widget = self.selected_tag_widget()
+        except ValueError as exc:
+            messagebox.showerror("Tag Editor", str(exc))
+            return
+        tags = self.split_tags(text_get(widget))
+        seen = {tag.casefold() for tag in tags}
+        for tag in additions:
+            if tag.casefold() not in seen:
+                tags.append(tag)
+                seen.add(tag.casefold())
+        self.set_tags(widget, tags)
+
+    def remove_tag(self) -> None:
+        removals = {tag.casefold() for tag in self.split_tags(self.tag_value.get())}
+        if not removals:
+            messagebox.showinfo("Tag Editor", "Type one or more comma-separated tags to remove.")
+            return
+        try:
+            widget = self.selected_tag_widget()
+        except ValueError as exc:
+            messagebox.showerror("Tag Editor", str(exc))
+            return
+        tags = [tag for tag in self.split_tags(text_get(widget)) if tag.casefold() not in removals]
+        self.set_tags(widget, tags)
+
+    def sort_unique_tags(self) -> None:
+        try:
+            widget = self.selected_tag_widget()
+        except ValueError as exc:
+            messagebox.showerror("Tag Editor", str(exc))
+            return
+        tags = sorted(self.split_tags(text_get(widget)), key=str.casefold)
+        self.set_tags(widget, tags)
+
     def gather_settings(self) -> dict[str, Any]:
         return {
             "scene": text_get(self.text_fields["scene"]),
@@ -284,6 +364,7 @@ class SceneImageGui:
             "style_prefix": text_get(self.text_fields["style_prefix"]),
             "style_suffix": text_get(self.text_fields["style_suffix"]),
             "negative_prompt": text_get(self.text_fields["negative_prompt"]),
+            "always_negative": text_get(self.text_fields["always_negative"]),
             "extra_positive": text_get(self.text_fields["extra_positive"]),
             "extra_negative": text_get(self.text_fields["extra_negative"]),
             "llm_url": self.llm_url.get().strip(),
@@ -315,6 +396,7 @@ class SceneImageGui:
             "style_prefix",
             "style_suffix",
             "negative_prompt",
+            "always_negative",
             "extra_positive",
             "extra_negative",
         ]:
@@ -372,6 +454,7 @@ class SceneImageGui:
         cmd += ["--style-prefix", settings["style_prefix"]]
         cmd += ["--style-suffix", settings["style_suffix"]]
         cmd += ["--negative-prompt", settings["negative_prompt"]]
+        cmd += ["--always-negative", settings["always_negative"]]
         cmd += ["--extra-positive", settings["extra_positive"]]
         cmd += ["--extra-negative", settings["extra_negative"]]
         for key, flag in [

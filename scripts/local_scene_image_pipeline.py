@@ -83,6 +83,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--style-prefix", default=STYLE_PREFIX, help="Base quality/style prompt prefix.")
     parser.add_argument("--style-suffix", default=STYLE_SUFFIX, help="Base composition/style prompt suffix.")
     parser.add_argument("--negative-prompt", default=DEFAULT_NEGATIVE, help="Base negative prompt.")
+    parser.add_argument("--always-negative", default=SAFETY_NEGATIVE, help="Always-on negative prompt tags.")
     parser.add_argument("--width", type=int, default=1024)
     parser.add_argument("--height", type=int, default=768)
     parser.add_argument("--steps", type=int, default=34)
@@ -299,6 +300,7 @@ def build_prompt(prompt_record: dict[str, Any], args: argparse.Namespace) -> tup
         args.negative_prompt.strip(),
         str(prompt_record.get("negative_prompt", "")).strip(),
         args.extra_negative.strip(),
+        args.always_negative.strip(),
         SAFETY_NEGATIVE,
     ]
     positive = combine_prompt_parts(positive_parts)
