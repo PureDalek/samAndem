@@ -11,30 +11,30 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 IDENTITY_PATH = REPO_ROOT / "art" / "character_identity_prompts.json"
 
 VARIANTS = {
-    "underwear": {
-        "alex": "modest private dorm loungewear, dark boxer-style sleep shorts, loose open black hoodie, plain white undershirt, barefoot, fully covered, non-explicit",
-        "maxine": "covered private dorm loungewear, navy sports crop tank, high-waisted athletic sleep shorts, sleeveless hoodie open, hand wraps, fully covered, non-explicit",
-        "clara": "covered private dorm loungewear, cream satin camisole, soft beige robe cardigan, dark lounge shorts, elegant slippers, fully covered, non-explicit",
+    "lingerie": {
+        "alex": "adult willing male 18+ in private dorm lingerie, dark boxer briefs, loose open black hoodie, plain white undershirt, barefoot, skin-forward body language",
+        "maxine": "adult willing woman 18+ in private dorm lingerie, navy sports bra, high-waisted athletic sleep shorts, sleeveless hoodie open, hand wraps, bare midriff, bare legs, skin-forward body language",
+        "clara": "adult willing woman 18+ in private dorm lingerie, cream satin bralette, soft beige robe cardigan, dark lounge shorts, elegant slippers, bare shoulders, bare legs, skin-forward body language",
     },
     "base": {
         "alex": "standard academy arrival outfit, black hoodie, white t-shirt, jeans, backpack, sneakers",
         "maxine": "standard sporty tomboy outfit, navy sports bra top under open sleeveless hoodie, track pants, hand wraps, sneakers",
         "clara": "standard dorm leader outfit, beige cardigan, white blouse, black pencil skirt, lanyard, heels",
     },
-    "implied_steam": {
-        "alex": "private shower-room character art, bare shoulders, opaque towel wrapped at the waist, thick steam and soft light covering all private anatomy, fully non-explicit",
-        "maxine": "private shower-room character art, bare shoulders, opaque towel wrapped securely around the chest and upper thighs, thick steam and soft light covering all private anatomy, fully non-explicit",
-        "clara": "private shower-room character art, bare shoulders, opaque towel wrapped securely around the chest and upper thighs, thick steam and soft light covering all private anatomy, elegant pose, fully non-explicit",
+    "explicit_shower": {
+        "alex": "adult willing male 18+ in private shower, bare shoulders, low towel wrapped at the hips, bare chest, bare thighs, water droplets, steam, side lighting, sensually suggestive pose",
+        "maxine": "adult willing woman 18+ in private shower, bare shoulders, damp hair, bare skin, heavy spa steam, sensual intimate pose, mature consent framing",
+        "clara": "adult willing woman 18+ in private shower, bare shoulders, damp hair, bare skin, heavy spa steam, elegant sensual pose, mature consent framing",
     },
-    "covered_spa": {
-        "alex": "covered spa-wrap character art, opaque dark towel wrap at the waist, white tank top visible, warm rim light and soft mist, non-explicit",
-        "maxine": "covered spa-wrap character art, opaque navy towel wrap worn securely high around the chest and upper thighs, cool rim light and soft mist, non-explicit",
-        "clara": "covered spa-wrap character art, opaque cream towel wrap worn securely high around the chest and upper thighs, warm rim light and soft mist, non-explicit",
+    "explicit_nude_spa": {
+        "alex": "adult willing male 18+ nude spa, low towel wrap at the waist, warm rim light, soft mist, bare chest, bare shoulders, bare thighs, sensually suggestive pose",
+        "maxine": "adult willing woman 18+ nude spa, small towel wrap worn securely, cool rim light, soft mist, bare shoulders, bare legs, sensual intimate pose, mature consent framing",
+        "clara": "adult willing woman 18+ nude spa, small towel wrap worn high, warm rim light, soft mist, bare shoulders, bare legs, elegant sensual pose, mature consent framing",
     },
-    "backlit_robe": {
-        "alex": "soft backlit robe character art, loose dark robe and opaque lounge shorts, white undershirt, dramatic side light and mist, non-explicit",
-        "maxine": "soft backlit robe character art, navy sports crop top and opaque athletic shorts, cool side light and mist, non-explicit",
-        "clara": "soft backlit robe character art, cream camisole and opaque dark lounge shorts under a soft beige open robe, warm side light and mist, non-explicit",
+    "explicit_open_robe": {
+        "alex": "adult willing male 18+ in open robe, loose dark robe, opaque lounge shorts, white undershirt, dramatic side light, bare chest glimpse, skin-forward mood",
+        "maxine": "adult willing woman 18+ in open robe, navy sports crop top, opaque athletic shorts, cool side light, bare midriff, bare shoulders, bare legs, sensual intimate pose",
+        "clara": "adult willing woman 18+ in open robe, cream camisole, opaque dark lounge shorts under soft beige open robe, warm side light, bare midriff, bare legs, elegant sensual pose",
     },
 }
 
@@ -45,9 +45,10 @@ STYLE_PROMPT = (
 )
 
 GLOBAL_NEGATIVE = (
-    "child, minor, teen-looking, underage, nude, exposed genitals, exposed nipples, sexual act, "
-    "explicit pose, see-through clothing, different character, different face, bad anatomy, extra fingers, "
-    "missing fingers, cropped feet, cropped head, text, logo, watermark, low quality, blurry"
+    "child, minor, teen-looking, underage, loli, shota, schoolgirl, schoolboy, non-consent, coercion, "
+    "blackmail, mind-control consent, assault, bestiality, different character, different face, "
+    "bad anatomy, extra fingers, missing fingers, cropped feet, cropped head, text, logo, watermark, "
+    "low quality, blurry"
 )
 
 
@@ -133,10 +134,10 @@ def save_response_images(response, output_dir, character_id, variant):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Build safe Automatic1111 prompts/payloads for Sam And Em character-consistent art."
+        description="Build 18+ Automatic1111 prompts and payloads for Sam And Em character-consistent art. All depicted characters are fictional adults 18+."
     )
     parser.add_argument("character", choices=["alex", "maxine", "clara", "all"])
-    parser.add_argument("--variant", choices=sorted(VARIANTS), default="underwear")
+    parser.add_argument("--variant", choices=sorted(VARIANTS), default="lingerie")
     parser.add_argument("--mode", choices=["prompt", "payload", "generate"], default="prompt")
     parser.add_argument("--api", default="http://127.0.0.1:7860")
     parser.add_argument("--width", type=int, default=1024)

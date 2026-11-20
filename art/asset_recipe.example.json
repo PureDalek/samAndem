@@ -13,7 +13,7 @@
   "jobs": [
     {
       "character": "maxine",
-      "prompt": "covered sporty dorm sprite variant, navy hoodie, confident pose",
+      "prompt": "lingerie dorm sprite variant, navy hoodie, bare midriff, confident pose",
       "destination": {
         "type": "sprite",
         "id": "maxine_hoodie"
@@ -21,15 +21,15 @@
     },
     {
       "character": "clara",
-      "prompt": "covered cream lounge robe, warm light, soft steam, elegant pose",
+      "prompt": "open cream lounge robe, bare skin, warm light, soft steam, elegant sensual pose",
       "destination": {
         "type": "gallery",
-        "id": "private_03"
+        "id": "gallery_03"
       }
     },
     {
       "character": "alex",
-      "prompt": "covered dark robe outfit, shy pose, soft warm light",
+      "prompt": "open dark robe, bare chest, shy pose, soft warm light, mature sensual mood",
       "destination": {
         "type": "slot",
         "id": "nude_alt"

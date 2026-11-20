@@ -25,6 +25,6 @@
 /dialogue.txt
 /strings.json
 
-# Local Android signing keys. Keep release keys private and backed up.
-/android.keystore
-/bundle.keystore
+# Dev Android signing keys are committed so local and CI builds share a
+# signature (store/key password: "android"). Replace with private keys before
+# a store release.

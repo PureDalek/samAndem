@@ -112,9 +112,9 @@ class CharacterAssetManager(tk.Tk):
 
         action_row = ttk.Frame(parent)
         action_row.grid(row=4, column=1, sticky="w", pady=12)
-        ttk.Button(action_row, text="Build Prompt", command=self._build_safe_prompt).pack(side="left")
+        ttk.Button(action_row, text="Build Prompt", command=self._build_explicit_prompt).pack(side="left")
         ttk.Button(action_row, text="Copy Prompt", command=self._copy_prompt).pack(side="left", padx=8)
-        ttk.Button(action_row, text="Generate Safe Variant", command=self._generate_safe_variant).pack(side="left")
+        ttk.Button(action_row, text="Generate Variant", command=self._generate_explicit_variant).pack(side="left")
 
         self.prompt_status = tk.StringVar(value="Generated images save to art/generated.")
         ttk.Label(parent, textvariable=self.prompt_status, wraplength=760).grid(
@@ -168,22 +168,22 @@ class CharacterAssetManager(tk.Tk):
         except OSError as exc:
             messagebox.showerror("Open folder failed", str(exc))
 
-    def _build_safe_prompt(self):
+    def _build_explicit_prompt(self):
         prompt, negative = build_prompt(self.prompt_character.get(), self.prompt_variant.get(), self.identities)
         self.prompt_text.delete("1.0", tk.END)
         self.prompt_text.insert(tk.END, f"PROMPT:\n{prompt}\n\nNEGATIVE PROMPT:\n{negative}\n")
-        self.prompt_status.set("Safe prompt built from the character identity bank.")
+        self.prompt_status.set("18+ prompt built from the character identity bank using the chosen variant.")
 
     def _copy_prompt(self):
         text = self.prompt_text.get("1.0", tk.END).strip()
         if not text:
-            self._build_safe_prompt()
+            self._build_explicit_prompt()
             text = self.prompt_text.get("1.0", tk.END).strip()
         self.clipboard_clear()
         self.clipboard_append(text)
         self.prompt_status.set("Prompt copied to clipboard.")
 
-    def _generate_safe_variant(self):
+    def _generate_explicit_variant(self):
         character = self.prompt_character.get()
         variant = self.prompt_variant.get()
         try:

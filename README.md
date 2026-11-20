@@ -53,11 +53,35 @@ The tone should mix mystery, drama, romance, temptation, comedy, and adult life-
 
 This game is intended for adult players only.
 
-All romanceable and sexual characters must be explicitly 18 or older. NSFW content can exist in the story, but it should be written with clear adult framing and avoid sexual situations based on force, blackmail, or mind-control coercion.
+All romanceable and sexual characters are fictional adults aged 18 or older. The game is built to depict explicit 18+ adult content, including but not limited to: partial and full nudity, sensual framing, intimate consent-based interaction, and mature romantic visual novel CGs. There is no upper-level euphemistic "non-explicit" policy.
 
-Mind-reading and manipulation can create moral tension, but sexual scenes should be based on consent and character agency.
+Hard limits that never change:
 
-The game includes an 18+ age gate. Players who do not confirm that they are 18 or older are exited from the app before reaching the main menu.
+- Every depicted character must be 18 or older. Minors, loli, shota, school-age framing, and under-18 visual cues are banned in every prompt, preset, and negative prompt.
+- Sexual content must be consent-based. Coercion, blackmail, mind-control sexual consent, and assault are banned from prompts and presets.
+- Bestiality is banned.
+- Character identity cues for the three romanceable characters (Alex, Maxine, Clara) are pinned to "young adult", "18+", and "adult" wording in every identity anchor.
+
+## Character Art Reference
+
+Every character must have a canonical **fully nude** reference artwork in
+three places before their art is considered complete:
+
+- Character image: `Sam And Em/game/images/nsfw/<character>/nude_front.png`
+- CG: `Sam And Em/game/images/nsfw/cg/cg_<character>_nude_reference.png`
+- Source asset: `art/generated/nsfw/<character>_nude_reference_01.png` with
+  matching `.json` metadata
+
+The fully nude reference is required for every character in the current cast
+(Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna, Nadia, Helena, and
+Rhea) and every character added later. Lingerie, towels, robes, bedsheets,
+cropped framing, and implied nudity do not satisfy the requirement. The
+reference must show the whole character from head to feet with their defining
+body details unobstructed, so future sprites and CGs have a reliable identity
+source.
+
+See `docs/character-art-requirements.md` for the full definition, file sizes,
+and completion checklist.
 
 ## Main Features
 
@@ -78,7 +102,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.2.1.
+Current version: v0.3.0.
 
 The base prototype opens with the academy dorm setup:
 
@@ -87,7 +111,16 @@ The base prototype opens with the academy dorm setup:
 
 The prototype introduces the first good/evil choices through how the player responds to private thoughts, then v0.2.0 continues into the first complete branching route slice.
 
-v0.0.2 adds the first character gallery with one private image entry each for Alex, Clara, and Maxine.
+v0.3.0 is the Expanded Cast release:
+
+- Recovered the lost `expanded_cast.rpy` / `expanded_routes.rpy` sources from compiled bytecode (the game had been shipping 7,500 words of route content that was invisible to git and unreachable from `start`).
+- Adds eight fully written preview routes: Morrigan Vale, Brielle Ashford, Mina Sato, Kira Sol, Sienna Cross, Nadia Quinn, Headmaster Helena Voss, and Rhea Mallory.
+- 10 beats per route, 15 choices, unique prose (~7,800 words), and 3 endings per route (24 endings) driven by the good/risky score.
+- The route hub is now entered from the intro; the original Maxine / Clara storyline is the "Continue" branch.
+- Full art pass: 32 new character sprites (four per route) and 80 route CGs, plus rebuilt 1920x1080 backgrounds, story CGs, gallery art, 12 character asset slots, and 7 NSFW story CGs.
+- Routes already completed are marked in the hub and tracked in persistent save data.
+
+v0.0.2 adds the first character gallery with one explicit 18+ image entry each for Alex, Clara, and Maxine.
 
 v0.0.3 adds the updater foundation and updates the opening plot:
 

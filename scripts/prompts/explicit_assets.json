@@ -1,0 +1,230 @@
+{
+  "api_url": "http://127.0.0.1:7860",
+  "output_dir": "art/generated/nsfw",
+  "renpy_root": ".",
+  "renpy_pattern": "game/images/nsfw/{character}/{slot}.png",
+  "negative_suffix": "picture-in-picture, close-up inset, upper-body inset, profile inset, second view, back view, framed portrait, border, empty comic panel, minor, child, teen, underage, loli, shota, schoolgirl, schoolboy, non-consent, coercion, blackmail, mind-control consent, assault, bestiality",
+  "defaults": {
+    "seed": -1,
+    "batch_size": 1,
+    "n_iter": 1
+  },
+  "assets": [
+    {
+      "name": "alex_base_nsfw",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "alex",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/alex/base.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult man, mature visual novel sprite, short messy black hair, soft brown eyes, slim average build, gentle anxious expression, shirtless under an open black hoodie, low-slung dark lounge pants, bare chest and collarbones, exposed waistline, heated private-room mood, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "alex_underwear",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "alex",
+      "slot": "underwear",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/alex/underwear.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult man, mature visual novel sprite, short messy black hair, soft brown eyes, slim average build, shy heated expression, dark boxer briefs, open black hoodie falling from one shoulder, bare chest, bare legs, exposed hip line, rumpled dorm bed, intimate bedroom lighting, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "alex_nude_front",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "alex",
+      "slot": "nude_front",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/alex/nude_front.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult man, mature visual novel sprite, short messy black hair, soft brown eyes, slim average build, damp hair, low towel wrapped at the hips, bare chest, bare shoulders, bare thighs, steam and side lighting, suggestive spa pose, sensually framed bare chest and bare shoulders, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "alex_nude_alt",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "alex",
+      "slot": "nude_alt",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/alex/nude_alt.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult man, mature visual novel sprite, short messy black hair, soft brown eyes, slim average build, seated on dorm bed edge, shirtless with rumpled sheets low around the hips, bare chest and abdomen, intense vulnerable eye contact, backlit skin highlights, bare abdomen, sensually framed nude pose, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_base_nsfw",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/base.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident grin, cropped navy athletic top, low-rise short shorts, bare midriff, bare shoulders, hand wraps, late-night dorm bedroom styling, charged private-room mood, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_underwear",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "underwear",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/underwear.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident teasing grin, navy sports bra, low-rise sleep shorts, bare midriff, bare legs, bare shoulders, hand wraps, athletic sensual pose, rumpled sheets, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_nude_front",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "nude_front",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/nude_front.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult woman,topless, exposed nipples, mature visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident flushed expression, small towel wrap across the chest and hips, bare shoulders, bare torso with explicit nipples drawn for mature composition, bare legs, damp skin, heavy spa steam, sensually framed nude pose, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_nude_alt",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "nude_alt",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/nude_alt.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, soft vulnerable grin, open navy robe slipping from the shoulders over a small matching bikini set, bare midriff, bare thighs, backlit dorm room, rumpled bed, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "clara_base_nsfw",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "clara",
+      "slot": "base",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/clara/base.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed dorm-leader poise, open cream cardigan over a satin bralette and high-cut shorts, bare collarbones, bare midriff, bare legs, private-room lamplight, elegant charged mood, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "clara_underwear",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "clara",
+      "slot": "underwear",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/clara/underwear.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.34, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed teasing expression, cream satin bralette, high-cut sleep shorts, loose sheer-looking but opaque robe hanging from the arms, bare shoulders, bare midriff, bare legs, bedroom lamplight, sensual relaxed pose, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "clara_nude_front",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "clara",
+      "slot": "nude_front",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/clara/nude_front.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, calm composed gaze, ivory towel wrap across the chest and hips, bare shoulders, bare upper chest with explicit nipples drawn for mature composition, bare thighs, damp hair, heavy bathroom steam, sensually framed nude pose, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "clara_nude_alt",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "clara",
+      "slot": "nude_alt",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/clara/nude_alt.png",
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.32, "resize_mode": 0 },
+      "prompt": "18+ young adult woman, mature visual novel sprite, long auburn red-brown hair swept to one side, warm brown eyes, composed vulnerable expression, open silk robe sliding from one shoulder over a small ivory lingerie set, bare collarbones, bare midriff, bare thighs, warm lamplight, rumpled bed, full body, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "cg_b2_maxine_almost_date",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_b2_maxine_almost_date.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature college romance visual novel CG, Maxine with short spiky black hair and blue streaks sits very close beside the young adult male MC during a late library almost-date, cropped athletic top, short shorts, bare midriff and legs, his open hoodie exposes his chest, knees touching, heated eye contact, warm desk lamps, books and phone face down, intimate temptation, polished cinematic game CG"
+    },
+    {
+      "name": "cg_c1_gala_private_balcony",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_c1_gala_private_balcony.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature visual novel CG, campus gala private balcony at night, Maxine in a low-back navy evening dress with high slit and exposed shoulders stands close to the shirt-open young adult male MC, almost-kiss tension, the mysterious Lady in a cream slip dress observes from the doorway, charged romantic triangle jealousy, city lights, polished cinematic game CG"
+    },
+    {
+      "name": "cg_c2m_maxine_last_lie",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_c2m_maxine_last_lie.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature visual novel CG, Maxine route confession in a dorm room, Maxine with blue-streaked short hair wears an open navy robe over a small matching bikini set, bare shoulders and thighs, young adult male MC sits close nearby with open hoodie and bare chest, rumpled bed, emotional intimacy, difficult honesty, rain at the window, polished cinematic game CG"
+    },
+    {
+      "name": "cg_c2l_lady_real_name",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_c2l_lady_real_name.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature visual novel CG, mysterious auburn-haired Lady reveals her real name in a quiet hotel room, cream silk robe open over a small satin lingerie set, bare shoulders and thighs, young adult male MC near the window with open shirt, unmade hotel bed, two passports on the table, intimate trust and danger, warm lamplight, polished cinematic game CG"
+    },
+    {
+      "name": "cg_c2j_lady_no_questions",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_c2j_lady_no_questions.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature visual novel CG, Lady bad route hotel room, auburn-haired Lady in an open cream robe over a small satin lingerie set points to a sealed envelope on the unmade bed, bare shoulders and long legs, young adult male MC hesitates in the doorway with open hoodie, sensual suspense and danger, police lights faint outside the curtains, polished cinematic game CG"
+    },
+    {
+      "name": "cg_e1_wedding_garden_private_vow",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_e1_wedding_garden_private_vow.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature romance visual novel CG, small outdoor wedding garden after graduation, Maxine with blue-streaked short hair teases the young adult male MC during a private vow moment, loosened wedding shirt, low-back bridal jacket, exposed shoulders, thigh-high slit, close affectionate almost-kiss pose, golden afternoon light, mature romantic payoff, polished cinematic game CG"
+    },
+    {
+      "name": "cg_e2_two_tickets_private_compartment",
+      "quality_preset": "samandem_sdxl_cg",
+      "filename": "{name}_{index:02d}.png",
+      "copy_to": "game/images/nsfw/cg/{name}.png",
+      "width": 1024,
+      "height": 768,
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/cg/cg_e2_two_tickets_private_compartment.png",
+      "payload": { "width": 1024, "height": 768, "denoising_strength": 0.30, "resize_mode": 0 },
+      "prompt": "18+ mature visual novel romance CG, late-night train private compartment, auburn-haired Lady and young adult male MC sit close with two open-ended tickets on the table, travel bags, charged intimate trust, her cream travel dress slipped from one shoulder with high slit and bare legs, his shirt open at the collar, city lights through window, polished cinematic game CG"
+    }
+  ]
+}

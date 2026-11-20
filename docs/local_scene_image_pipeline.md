@@ -18,15 +18,27 @@ variants, img2img source image, denoise, and dry-run/generate buttons.
 The Prompt tab also has a tag editor. Pick a prompt field, type one or more
 comma-separated tags, then use Add, Remove, or Sort Unique.
 
+GUI prompt/settings text is saved to a local user-owned profile:
+
+```text
+art/generated/local_scene_pipeline/scene_image_gui_profile.locked.json
+```
+
+That file is ignored by Git and marked read-only after saving. Treat it as
+GUI-owned: generation scripts read it by default, and the GUI save path is the
+normal way to change it.
+
 The flow is:
 
 1. Send the scene to a local Ollama model for prompt polish.
 2. Cache the polished prompt under `art/generated/local_scene_pipeline`.
 3. Send the cached prompt to local Automatic1111 with fixed seeds/settings.
 
-The generator path is for fictional adult, skin-forward, non-explicit VN art.
-It will not prompt for visible genitals, exposed nipples, sex acts, see-through
-clothing, erotic contact, or underage characters.
+The generator path is for fictional 18+ adult VN art. Adult themes, partial
+and full nudity, sensual framing, and intimate consent-based interaction are in
+scope. The hard bans stay in the always-on negative prompt: minors, loli,
+shota, non-consent, coercion, blackmail, mind-control consent, assault,
+bestiality.
 
 ## Requirements
 
@@ -61,6 +73,12 @@ List the A1111 checkpoints/samplers available on this machine:
 Use `--dry-run` first. It writes or reuses the prompt cache and prints the
 payload that would be sent to A1111.
 
+The script reads the GUI profile by default. Disable that for one run with:
+
+```powershell
+& $py scripts\local_scene_image_pipeline.py "Scene text" --no-settings-profile --no-llm --dry-run
+```
+
 Template-only dry run, useful even when Ollama is not running:
 
 ```powershell
@@ -84,6 +102,18 @@ Tune always-on negative tags from the CLI with `--always-negative`:
 
 ```powershell
 & $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run --always-negative "flat lighting, plastic skin, text, watermark"
+```
+
+Force specific character anchors when the scene text is ambiguous:
+
+```powershell
+& $py scripts\local_scene_image_pipeline.py "A private balcony confession under warm city lights" --characters maxine,alex --no-llm --dry-run
+```
+
+Character identity is loaded from:
+
+```text
+art/character_identity_prompts.json
 ```
 
 After the first good prompt, omit `--refresh-prompt` so future runs reuse the

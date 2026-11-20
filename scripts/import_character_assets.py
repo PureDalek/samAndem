@@ -8,6 +8,9 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ASSET_ROOT = REPO_ROOT / "Sam And Em" / "game" / "images" / "nsfw"
 
+# Slot keys are deliberate and descriptive. Keep them aligned with the `slots`
+# table in `Sam And Em/game/character_sets.rpy`.
+
 CHARACTERS = {"alex", "clara", "maxine"}
 SLOTS = {
     "base": "base.png",
@@ -15,6 +18,8 @@ SLOTS = {
     "nude_front": "nude_front.png",
     "nude_alt": "nude_alt.png",
 }
+# These slots ship with the user's 18+ character art. The game labels them
+# (Base / Lingerie / Nude - Front / Nude - Alt) in Sam And Em/game/character_sets.rpy.
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 
 
@@ -67,7 +72,7 @@ def import_asset(source, character, slot, no_backup):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Import locally-created character images into Sam And Em's Ren'Py asset slots."
+        description="Import locally-created 18+ character images into Sam And Em's Ren'Py asset slots.",
     )
     parser.add_argument("source", help="Path to the image file to import.")
     parser.add_argument("target", type=parse_target, help="Target slot as CHARACTER:SLOT.")

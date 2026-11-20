@@ -12,12 +12,12 @@ default college_stability = 0
 default route_lock = "open"
 
 image cg b2_maxine_almost_date = "images/nsfw/cg/cg_b2_maxine_almost_date.png"
-image cg c1_gala_private_balcony = "images/nsfw/cg/cg_c1_gala_private_balcony.png"
+image cg c1_gala_balcony = "images/nsfw/cg/cg_c1_gala_private_balcony.png"
 image cg c2m_maxine_last_lie = "images/nsfw/cg/cg_c2m_maxine_last_lie.png"
 image cg c2l_lady_real_name = "images/nsfw/cg/cg_c2l_lady_real_name.png"
 image cg c2j_lady_no_questions = "images/nsfw/cg/cg_c2j_lady_no_questions.png"
-image cg e1_wedding_garden_private_vow = "images/nsfw/cg/cg_e1_wedding_garden_private_vow.png"
-image cg e2_two_tickets_private_compartment = "images/nsfw/cg/cg_e2_two_tickets_private_compartment.png"
+image cg e1_wedding_garden_vow = "images/nsfw/cg/cg_e1_wedding_garden_private_vow.png"
+image cg e2_two_tickets_compartment = "images/nsfw/cg/cg_e2_two_tickets_private_compartment.png"
 
 label route_act_one:
 
@@ -292,7 +292,7 @@ label route_max_weak_point:
 
 label route_gala_lock:
 
-    scene cg c1_gala_private_balcony
+    scene cg c1_gala_balcony
     with fade
 
     "Review night became a gala because the academy liked pretending money was the same as grace."
@@ -343,7 +343,7 @@ label route_c2m_last_lie:
     with fade
 
     "The rain started after midnight."
-    "Maxine sat beside me, robe tied tight, eyes tired of almost-truths."
+    "Maxine sat on the edge of the bed, the robe open and forgotten at her hips, eyes tired of almost-truths."
 
     maxine "If there is one more thing, Alex, I need it from you. Not from Max. Not from rumors."
 
@@ -486,7 +486,7 @@ label route_c2j_no_questions:
 
 label ending_maxine_wedding:
 
-    scene cg e1_wedding_garden_private_vow
+    scene cg e1_wedding_garden_vow
     with fade
 
     "Graduation came with sunlight, speeches, and Maxine pretending not to cry."
@@ -506,7 +506,7 @@ label ending_maxine_wedding:
 
 label ending_lady_train:
 
-    scene cg e2_two_tickets_private_compartment
+    scene cg e2_two_tickets_compartment
     with fade
 
     "The train left after midnight."

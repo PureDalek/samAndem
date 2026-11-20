@@ -343,4 +343,6 @@ label scene_clara_shower_plan:
     "The schedule solved one problem."
     "The power in my head promised a hundred more."
 
-    jump route_act_one
+    # v0.3.0: enter the expanded route hub. The Maxine/Lady storyline is the
+    # "Continue" branch inside it, so the eight recovered routes are reachable.
+    jump expanded_route_hub

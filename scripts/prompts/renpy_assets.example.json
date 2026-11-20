@@ -4,7 +4,7 @@
   "renpy_root": "Sam And Em",
   "renpy_pattern": "game/images/nsfw/{character}/{slot}.png",
   "defaults": {
-    "negative_prompt": "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, explicit nudity, exposed nipples, visible genitals, sex act, penetration, oral sex, see-through clothing, minor, child, teen",
+    "negative_prompt": "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, see-through clothing for non-consent framing, minor, child, teen, underage, loli, shota, schoolgirl, schoolboy, non-consent, coercion, blackmail, mind-control consent, assault, bestiality",
     "steps": 28,
     "cfg_scale": 7,
     "width": 768,

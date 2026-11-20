@@ -28,15 +28,17 @@ from local_scene_image_pipeline import (
     STYLE_PREFIX,
     STYLE_SUFFIX,
 )
+from scene_image_profile import LOCKED_PROFILE_PATH, ensure_locked_profile, load_profile, save_locked_profile
 
 
 ROOT = Path(__file__).resolve().parents[1]
 PIPELINE_SCRIPT = ROOT / "scripts" / "local_scene_image_pipeline.py"
-SETTINGS_PATH = ROOT / "art" / "generated" / "local_scene_pipeline" / "gui_settings.json"
+SETTINGS_PATH = LOCKED_PROFILE_PATH
 
 DEFAULT_GUIDELINES = (
-    "skin-forward but non-explicit wardrobe, cinematic VN framing, expressive eye contact, "
-    "consistent character identity, premium polished game CG finish"
+    "18+ adult visual novel CG, skin-forward mature consent framing, honest wardrobe and pose, "
+    "cinematic VN composition, expressive eye contact, consistent character identity, "
+    "premium polished game CG finish"
 )
 
 FALLBACK_SAMPLERS = ["DPM++ 2M", "DPM++ 2M SDE", "Euler a", "Euler", "DDIM"]
@@ -105,6 +107,7 @@ class SceneImageGui:
         self.tag_value = tk.StringVar(value="")
 
         self._build_ui()
+        self.load_startup_profile()
         self.root.after(100, self._drain_queue)
 
     def _build_ui(self) -> None:
@@ -389,6 +392,20 @@ class SceneImageGui:
             "denoise": self.denoise.get().strip(),
         }
 
+    def default_settings(self) -> dict[str, Any]:
+        current_scene = text_get(self.text_fields["scene"]) if "scene" in self.text_fields else ""
+        settings = self.gather_settings()
+        settings["scene"] = current_scene
+        return settings
+
+    def load_startup_profile(self) -> None:
+        try:
+            path, settings = ensure_locked_profile(self.default_settings())
+            self.apply_settings(settings)
+            self._log(f"[settings] profile {path}\n")
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            self._log(f"[settings] profile load failed: {exc}\n")
+
     def apply_settings(self, settings: dict[str, Any]) -> None:
         for key in [
             "scene",
@@ -623,8 +640,7 @@ class SceneImageGui:
         self._log(f"[a1111] {len(checkpoints)} checkpoint(s), {len(samplers)} sampler(s)\n")
 
     def save_settings(self) -> None:
-        SETTINGS_PATH.parent.mkdir(parents=True, exist_ok=True)
-        SETTINGS_PATH.write_text(json.dumps(self.gather_settings(), indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
+        save_locked_profile(self.gather_settings(), SETTINGS_PATH)
         self._log(f"[settings] saved {SETTINGS_PATH}\n")
 
     def load_settings(self) -> None:
@@ -637,7 +653,7 @@ class SceneImageGui:
             if not selected:
                 return
             path = Path(selected)
-        settings = json.loads(path.read_text(encoding="utf-8"))
+        settings = load_profile(path)
         if not isinstance(settings, dict):
             messagebox.showerror("Settings Error", "Settings file must contain a JSON object.")
             return

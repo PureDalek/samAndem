@@ -5,9 +5,9 @@ init python:
             "folder": "images/nsfw/alex",
             "slots": [
                 ("Base", "base.png"),
-                ("Underwear", "underwear.png"),
-                ("Nude Front", "nude_front.png"),
-                ("Nude Alt", "nude_alt.png"),
+                ("Lingerie", "underwear.png"),
+                ("Nude - Front", "nude_front.png"),
+                ("Nude - Alt", "nude_alt.png"),
             ],
         },
         "clara": {
@@ -15,9 +15,9 @@ init python:
             "folder": "images/nsfw/clara",
             "slots": [
                 ("Base", "base.png"),
-                ("Underwear", "underwear.png"),
-                ("Nude Front", "nude_front.png"),
-                ("Nude Alt", "nude_alt.png"),
+                ("Lingerie", "underwear.png"),
+                ("Nude - Front", "nude_front.png"),
+                ("Nude - Alt", "nude_alt.png"),
             ],
         },
         "maxine": {
@@ -25,9 +25,9 @@ init python:
             "folder": "images/nsfw/maxine",
             "slots": [
                 ("Base", "base.png"),
-                ("Underwear", "underwear.png"),
-                ("Nude Front", "nude_front.png"),
-                ("Nude Alt", "nude_alt.png"),
+                ("Lingerie", "underwear.png"),
+                ("Nude - Front", "nude_front.png"),
+                ("Nude - Alt", "nude_alt.png"),
             ],
         },
     }
@@ -47,7 +47,7 @@ screen character_sets():
             xalign 0.5
             xsize 1180
 
-            text _("Adult asset slots. Add your own 18+ character art files to the listed folders."):
+            text _("18+ explicit character asset slots. Add your own 18+ character art files to the listed folders."):
                 xalign 0.5
                 textalign 0.5
 

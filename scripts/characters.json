@@ -1,0 +1,82 @@
+{
+  "morrigan": {
+    "age": 22,
+    "identity": "Morrigan Vale, gothic occult-studies tutor, pale porcelain skin, sharp violet eyes with heavy dark eyeliner, black chin-length bob with one violet streak, small silver septum ring, silver rings, ink-stained fingertips, slim curvy figure, medium full bust, guarded clever expression",
+    "base": "black ribbed turtleneck, charcoal tweed pencil skirt, sheer black tights, silver rings, flat boots",
+    "alt": "oversized black raincoat with the collar up, wet hair, soaked boots, holding a folded umbrella",
+    "formal": "deep plum velvet off-shoulder gown, silver occult pendant, dark lipstick",
+    "fourth": "completely nude, silver pendant only, holding a heavy leather grimoire against one hip, candlelit archive, hair loose",
+    "fourth_label": "archive",
+    "bg": "plain warm grey studio background"
+  },
+  "brielle": {
+    "age": 21,
+    "identity": "Brielle Ashford, tall blonde legacy-donor queen, sun-kissed skin, sharp green eyes, high golden ponytail, pearl studs, smug confident smile, athletic curvy figure, full bust, long legs",
+    "base": "cream tennis sweater over white collared shirt, navy pleated skirt, pearl earrings, white sneakers",
+    "alt": "black sports bra and matching leggings, sweat at the collarbone, towel around the neck, trainers",
+    "formal": "emerald satin floor-length gown, thin gold necklace, hair down in waves",
+    "fourth": "white cotton shirt untucked and unbuttoned, loosened navy tie, nothing else, bare legs, detention room",
+    "fourth_label": "detention",
+    "bg": "plain cream studio background"
+  },
+  "mina": {
+    "age": 21,
+    "identity": "Mina Sato, art-major mural rebel, warm light-brown skin, dark eyes, short shaggy teal-dyed hair, silver nose ring, black ink sleeve tattoo on one arm, paint speckles, soft curvy figure, full bust, amused fearless expression",
+    "base": "paint-flecked denim overalls over a white tee, rolled cuffs, brush behind ear",
+    "alt": "grey studio apron with red paint handprints, tank top, bare arms, turpentine-scented",
+    "formal": "black satin slip dress, silver hoops, minimal make-up, hair slicked back",
+    "fourth": "completely nude, body covered in hand-painted teal and vermilion mural pigment, a paintbrush in her hand, rooftop at sunrise",
+    "fourth_label": "mural",
+    "bg": "plain cool grey studio background"
+  },
+  "kira": {
+    "age": 20,
+    "identity": "Kira Sol, cosplayer and prop-engineering prodigy, light brown skin, freckles, big hazel eyes, bubblegum-pink hair in two messy space buns, welding goggles pushed up, small scar on one thumb, curvy petite figure, large bust",
+    "base": "cropped black tank top under an open denim work shirt, cargo trousers, pink hair buns, goggles on head",
+    "alt": "oil-stained white tank top, leather work apron, gloves off, goggles, workshop bench",
+    "formal": "iridescent teal mermaid-gown with a slit, hair down and wavy, silver ear cuffs",
+    "fourth": "revealing fantasy hero cosplay, sculpted iridescent armour bra over a leotard, bare thighs, gauntlets, buns messy",
+    "fourth_label": "hero_cosplay",
+    "bg": "plain dark teal studio background"
+  },
+  "sienna": {
+    "age": 21,
+    "identity": "Sienna Cross, scholarship swimmer, deep brown skin, long athletic limbs, broad swimmer shoulders, box braids pulled into a high ponytail, sharp brown eyes, small gold studs, athletic curvy figure, full bust",
+    "base": "navy and white competitive one-piece swimsuit, team towel over one shoulder, cap in hand",
+    "alt": "black swimsuit, water droplets on shoulders, hair wet, standing at the pool edge at dawn",
+    "formal": "white satin column gown with a thigh slit, braids down, gold earrings",
+    "fourth": "black sports bra and short leggings, ice packs, rehab room, sweat sheen",
+    "fourth_label": "rehab",
+    "bg": "plain cool white studio background"
+  },
+  "nadia": {
+    "age": 32,
+    "identity": "Nadia Quinn, campus nurse, warm deep-brown skin, kind tired eyes, black curls escaping a low bun, small gold hoops, soft full mature figure, full bust, gentle steady expression",
+    "base": "teal nurse scrubs, stethoscope, lanyard, white trainers, cardigan on",
+    "alt": "scrubs and a long grey cardigan, mug in hand, 2am clinic, reading glasses",
+    "formal": "navy wrap dress, low heels, curls down",
+    "fourth": "black lace lingerie, bedside lamp, curls down over her shoulders, relaxed",
+    "fourth_label": "field",
+    "bg": "plain muted teal studio background"
+  },
+  "helena": {
+    "age": 44,
+    "identity": "Headmaster Helena Voss, silver-grey eyes, black hair with a silver streak in a sharp chignon, deep red lips, tall imposing figure, tailored charcoal suit, mature full figure, full bust, severe confident expression",
+    "base": "tailored charcoal trouser suit, ivory silk blouse, thin gold watch, heels",
+    "alt": "black evening gown with a high slit, silver earrings, hair down",
+    "formal": "black gown and opera gloves",
+    "fourth": "white silk blouse open, charcoal skirt, black stockings, office after hours, heels still on",
+    "fourth_label": "office",
+    "bg": "plain charcoal studio background"
+  },
+  "rhea": {
+    "age": 21,
+    "identity": "Rhea Mallory, campus reporter and debate tactician, warm olive skin, dark curly shoulder-length hair, sharp brown eyes, press badge, small silver recorder, freckles, curvy figure, full bust, triumphant smirk",
+    "base": "navy blazer over a black band tee, jeans, press badge, recorder in hand",
+    "alt": "denim jacket, plaid shirt tied at the waist, notebook, recorder, jeans, rain",
+    "formal": "slate-grey tailored suit, no blouse under the jacket, hair pinned up",
+    "fourth": "black camisole and shorts, darkroom red light, hair loose",
+    "fourth_label": "late_night",
+    "bg": "plain warm grey studio background"
+  }
+}

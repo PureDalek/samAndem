@@ -28,6 +28,34 @@ Clara:
 - Composed dorm-leader poise.
 - Beige cardigan, white blouse, elegant cream/brown palette.
 
+## Required Fully Nude Reference
+
+Every character needs one canonical fully nude reference before their art is
+considered complete. This is a required identity reference, not an optional
+pin-up, and it must exist in all three art lanes:
+
+```text
+Sam And Em/game/images/nsfw/<character>/nude_front.png
+Sam And Em/game/images/nsfw/cg/cg_<character>_nude_reference.png
+art/generated/nsfw/<character>_nude_reference_01.png
+art/generated/nsfw/<character>_nude_reference_01.json
+```
+
+The character image is `768x1024`, the CG is `1024x768`, and the source asset
+keeps the highest generated or authored resolution. The same face, hair, body
+proportions, skin tone, markings, and adult age must read across all three.
+
+The reference must be fully nude and full body from head to feet. Clothing,
+lingerie, towels, robes, sheets, props, hands, or crops must not conceal the
+breasts, hips, buttocks, genitals, or defining body details. Lingerie-only,
+towel-only, implied-nude, and partial-crop variants do not satisfy the
+requirement.
+
+This applies to Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna,
+Nadia, Helena, Rhea, and every character added later. See
+`docs/character-art-requirements.md` for paths, sizes, and the completion
+checklist.
+
 ## Automatic1111 Setup
 
 Local webui path:
@@ -59,10 +87,11 @@ python scripts\character_asset_manager.py
 
 The manager can:
 
-- Import locally-created images into `base`, `underwear`, `nude_front`, and `nude_alt` slots.
+- Import locally-created 18+ images into `base`, `underwear` (renamed to `lingerie` in
+  the game UI), `nude_front`, and `nude_alt` slots.
 - Back up replaced files under `asset_backups`.
-- Build character-consistent safe prompts from `art/character_identity_prompts.json`.
-- Send safe img2img requests to Automatic1111 when the webui is running with `--api`.
+- Build character-consistent 18+ prompts from `art/character_identity_prompts.json`.
+- Send image-to-image requests to Automatic1111 when the webui is running with `--api`.
 
 ## Prompt-To-Ren'Py Generator
 
@@ -84,23 +113,28 @@ JSON prompt files should target the real Ren'Py project folder:
 Do not use a root-level `game/` folder for Sam And Em assets; that path is ignored as an accidental wrong-workspace output.
 
 Use `scripts/generate_renpy_asset.py` when you want to write a custom prompt and have local Automatic1111 generate a Ren'Py-ready file from the character base sprite.
+The generator reads the scene GUI profile at
+`art/generated/local_scene_pipeline/scene_image_gui_profile.locked.json` by
+default, so quality/style prompt text, negative prompt text, A1111 URL, size,
+steps, sampler, and denoise stay aligned with the scene creator. Use
+`--no-settings-profile` for a one-off run that ignores the GUI profile.
 
 Dry-run a payload:
 
 ```powershell
-python scripts\generate_renpy_asset.py maxine --prompt "covered locker-room spa CG, opaque navy towel, strong rim light, steam, all private anatomy covered" --gallery private_03 --dry-run
+python scripts\generate_renpy_asset.py maxine --prompt "low navy towel wrap, strong rim light, steam, bare shoulders, mature sensual mood" --gallery gallery_03 --dry-run
 ```
 
 Generate and patch the gallery:
 
 ```powershell
-python scripts\generate_renpy_asset.py maxine --prompt "covered locker-room spa CG, opaque navy towel, strong rim light, steam, all private anatomy covered" --gallery private_03
+python scripts\generate_renpy_asset.py maxine --prompt "low navy towel wrap, strong rim light, steam, bare shoulders, mature sensual mood" --gallery gallery_03
 ```
 
 Generate directly into a character-set slot:
 
 ```powershell
-python scripts\generate_renpy_asset.py clara --prompt "covered cream towel wrap, warm light, soft steam, elegant pose, all private anatomy covered" --slot nude_alt
+python scripts\generate_renpy_asset.py clara --prompt "open cream robe, warm light, soft steam, bare skin, elegant pose, mature sensual mood" --slot nude_alt
 ```
 
 Destination options:
@@ -155,12 +189,12 @@ Recipe shape:
 
 Recipe destination types: `sprite`, `slot`, `gallery`, `cg`, `out`, or `generated`.
 
-Covered variants available in the prompt tools:
+18+ variants available in the prompt tools:
 
-- `underwear`: covered dorm loungewear.
-- `covered_spa`: opaque towel/robe art with light mist.
-- `backlit_robe`: opaque robe/loungewear art with dramatic light.
-- `implied_steam`: opaque towel art with steam coverage.
+- `lingerie`: 18+ dorm lingerie / loungewear art.
+- `explicit_nude_spa`: adult towel/robe art with light mist.
+- `explicit_open_robe`: adult open robe / loungewear art with dramatic light.
+- `explicit_shower`: adult private shower art with steam coverage.
 
 ## Base Model Plan
 
@@ -173,7 +207,7 @@ For reliable consistency, train one LoRA per character after collecting 15-30 ap
 Recommended workflow:
 
 1. Start from the existing sprite as the canonical face, hair, palette, and silhouette.
-2. Generate safe outfit variants with img2img at low denoise strength.
+2. Generate 18+ outfit variants with image-to-image at low denoise strength.
 3. Keep only images that match the character closely.
 4. Caption each image with the identity anchors above.
 5. Train a LoRA per character.
@@ -181,7 +215,12 @@ Recommended workflow:
 
 ## Content Boundary
 
-The game can load private adult assets from the optional asset slots, but generated project assets created here should stay non-explicit. User-provided adult assets can be placed in:
+The game is built to ship R-rated 18+ content. Generated prompts in this
+project are allowed to reach partial and full nudity, sensual framing, and
+intimate consent-based interaction as long as every character stays fictional
+and 18+.
+
+User-supplied 18+ assets can be placed in:
 
 ```text
 Sam And Em/game/images/nsfw/<character>/nude_front.png

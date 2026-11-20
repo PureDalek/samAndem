@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Turn a scene into a local, repeatable visual novel CG generation job.
+"""Turn a scene into a local, repeatable 18+ visual novel CG generation job.
 
 Pipeline:
 1. Ask a local Ollama LLM to convert the scene into a polished image prompt.
 2. Cache that prompt so reruns use the exact same wording.
 3. Send the prompt to local Automatic1111 with deterministic seeds/settings.
 
-The default prompt policy is adult-themed but non-explicit: fictional adults
-only, no visible genitals, no exposed nipples, no sex acts, no see-through
-clothing, and no minors.
+The default prompt policy is adult-themed 18+ content: fictional adults only
+(no minors, no loli, no shota, no under-18 framing), with mature consent
+framing and skin-forward adult posing. The maturity preset is honest about
+its intent in the prompt text itself rather than relying on "non-explicit"
+disclaimers.
 """
 
 from __future__ import annotations
@@ -25,11 +27,14 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from scene_image_profile import LOCKED_PROFILE_PATH, load_profile
+
 
 DEFAULT_A1111_URL = "http://127.0.0.1:7860"
 DEFAULT_OLLAMA_URL = "http://127.0.0.1:11434"
 DEFAULT_OLLAMA_MODEL = "llama3.1:8b"
 DEFAULT_OUTPUT_DIR = Path("art/generated/local_scene_pipeline")
+DEFAULT_CHARACTER_PROFILE = Path("art/character_identity_prompts.json")
 
 STYLE_PREFIX = (
     "masterpiece, best quality, highres, polished cinematic anime visual novel CG, "
@@ -53,8 +58,8 @@ DEFAULT_NEGATIVE = (
 )
 
 SAFETY_NEGATIVE = (
-    "explicit nudity, exposed nipples, visible genitals, see-through clothing, "
-    "sex act, penetration, oral sex, erotic contact, minor, child, teen"
+    "minor, child, teen, underage, loli, shota, schoolgirl, schoolboy, "
+    "non-consent, coercion, blackmail, mind-control consent, assault, bestiality"
 )
 
 CHARACTER_ANCHORS = {
@@ -65,10 +70,62 @@ CHARACTER_ANCHORS = {
 }
 
 
-def parse_args() -> argparse.Namespace:
+PROFILE_OPTION_MAP = {
+    "scene": ("--scene",),
+    "slug": ("--slug",),
+    "output_dir": ("--output-dir",),
+    "refresh_prompt": ("--refresh-prompt",),
+    "no_llm": ("--no-llm",),
+    "llm_url": ("--llm-url",),
+    "llm_model": ("--llm-model",),
+    "llm_temperature": ("--llm-temperature",),
+    "a1111_url": ("--a1111-url",),
+    "guidelines": ("--guidelines",),
+    "style_prefix": ("--style-prefix",),
+    "style_suffix": ("--style-suffix",),
+    "negative_prompt": ("--negative-prompt",),
+    "always_negative": ("--always-negative",),
+    "width": ("--width",),
+    "height": ("--height",),
+    "steps": ("--steps",),
+    "cfg_scale": ("--cfg-scale",),
+    "sampler": ("--sampler",),
+    "scheduler": ("--scheduler",),
+    "checkpoint": ("--checkpoint",),
+    "seed": ("--seed",),
+    "variants": ("--variants",),
+    "seed_step": ("--seed-step",),
+    "init_image": ("--init-image",),
+    "denoise": ("--denoise",),
+    "extra_positive": ("--extra-positive",),
+    "extra_negative": ("--extra-negative",),
+}
+
+PROFILE_TYPE_MAP = {
+    "output_dir": Path,
+    "llm_temperature": float,
+    "width": int,
+    "height": int,
+    "steps": int,
+    "cfg_scale": float,
+    "seed": int,
+    "variants": int,
+    "seed_step": int,
+    "init_image": Path,
+    "denoise": float,
+    "refresh_prompt": bool,
+    "no_llm": bool,
+}
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("scene", nargs="?", help="Scene text to turn into a professional VN CG.")
     parser.add_argument("--scene-file", type=Path, help="Read scene text from a file instead of the positional scene.")
+    parser.add_argument("--settings-profile", type=Path, default=LOCKED_PROFILE_PATH)
+    parser.add_argument("--no-settings-profile", action="store_true", help="Ignore the GUI settings profile.")
+    parser.add_argument("--characters", help="Comma-separated character ids to anchor, overriding scene detection.")
+    parser.add_argument("--character-profile", type=Path, default=DEFAULT_CHARACTER_PROFILE)
     parser.add_argument("--slug", help="Stable output slug. Defaults to a scene-derived slug.")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--dry-run", action="store_true", help="Build prompt and payload, but do not call A1111.")
@@ -98,11 +155,65 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--denoise", type=float, default=0.32, help="img2img denoising strength.")
     parser.add_argument("--extra-positive", default="", help="Extra positive prompt text appended after the LLM prompt.")
     parser.add_argument("--extra-negative", default="", help="Extra negative prompt text appended after defaults.")
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def resolve(path: Path, base_dir: Path) -> Path:
     return path if path.is_absolute() else (base_dir / path).resolve()
+
+
+def option_present(argv: list[str], flags: tuple[str, ...]) -> bool:
+    for value in argv:
+        for flag in flags:
+            if value == flag or value.startswith(flag + "="):
+                return True
+    return False
+
+
+def coerce_profile_value(name: str, value: Any, current: Any) -> Any:
+    if value is None or value == "":
+        return current
+    expected_type = PROFILE_TYPE_MAP.get(name)
+    if expected_type is bool:
+        if isinstance(value, bool):
+            return value
+        return str(value).strip().lower() in {"1", "true", "yes", "on"}
+    if expected_type is int:
+        return int(value)
+    if expected_type is float:
+        return float(value)
+    if expected_type is Path:
+        return Path(value)
+    if isinstance(current, bool):
+        if isinstance(value, bool):
+            return value
+        return str(value).strip().lower() in {"1", "true", "yes", "on"}
+    if isinstance(current, int) and not isinstance(current, bool):
+        return int(value)
+    if isinstance(current, float):
+        return float(value)
+    if isinstance(current, Path):
+        return Path(value)
+    return value
+
+
+def apply_settings_profile(args: argparse.Namespace, argv: list[str], base_dir: Path) -> dict[str, Any]:
+    if args.no_settings_profile:
+        return {}
+    profile_path = resolve(args.settings_profile, base_dir)
+    try:
+        settings = load_profile(profile_path)
+    except FileNotFoundError:
+        return {}
+    if not settings:
+        return {}
+    for name, flags in PROFILE_OPTION_MAP.items():
+        if name == "scene" and (args.scene or args.scene_file):
+            continue
+        if option_present(argv, flags) or name not in settings:
+            continue
+        setattr(args, name, coerce_profile_value(name, settings[name], getattr(args, name, None)))
+    return settings
 
 
 def read_scene(args: argparse.Namespace, base_dir: Path) -> str:
@@ -140,14 +251,92 @@ def detected_character_anchors(scene: str) -> list[str]:
     return anchors
 
 
-def local_template_prompt(scene: str, guidelines: str) -> dict[str, Any]:
-    anchors = detected_character_anchors(scene)
-    anchor_text = "; ".join(anchors) if anchors else "fictional adult characters, age 22 or older"
+def load_character_identities(path: Path, base_dir: Path) -> dict[str, dict[str, Any]]:
+    resolved = resolve(path, base_dir)
+    if not resolved.exists():
+        return {}
+    data = json.loads(resolved.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        return {}
+    identities: dict[str, dict[str, Any]] = {}
+    for key, value in data.items():
+        if isinstance(value, dict):
+            identities[str(key).lower()] = value
+    return identities
+
+
+def split_character_ids(value: str) -> list[str]:
+    ids: list[str] = []
+    seen: set[str] = set()
+    for raw in re.split(r"[,;\s]+", value):
+        cleaned = raw.strip().lower()
+        if not cleaned:
+            continue
+        mapped = "clara" if cleaned == "lady" else cleaned
+        if mapped not in seen:
+            ids.append(mapped)
+            seen.add(mapped)
+    return ids
+
+
+def detect_character_ids(scene: str, identities: dict[str, dict[str, Any]], requested: str | None) -> list[str]:
+    if requested:
+        return split_character_ids(requested)
+    lowered = scene.lower()
+    ids: list[str] = []
+    seen: set[str] = set()
+    for key in [*CHARACTER_ANCHORS.keys(), *identities.keys()]:
+        if key in lowered:
+            mapped = "clara" if key == "lady" else key
+            if mapped not in seen:
+                ids.append(mapped)
+                seen.add(mapped)
+    return ids
+
+
+def build_character_context(scene: str, args: argparse.Namespace, base_dir: Path) -> dict[str, Any]:
+    identities = load_character_identities(args.character_profile, base_dir)
+    ids = detect_character_ids(scene, identities, args.characters)
+    positive_parts: list[str] = []
+    negative_parts: list[str] = []
+    references: list[dict[str, str]] = []
+    for character_id in ids:
+        identity = identities.get(character_id, {})
+        inline_anchor = CHARACTER_ANCHORS.get(character_id)
+        if inline_anchor:
+            positive_parts.append(inline_anchor)
+        if identity.get("identity_prompt"):
+            positive_parts.append(str(identity["identity_prompt"]))
+        if identity.get("negative_prompt"):
+            negative_parts.append(str(identity["negative_prompt"]))
+        if identity.get("source_sprite"):
+            references.append(
+                {
+                    "character": character_id,
+                    "source_sprite": str(resolve(Path(str(identity["source_sprite"])), base_dir)),
+                }
+            )
+    if "lady" in scene.lower() and "clara" in ids:
+        positive_parts.append(CHARACTER_ANCHORS["lady"])
+    positive = combine_prompt_parts(positive_parts)
+    negative = combine_prompt_parts(negative_parts)
+    llm_lines = "\n".join(f"- {part}" for part in positive_parts) or "- Use fictional adult characters, age 22 or older."
+    return {
+        "ids": ids,
+        "positive_prompt": positive,
+        "negative_prompt": negative,
+        "references": references,
+        "llm_lines": llm_lines,
+    }
+
+
+def local_template_prompt(scene: str, guidelines: str, character_context: dict[str, Any]) -> dict[str, Any]:
+    anchor_text = character_context.get("positive_prompt") or "fictional adult characters, age 22 or older"
     return {
         "positive_prompt": (
-            f"{scene}. Subjects: {anchor_text}. Professional adult visual novel CG, "
-            "skin-forward but non-explicit wardrobe, emotional eye contact, cinematic composition, "
-            "strong story beat, polished anime game art."
+            f"{scene}. Subjects: {anchor_text}. 18+ adult visual novel CG, "
+            "skin-forward mature consent framing, honest wardrobe and pose, emotional eye contact, "
+            "cinematic composition, strong story beat, polished anime game art."
         ),
         "negative_prompt": "flat lighting, amateur composition, dull background, plastic skin, overexposed highlights",
         "composition_notes": "Use a readable 16:9-style VN CG composition adapted to the requested output size.",
@@ -171,9 +360,14 @@ def list_ollama_models(api_url: str) -> list[str]:
     return sorted(names)
 
 
-def ollama_prompt_request(scene: str, slug: str, args: argparse.Namespace, seed: int) -> dict[str, Any]:
-    anchors = detected_character_anchors(scene)
-    anchor_text = "\n".join(f"- {anchor}" for anchor in anchors) or "- Use fictional adult characters, age 22 or older."
+def ollama_prompt_request(
+    scene: str,
+    slug: str,
+    args: argparse.Namespace,
+    seed: int,
+    character_context: dict[str, Any],
+) -> dict[str, Any]:
+    anchor_text = str(character_context.get("llm_lines") or "- Use fictional adult characters, age 22 or older.")
     guideline_text = args.guidelines.strip() or "No additional art-direction notes."
     instruction = f"""
 You are a senior visual novel art director writing prompts for a local Stable Diffusion / Automatic1111 pipeline.
@@ -184,9 +378,9 @@ Return JSON only with these keys:
 - composition_notes: one short sentence explaining the intended frame
 
 Rules:
-- Fictional adults only, 18+.
-- Adult-themed and skin-forward is allowed, but keep it non-explicit.
-- Do not request visible genitals, exposed nipples, sex acts, penetration, oral sex, see-through clothing, erotic contact, minors, text, logos, or watermarks.
+- Fictional adults only, 18+. No minors, no loli, no shota, no school-age framing.
+- Adult-themed and skin-forward is the default. Use the maturity preset wording to describe apparel and pose honestly.
+- Do not request non-consent, coercion, blackmail, mind-control consent, assault, or bestiality, text, logos, or watermarks.
 - Use concrete visual language: wardrobe, pose, lighting, mood, setting, props, and story beat.
 - Preserve character identity when a known character appears.
 - Make the image professional, polished, and repeatable.
@@ -245,17 +439,29 @@ Scene:
     }
 
 
-def load_or_create_prompt(scene: str, slug: str, seed: int, args: argparse.Namespace, base_dir: Path) -> dict[str, Any]:
+def load_or_create_prompt(
+    scene: str,
+    slug: str,
+    seed: int,
+    args: argparse.Namespace,
+    base_dir: Path,
+    character_context: dict[str, Any],
+) -> dict[str, Any]:
     output_dir = resolve(args.output_dir, base_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     prompt_path = output_dir / f"{slug}.prompt.json"
     if prompt_path.exists() and not args.refresh_prompt:
-        return json.loads(prompt_path.read_text(encoding="utf-8"))
+        prompt_record = json.loads(prompt_path.read_text(encoding="utf-8"))
+        prompt_record.setdefault("character_context", character_context)
+        prompt_record.setdefault("character_positive_prompt", character_context.get("positive_prompt", ""))
+        prompt_record.setdefault("character_negative_prompt", character_context.get("negative_prompt", ""))
+        prompt_record.setdefault("character_references", character_context.get("references", []))
+        return prompt_record
     if args.no_llm:
-        prompt = local_template_prompt(scene, args.guidelines)
+        prompt = local_template_prompt(scene, args.guidelines, character_context)
         llm_mode = "template"
     else:
-        prompt = ollama_prompt_request(scene, slug, args, seed)
+        prompt = ollama_prompt_request(scene, slug, args, seed, character_context)
         llm_mode = "ollama"
     prompt_record = {
         "scene": scene,
@@ -264,6 +470,10 @@ def load_or_create_prompt(scene: str, slug: str, seed: int, args: argparse.Names
         "llm_mode": llm_mode,
         "llm_model": None if args.no_llm else args.llm_model,
         "guidelines": args.guidelines,
+        "character_context": character_context,
+        "character_positive_prompt": character_context.get("positive_prompt", ""),
+        "character_negative_prompt": character_context.get("negative_prompt", ""),
+        "character_references": character_context.get("references", []),
         "created_at": dt.datetime.now().isoformat(timespec="seconds"),
         **prompt,
     }
@@ -291,6 +501,7 @@ def combine_prompt_parts(parts: list[str]) -> str:
 def build_prompt(prompt_record: dict[str, Any], args: argparse.Namespace) -> tuple[str, str]:
     positive_parts = [
         args.style_prefix.strip(),
+        str(prompt_record.get("character_positive_prompt", "")).strip(),
         str(prompt_record["positive_prompt"]).strip(),
         args.guidelines.strip(),
         args.extra_positive.strip(),
@@ -298,6 +509,7 @@ def build_prompt(prompt_record: dict[str, Any], args: argparse.Namespace) -> tup
     ]
     negative_parts = [
         args.negative_prompt.strip(),
+        str(prompt_record.get("character_negative_prompt", "")).strip(),
         str(prompt_record.get("negative_prompt", "")).strip(),
         args.extra_negative.strip(),
         args.always_negative.strip(),
@@ -396,9 +608,11 @@ def save_generation(
 
 
 def main() -> int:
-    args = parse_args()
+    argv = sys.argv[1:]
+    args = parse_args(argv)
     base_dir = Path.cwd().resolve()
     try:
+        profile_settings = apply_settings_profile(args, argv, base_dir)
         if args.list_llm_models:
             names = list_ollama_models(args.llm_url)
             if names:
@@ -411,10 +625,15 @@ def main() -> int:
         seed = args.seed if args.seed is not None else stable_int(f"{slug}\n{scene}")
         output_dir = resolve(args.output_dir, base_dir)
         output_dir.mkdir(parents=True, exist_ok=True)
-        prompt_record = load_or_create_prompt(scene, slug, seed, args, base_dir)
+        character_context = build_character_context(scene, args, base_dir)
+        prompt_record = load_or_create_prompt(scene, slug, seed, args, base_dir, character_context)
+        if profile_settings:
+            prompt_record["settings_profile"] = str(resolve(args.settings_profile, base_dir))
         positive, negative = build_prompt(prompt_record, args)
         print(f"slug: {slug}")
         print(f"seed: {seed}")
+        if character_context.get("ids"):
+            print(f"characters: {', '.join(character_context['ids'])}")
         print(f"prompt cache: {output_dir / f'{slug}.prompt.json'}")
         print(f"positive prompt: {positive}")
         print(f"negative prompt: {negative}")

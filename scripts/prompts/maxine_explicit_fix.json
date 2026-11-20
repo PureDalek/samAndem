@@ -1,0 +1,41 @@
+{
+  "api_url": "http://127.0.0.1:7860",
+  "output_dir": "art/generated/nsfw_maxine_explicit_fix",
+  "negative_suffix": "low quality, blurry, bad anatomy, extra fingers, missing fingers, deformed hands, watermark, text, logo, see-through clothing for non-consent framing, minor, child, teen, underage, loli, shota, schoolgirl, schoolboy, non-consent, coercion, blackmail, mind-control consent, assault, bestiality, picture-in-picture, close-up inset, upper-body inset, profile inset, second view, back view, framed portrait, border, empty comic panel",
+  "defaults": {
+    "seed": -1,
+    "batch_size": 1,
+    "n_iter": 1,
+    "steps": 28,
+    "cfg_scale": 7,
+    "sampler_name": "DPM++ 2M Karras",
+    "width": 768,
+    "height": 1024
+  },
+  "assets": [
+    {
+      "name": "maxine_nude_front",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "nude_front",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/nude_front.png",
+      "adetailer": false,
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.55, "resize_mode": 0, "seed": 1302777804 },
+      "prompt": "fully nude naked unclothed bare body from head to toe, no clothing, no towel, no robe, no bikini, exposed nipples, exposed navel, full frontal view, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident flushed expression, bare shoulders, bare arms, bare legs, bare feet, mature visual novel sprite, 18+ honest mature framing, sensually framed full body nude pose, heavy spa steam, plain light background, clean linework, polished game asset"
+    },
+    {
+      "name": "maxine_nude_alt",
+      "quality_preset": "samandem_sdxl_sprite",
+      "character": "maxine",
+      "slot": "nude_alt",
+      "filename": "{name}_{index:02d}.png",
+      "endpoint": "img2img",
+      "init_image": "Sam And Em/game/images/nsfw/maxine/nude_alt.png",
+      "adetailer": false,
+      "payload": { "width": 768, "height": 1024, "denoising_strength": 0.65, "resize_mode": 0, "seed": 2013854354 },
+      "prompt": "fully nude naked unclothed bare body from head to toe, no clothing, no towel, no robe, no bikini, exposed nipples, exposed navel, alternative intimate seated pose on rumpled bed, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, soft vulnerable grin, bare shoulders, bare arms, bare midriff, bare thighs, bare back, mature visual novel sprite, 18+ honest mature framing, backlit dorm room lighting, plain light background, clean linework, polished game asset"
+    }
+  ]
+}

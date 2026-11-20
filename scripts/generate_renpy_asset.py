@@ -9,6 +9,12 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from scene_image_profile import LOCKED_PROFILE_PATH, load_profile
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 IDENTITY_PATH = REPO_ROOT / "art" / "character_identity_prompts.json"
@@ -31,10 +37,9 @@ STYLE_PROMPT = (
     "full body or three-quarter visual novel art, same character identity as reference, "
     "polished semi-realistic anime style, clean linework, soft painted shading, high detail"
 )
-SAFETY_PROMPT = (
-    "adult 18+ character, covered private anatomy, non-explicit presentation, "
-    "opaque clothing or towel coverage, no exposed nipples, no visible genitals, "
-    "no sexual act, no erotic contact"
+EXPLICIT_PROMPT = (
+    "18+ fictional adult, mature consent framing, skin-forward body language, "
+    "honest apparel description from the chosen maturity preset"
 )
 SPRITE_CHROMA_PROMPT = (
     "single full-body character sprite on a perfectly flat solid #00ff00 chroma-key background, "
@@ -45,25 +50,31 @@ SPRITE_CHROMA_NEGATIVE = (
     "green clothing, green hair, green accessories, green reflection"
 )
 NEGATIVE_PROMPT = (
-    "minor, child, teen-looking, underage, nude, exposed genitals, exposed nipples, sexual act, "
-    "erotic contact, explicit pose, see-through clothing, transparent fabric, different character, "
+    "minor, child, teen-looking, underage, loli, shota, schoolgirl, schoolboy, "
+    "non-consent, coercion, blackmail, mind-control consent, assault, bestiality, "
+    "different character, "
     "different face, bad anatomy, cropped head, cropped feet, text, logo, watermark, low quality, blurry"
 )
 
 MATURITY_PRESET_PROMPTS = {
-    "safe": "clean mature tone, modest styling, neutral expression",
-    "mature": (
-        "explicit, confident or flirty posing, soft fabric movement, "
-        "cinematic backlight, sensual body language, nudity"
-        "explicit presentation of the character, erotic contact"
+    "sfw": "clean adult tone, fully clothed, modest styling, neutral or warm romantic expression",
+    "sensual": (
+        "skin-forward styling, lingerie or open robe, suggestive but no sex act, "
+        "flirtatious or charged body language, warm cinematic backlight, mature romantic mood"
+    ),
+    "explicit": (
+        "full 18+ adult styling, nude or partial nudity, sensual mature consent framing, "
+        "charged intimate pose, no sex act unless asset pair sets it, R-rated visual novel CG tone"
     ),
 }
 
 
 def get_content_preset(name):
-    preset = "mature"
+    preset = MATURITY_PRESET_PROMPTS.get(name)
     if preset is None:
-        raise SystemExit(f"Unknown content mode: {name}. Use safe or mature.")
+        raise SystemExit(
+            f"Unknown content mode: {name}. Use one of: {', '.join(sorted(MATURITY_PRESET_PROMPTS))}."
+        )
     return preset
 
 
@@ -111,18 +122,31 @@ def build_payload(args, identities, prompt):
     if not source_path.exists():
         raise SystemExit(f"Missing reference image: {source_path}")
 
-    content_mode = getattr(args, "content_mode", "safe")
+    gui_settings = getattr(args, "gui_settings", {}) or {}
+    content_mode = getattr(args, "content_mode", "sfw")
     maturity_prompt = get_content_preset(content_mode)
     extra_style = SPRITE_CHROMA_PROMPT if args.sprite else STYLE_PROMPT
     extra_negative = SPRITE_CHROMA_NEGATIVE if args.sprite else ""
     final_prompt = join_prompt_parts(
+        gui_settings.get("style_prefix"),
         character["identity_prompt"],
         prompt,
+        gui_settings.get("guidelines"),
+        gui_settings.get("extra_positive"),
         extra_style,
-        SAFETY_PROMPT,
+        gui_settings.get("style_suffix"),
+        EXPLICIT_PROMPT,
         maturity_prompt,
     )
-    final_negative = join_prompt_parts(character["negative_prompt"], args.negative, extra_negative, NEGATIVE_PROMPT)
+    final_negative = join_prompt_parts(
+        gui_settings.get("negative_prompt"),
+        character["negative_prompt"],
+        args.negative,
+        extra_negative,
+        gui_settings.get("extra_negative"),
+        gui_settings.get("always_negative"),
+        NEGATIVE_PROMPT,
+    )
 
     return {
         "init_images": [encode_image(source_path)],
@@ -141,6 +165,55 @@ def build_payload(args, identities, prompt):
 
 def join_prompt_parts(*parts):
     return ", ".join(part.strip() for part in parts if part and part.strip())
+
+
+def option_present(argv, *flags):
+    return any(value == flag or value.startswith(flag + "=") for value in argv for flag in flags)
+
+
+def coerce_setting(value, current):
+    if value is None or value == "":
+        return current
+    if isinstance(current, int) and not isinstance(current, bool):
+        return int(value)
+    if isinstance(current, float):
+        return float(value)
+    return value
+
+
+def apply_gui_generation_settings(args, gui_settings, argv):
+    mapping = {
+        "api": ("a1111_url", "--api"),
+        "width": ("width", "--width"),
+        "height": ("height", "--height"),
+        "steps": ("steps", "--steps"),
+        "cfg_scale": ("cfg_scale", "--cfg-scale"),
+        "sampler": ("sampler", "--sampler"),
+        "denoise": ("denoise", "--denoise"),
+    }
+    for attr, (setting_key, flag) in mapping.items():
+        if setting_key not in gui_settings or option_present(argv, flag):
+            continue
+        setattr(args, attr, coerce_setting(gui_settings[setting_key], getattr(args, attr)))
+    args.gui_settings = gui_settings
+
+
+def recipe_defaults_from_gui(gui_settings):
+    defaults = {}
+    mapping = {
+        "api": "a1111_url",
+        "width": "width",
+        "height": "height",
+        "steps": "steps",
+        "cfg_scale": "cfg_scale",
+        "sampler": "sampler",
+        "denoise": "denoise",
+    }
+    for recipe_key, gui_key in mapping.items():
+        value = gui_settings.get(gui_key)
+        if value not in (None, ""):
+            defaults[recipe_key] = value
+    return defaults
 
 
 def decode_first_image(response, output_path):
@@ -283,7 +356,7 @@ def titleize(value):
     return " ".join(word.capitalize() for word in words if word) or "Generated"
 
 
-def make_job_args(job, defaults):
+def make_job_args(job, defaults, gui_settings):
     merged = {**defaults, **job}
     destination = destination_from_job(job)
     character = merged.get("character")
@@ -310,8 +383,9 @@ def make_job_args(job, defaults):
         cg=destination.get("cg"),
         out=destination.get("out"),
         no_backup=bool(merged.get("no_backup", False)),
-        content_mode=merged.get("content_mode", "safe"),
+        content_mode=merged.get("content_mode", "sfw"),
         dry_run=bool(merged.get("dry_run", False)),
+        gui_settings=gui_settings,
     )
 
 
@@ -352,16 +426,17 @@ def run_generation(args, identities, prompt):
     return saved
 
 
-def run_recipe(path, identities, dry_run_override=False):
+def run_recipe(path, identities, gui_settings, dry_run_override=False):
     recipe_path = Path(path).resolve()
     recipe = json.loads(recipe_path.read_text(encoding="utf-8"))
     defaults = recipe.get("defaults", {})
+    defaults = {**recipe_defaults_from_gui(gui_settings), **defaults}
     jobs = recipe.get("jobs", [])
     if not isinstance(jobs, list) or not jobs:
         raise SystemExit("Recipe must contain a non-empty jobs array.")
 
     for index, job in enumerate(jobs, start=1):
-        job_args = make_job_args(job, defaults)
+        job_args = make_job_args(job, defaults, gui_settings)
         if dry_run_override:
             job_args.dry_run = True
         prompt = read_prompt_from_job(job)
@@ -381,22 +456,22 @@ def write_recipe_example(path):
             "sampler": "DPM++ 2M Karras",
             "timeout": 600,
             "no_backup": False,
-            "content_mode": "mature"
+            "content_mode": "explicit"
         },
         "jobs": [
             {
                 "character": "maxine",
-                "prompt": "covered sporty dorm sprite variant, navy hoodie, confident pose",
+                "prompt": "lingerie dorm sprite variant, navy hoodie, confident pose",
                 "destination": {"type": "sprite", "id": "maxine_hoodie"}
             },
             {
                 "character": "clara",
-                "prompt": "covered cream lounge robe, warm light, soft steam, elegant pose",
+                "prompt": "open cream lounge robe, warm light, soft steam, bare skin, elegant sensual pose",
                 "destination": {"type": "gallery", "id": "private_03"}
             },
             {
                 "character": "alex",
-                "prompt": "covered dark robe outfit, shy pose, soft warm light",
+                "prompt": "open dark robe, shy warm light, bare chest, bare shoulders, skin-forward mood",
                 "destination": {"type": "slot", "id": "nude_alt"}
             }
         ]
@@ -414,6 +489,8 @@ def main():
     parser.add_argument("character", nargs="?", choices=CHARACTERS)
     parser.add_argument("--recipe", help="Generate a batch from a JSON recipe file.")
     parser.add_argument("--write-recipe-example", help="Write an example JSON recipe to this path and exit.")
+    parser.add_argument("--settings-profile", type=Path, default=LOCKED_PROFILE_PATH)
+    parser.add_argument("--no-settings-profile", action="store_true", help="Ignore the scene GUI settings profile.")
     parser.add_argument("--prompt", help="Scene/outfit prompt to combine with the character identity.")
     parser.add_argument("--prompt-file", help="Text file containing the scene/outfit prompt.")
     parser.add_argument("--negative", default="", help="Extra negative prompt text.")
@@ -428,9 +505,9 @@ def main():
     parser.add_argument("--timeout", type=int, default=600)
     parser.add_argument(
         "--content-mode",
-        default="safe",
-        choices=["safe", "mature"],
-        help="Safe is modest; mature adds seductive but non-explicit framing (steam/light/pose)."
+        default="sfw",
+        choices=sorted(MATURITY_PRESET_PROMPTS),
+        help="sfw is fully clothed; sensual adds lingerie/skin-forward; explicit allows full 18+ nude or intimate framing."
     )
     parser.add_argument("--sprite", help="Save as a transparent Ren'Py character sprite in images/characters.")
     parser.add_argument("--slot", choices=sorted(SLOTS), help="Save directly into a character-set slot.")
@@ -439,7 +516,8 @@ def main():
     parser.add_argument("--out", help="Save to an arbitrary output file.")
     parser.add_argument("--no-backup", action="store_true", help="Do not back up replaced Ren'Py files.")
     parser.add_argument("--dry-run", action="store_true", help="Print the A1111 payload without calling the API.")
-    args = parser.parse_args()
+    argv = sys.argv[1:]
+    args = parser.parse_args(argv)
 
     if args.write_recipe_example:
         output = write_recipe_example(args.write_recipe_example)
@@ -447,9 +525,11 @@ def main():
         return 0
 
     identities = load_identities()
+    gui_settings = {} if args.no_settings_profile else load_profile(args.settings_profile)
+    apply_gui_generation_settings(args, gui_settings, argv)
 
     if args.recipe:
-        run_recipe(args.recipe, identities, dry_run_override=args.dry_run)
+        run_recipe(args.recipe, identities, gui_settings, dry_run_override=args.dry_run)
         return 0
 
     if not args.character:
