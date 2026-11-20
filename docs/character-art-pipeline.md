@@ -4,13 +4,13 @@ This project uses the main sprites as the character identity source of truth.
 
 ## Source Sprites
 
-- Alex: `Sam And Em/game/images/characters/protagonist.png`
+- Sam: `Sam And Em/game/images/characters/protagonist.png`
 - Maxine: `Sam And Em/game/images/characters/maxine.png`
 - Clara: `Sam And Em/game/images/characters/dorm_leader.png`
 
 ## Identity Anchors
 
-Alex:
+Sam:
 - Young adult male, 18+.
 - Short messy black hair, soft brown eyes, slim average build.
 - Gentle anxious expression.
@@ -51,7 +51,7 @@ breasts, hips, buttocks, genitals, or defining body details. Lingerie-only,
 towel-only, implied-nude, and partial-crop variants do not satisfy the
 requirement.
 
-This applies to Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna,
+This applies to Sam, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna,
 Nadia, Helena, Rhea, and every character added later. See
 `docs/character-art-requirements.md` for paths, sizes, and the completion
 checklist.

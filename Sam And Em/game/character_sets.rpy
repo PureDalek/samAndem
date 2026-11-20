@@ -1,7 +1,7 @@
 init python:
     character_asset_sets = {
         "alex": {
-            "name": "Alex",
+            "name": "Sam",
             "folder": "images/nsfw/alex",
             "slots": [
                 ("Base", "base.png"),

@@ -8,9 +8,9 @@ The player will decide what kind of person he becomes.
 
 ## Core Premise
 
-The protagonist begins as an ordinary young adult moving to a new adult academy and trying to understand his place in the world. When the dorm leader accidentally assigns him to Maxine's room because she assumes Alex is a girl's name, he discovers his mind-reading ability during the argument that follows.
+The protagonist begins as an ordinary young adult moving to a new adult academy and trying to understand his place in the world. When the dorm leader accidentally assigns him to Maxine's room because she assumes Sam is a girl's name, he discovers his mind-reading ability during the argument that follows.
 
-At first, the power appears as accidental flashes of private thought. Then Alex realizes he can do more than hear people. He can nudge a thought, lean on hesitation, and push someone toward a decision they were already considering.
+At first, the power appears as accidental flashes of private thought. Then Sam realizes he can do more than hear people. He can nudge a thought, lean on hesitation, and push someone toward a decision they were already considering.
 
 His power can be used in different ways:
 
@@ -60,7 +60,7 @@ Hard limits that never change:
 - Every depicted character must be 18 or older. Minors, loli, shota, school-age framing, and under-18 visual cues are banned in every prompt, preset, and negative prompt.
 - Sexual content must be consent-based. Coercion, blackmail, mind-control sexual consent, and assault are banned from prompts and presets.
 - Bestiality is banned.
-- Character identity cues for the three romanceable characters (Alex, Maxine, Clara) are pinned to "young adult", "18+", and "adult" wording in every identity anchor.
+- Character identity cues for the three romanceable characters (Sam, Maxine, Clara) are pinned to "young adult", "18+", and "adult" wording in every identity anchor.
 
 ## Character Art Reference
 
@@ -73,7 +73,7 @@ three places before their art is considered complete:
   matching `.json` metadata
 
 The fully nude reference is required for every character in the current cast
-(Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna, Nadia, Helena, and
+(Sam, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna, Nadia, Helena, and
 Rhea) and every character added later. Lingerie, towels, robes, bedsheets,
 cropped framing, and implied nudity do not satisfy the requirement. The
 reference must show the whole character from head to feet with their defining
@@ -102,7 +102,7 @@ Planned systems include:
 
 ## Current State
 
-Current version: v0.3.0.
+Current version: v0.4.0.
 
 The base prototype opens with the academy dorm setup:
 
@@ -120,7 +120,16 @@ v0.3.0 is the Expanded Cast release:
 - Full art pass: 32 new character sprites (four per route) and 80 route CGs, plus rebuilt 1920x1080 backgrounds, story CGs, gallery art, 12 character asset slots, and 7 NSFW story CGs.
 - Routes already completed are marked in the hub and tracked in persistent save data.
 
-v0.0.2 adds the first character gallery with one explicit 18+ image entry each for Alex, Clara, and Maxine.
+v0.4.0 is the Maxine Unbound release:
+
+- Five new explicit scenes on Maxine's route (~2,600 words), in the order the player reaches them: the traded shower, the night the fan dies, the library after closing, the last-lie confession, and the wedding night / morning after.
+- New acts: tit-fuck, two facials, the accidental finish across her face, a library "oops" on her thigh, and two scenes where she is covered and unbothered.
+- More continuous nudity: she sleeps bare, moves around the room bare, and the morning-after CG is her in Sam's shirt and nothing else.
+- **15 new 1536x1152 CGs** wired into the route, with single-figure composition QA on the solo shower frame.
+- The protagonist is now consistently named **Sam** everywhere — text, menus, docs and prompts. "Alex" was a legacy default that disagreed with the title; the room-assignment joke now lands on "short for Samantha."
+- Route flags `mx_shower_done` / `mx_library_done`; the library scene is gated on `maxine_trust >= 2`.
+
+v0.0.2 adds the first character gallery with one explicit 18+ image entry each for Sam, Clara, and Maxine.
 
 v0.0.3 adds the updater foundation and updates the opening plot:
 
@@ -138,7 +147,7 @@ v0.0.5 is the first target update build referenced by `updates/latest.json`.
 
 v0.0.6 adds the shower mistake sequence:
 
-- Alex accidentally enters the adult women's showers because of unclear dorm signage.
+- Sam accidentally enters the adult women's showers because of unclear dorm signage.
 - Clara removes him from the situation and creates a temporary shower schedule.
 - The scene reinforces the theme that mind-reading should create responsibility, not entitlement.
 

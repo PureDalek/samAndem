@@ -8,7 +8,7 @@ label expanded_binary_situations:
     scene bg dorm_lobby
     with fade
 
-    "The academy throws ten clean binary tests at Alex. None of them stay clean once people are involved."
+    "The academy throws ten clean binary tests at Sam. None of them stay clean once people are involved."
 
     "Binary situation 1 of 10: Rumor Screenshot."
 
@@ -161,8 +161,8 @@ label expanded_binary_situations:
             mc "Fast answers leave marks. I know."
 
     if expanded_binary_good >= expanded_binary_risky:
-        "Alex comes out of the gauntlet with more trust than leverage."
+        "Sam comes out of the gauntlet with more trust than leverage."
     else:
-        "Alex comes out with leverage, and the uncomfortable knowledge that leverage always asks to be used again."
+        "Sam comes out with leverage, and the uncomfortable knowledge that leverage always asks to be used again."
 
     jump expanded_route_return

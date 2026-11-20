@@ -63,7 +63,7 @@ SAFETY_NEGATIVE = (
 )
 
 CHARACTER_ANCHORS = {
-    "alex": "Alex, fictional adult man age 22, short messy black hair, soft brown eyes, slim average build, gentle anxious expression, black hoodie and dark/white shirt palette",
+    "alex": "Sam, fictional adult man age 22, short messy black hair, soft brown eyes, slim average build, gentle anxious expression, black hoodie and dark/white shirt palette",
     "maxine": "Maxine, fictional adult woman age 22, athletic tomboy build, short spiky black hair with vivid blue streaks, blue eyes, confident grin, navy sporty palette",
     "clara": "Clara, fictional adult woman age 23, long auburn red-brown hair swept to one side, warm brown eyes, composed dorm-leader poise, cream and ivory palette",
     "lady": "Clara as the Lady, fictional adult woman age 23, long auburn red-brown hair swept to one side, warm brown eyes, elegant dangerous poise, cream and ivory palette",

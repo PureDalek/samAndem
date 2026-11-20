@@ -10,7 +10,7 @@ default gallery_character = "alex"
 init python:
     gallery_entries = {
         "alex": {
-            "name": "Alex",
+            "name": "Sam",
             "images": [
                 ("18+ Image 01", "gallery alex gallery 01"),
                 ("18+ Image 02", "gallery alex gallery 02"),

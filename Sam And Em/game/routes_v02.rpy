@@ -89,7 +89,7 @@ label route_lady_edge:
     "That night, I found the old gallery gate open."
     "A woman stood beneath the archway, reading the scholarship board like it was a confession."
 
-    lady "Alex Reed. Room 214. New transfer. Unusually popular with emergencies."
+    lady "Sam Reed. Room 214. New transfer. Unusually popular with emergencies."
 
     show mc neutral at sprite_left
     with dissolve
@@ -144,7 +144,7 @@ label route_scholarship_review:
     "It was a warning from the future."
 
     menu:
-        "How does Alex handle the scholarship review?"
+        "How does Sam handle the scholarship review?"
 
         "Take the review seriously.":
             $ college_stability += 2
@@ -209,6 +209,9 @@ label route_maxine_almost_date:
             mc "Forgot something in my room."
             mind "He is lying."
             "Maxine's smile stayed in place. Her thought did not."
+
+    if maxine_trust >= 2:
+        call maxine_library_scene
 
     jump route_lady_favor
 
@@ -345,7 +348,7 @@ label route_c2m_last_lie:
     "The rain started after midnight."
     "Maxine sat on the edge of the bed, the robe open and forgotten at her hips, eyes tired of almost-truths."
 
-    maxine "If there is one more thing, Alex, I need it from you. Not from Max. Not from rumors."
+    maxine "If there is one more thing, Sam, I need it from you. Not from Max. Not from rumors."
 
     menu:
         "Maxine asks for the last truth."
@@ -369,6 +372,8 @@ label route_c2m_last_lie:
             mc "There is nothing else."
             mind "Please believe me."
             "My own thought sounded like a lie."
+
+    call maxine_last_lie_scene
 
     if maxine_trust >= 5 and integrity >= 3 and college_stability >= 1 and max_rage <= 5:
         jump ending_maxine_wedding
@@ -430,7 +435,7 @@ label route_c2b_alone:
     "Come alone."
 
     menu:
-        "Max's trap is obvious. What does Alex do?"
+        "Max's trap is obvious. What does Sam do?"
 
         "Meet Max alone.":
             $ max_rage += 2
@@ -500,6 +505,8 @@ label ending_maxine_wedding:
 
     "I had thought love would be the end of adventure."
     "With Maxine smiling at me in the garden, I understood it was the place I could return to."
+
+    call maxine_wedding_night
 
     "Ending 1: The Wedding Garden."
     return

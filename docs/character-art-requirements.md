@@ -47,7 +47,7 @@ and CG are the approved in-project reference copies.
 The requirement applies to every character in the current cast and to any
 character added later:
 
-- Alex
+- Sam
 - Maxine
 - Clara
 - Morrigan

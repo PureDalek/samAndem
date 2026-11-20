@@ -10,7 +10,7 @@ This build incorporates `docs/plot_tree.md` into a playable Ren'Py source versio
   - Act 2: scholarship review, Maxine almost-date, Lady favor, Max pressure.
   - Act 3: gala route lock, final route tests, endings.
 - Existing CG assets in `game/images/nsfw/cg/` are wired into the route.
-- Existing character sprites for Alex, Maxine, and Clara are declared for early scenes.
+- Existing character sprites for Sam, Maxine, and Clara are declared for early scenes.
 
 ## Endings
 

@@ -17,7 +17,7 @@
   "assets": [
     {
       "name": "alex_base",
-      "character": "alex",
+      "character": "sam",
       "slot": "base",
       "filename": "{name}_{index:02d}.png",
       "prompt": "18+ young adult man, short messy black hair, soft brown eyes, slim average build, black hoodie over white shirt, visual novel character sprite, full body, neutral standing pose, plain light background, clean linework, polished game asset"

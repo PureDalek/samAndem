@@ -45,7 +45,7 @@ art/generated/nsfw/<character>_nude_reference_01.json
 The reference must be fully nude and full body from head to feet. Lingerie,
 underwear, towels, robes, sheets, props, hands, and crops must not hide the
 breasts, hips, buttocks, genitals, or defining body details. This is required
-for Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna, Nadia, Helena,
+for Sam, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna, Nadia, Helena,
 Rhea, and every character added later.
 
 See `docs/character-art-requirements.md` for the canonical checklist.
@@ -67,7 +67,7 @@ art/generated/story_nsfw_concepts
 Current targets:
 
 - `story_b2_maxine_almost_date_skin`: late library almost-date; temptation vs honesty.
-- `story_c1_gala_balcony_skin`: gala route lock; Maxine, Alex, and Clara in romantic triangle tension.
+- `story_c1_gala_balcony_skin`: gala route lock; Maxine, Sam, and Clara in romantic triangle tension.
 - `story_c2m_maxine_last_lie_skin`: Maxine confession scene; intimacy plus hard truth.
 - `story_c2l_lady_real_name_skin`: Clara/Lady hotel reveal; trust, passports, danger.
 - `story_c2j_lady_no_questions_skin`: envelope scene; sensual suspense and legal danger.
@@ -185,7 +185,7 @@ visual review.
 Acceptance checklist:
 
 - Story beat is clear without reading the prompt.
-- Character identity matches the current Maxine, Alex, and Clara references.
+- Character identity matches the current Maxine, Sam, and Clara references.
 - Composition reads as a VN event CG at first glance.
 - Skin-forward 18+ styling is present.
 - No duplicate people, childlike faces, broken hands, text, panels, watermarks,

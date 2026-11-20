@@ -10,7 +10,7 @@ LOG=ART/"render.log"
 
 STYLE=("polished semi-realistic anime visual novel art, high-end game illustration, soft painterly cel shading, "
        "clean crisp lineart, detailed expressive eyes, natural skin texture, cinematic lighting, 2.5D, adult characters")
-ALEX=("adult man, 18 years old, short messy black hair, soft brown eyes, pale skin with light freckles, slim average build, "
+SAM=("adult man, 18 years old, short messy black hair, soft brown eyes, pale skin with light freckles, slim average build, "
       "gentle anxious expression, clean-shaven")
 CLARA=("adult woman, 22 years old, long auburn red-brown hair, warm brown eyes, full curvy figure, large natural bust, "
        "composed confident expression, fair warm skin")
@@ -62,22 +62,22 @@ J.append(job("cgs/clara_intervention_cg.png",
 J.append(job("cgs/shower_schedule_cg.png",
  f"{STYLE}. {CLARA}, in a beige cardigan over a white towel, damp auburn hair, holding a clipboard with a handwritten shower "
  f"schedule and a pen, standing in a dorm corridor, looking up with a dry unimpressed expression; in the background "
- f"{ALEX} in a towel holds a shower bag, mortified. 16:9 visual novel CG, morning light",1536,864,1.25,NCHAR))
+ f"{SAM} in a towel holds a shower bag, mortified. 16:9 visual novel CG, morning light",1536,864,1.25,NCHAR))
 
 # ---------- character sprites (transparent via chroma) ----------
 def sprite(name,prompt,neg=NCHROMA): return job(f"characters/{name}.png",prompt,704,1472,1.25,neg)
 pose="full body standing pose, facing viewer, complete figure from shoes to top of hair, generous empty margin around the figure, even soft studio lighting, clean silhouette"
-J.append(sprite("protagonist", f"{STYLE}. {ALEX}, student. He wears a black hoodie over a white t-shirt, dark jeans, white sneakers, a canvas backpack strap. {pose}. Flat solid chroma-key pure green background (#00FF00), no shadow on the background, no scenery"))
+J.append(sprite("protagonist", f"{STYLE}. {SAM}, student. He wears a black hoodie over a white t-shirt, dark jeans, white sneakers, a canvas backpack strap. {pose}. Flat solid chroma-key pure green background (#00FF00), no shadow on the background, no scenery"))
 J.append(sprite("maxine", f"{STYLE}. {MAXINE}, in a navy sports bra under an open sleeveless hoodie, dark track pants, white sneakers, white hand wraps. Confident grin, hand on hip. {pose}. Flat solid chroma-key pure green background (#00FF00), no shadow on the background, no scenery"))
 J.append(sprite("dorm_leader", f"{STYLE}. {CLARA}, dorm leader, in a beige cardigan, white silk blouse, black pencil skirt, a lanyard with keys, dark heels, stockings. Composed smile, clipboard at her side. {pose}. Flat solid chroma-key pure green background (#00FF00), no shadow on the background, no scenery"))
 
 # ---------- gallery (explicit, 2 each) ----------
 J.append(job("gallery/alex_private_01.png",
- f"{STYLE}. Explicit adult male nude study. {ALEX}, in a dim dorm room at night, sitting on the edge of a bed, "
+ f"{STYLE}. Explicit adult male nude study. {SAM}, in a dim dorm room at night, sitting on the edge of a bed, "
  f"completely nude, visible penis, bare chest and shoulders, warm lamp, laptop glow, looking away, tense and handsome, "
  f"35mm, shallow depth of field, 16:9",1536,864,1.25,NMALE))
 J.append(job("gallery/alex_private_02.png",
- f"{STYLE}. Explicit adult male nude study, full body. {ALEX}, standing by a window at dawn, completely nude, visible penis, "
+ f"{STYLE}. Explicit adult male nude study, full body. {SAM}, standing by a window at dawn, completely nude, visible penis, "
  f"boxer briefs in one hand, bare feet, curtain light across his chest, shy half-smile, tall portrait composition",
  704,1472,1.25,NMALE))
 J.append(job("gallery/clara_private_01.png",
@@ -101,13 +101,13 @@ J.append(job("gallery/maxine_private_02.png",
 # ---------- NSFW character slots (3:4) ----------
 def slot(c,name,prompt,neg):
     return job(f"nsfw/{c}/{name}.png",prompt,768,1024,1.5,neg)
-J.append(slot("alex","base", f"{STYLE}. {ALEX}, standing in his dorm room, wearing a black hoodie over a white t-shirt, dark jeans, sneakers, "
+J.append(slot("alex","base", f"{STYLE}. {SAM}, standing in his dorm room, wearing a black hoodie over a white t-shirt, dark jeans, sneakers, "
     f"backpack strap in one hand, nervous but warm, three-quarter length, plain warm grey studio background",NCHAR))
-J.append(slot("alex","underwear", f"{STYLE}. {ALEX}, standing in his dorm room, wearing only dark boxer briefs, bare chest and shoulders, "
+J.append(slot("alex","underwear", f"{STYLE}. {SAM}, standing in his dorm room, wearing only dark boxer briefs, bare chest and shoulders, "
     f"slim average build, hand behind his neck, shy half-smile, low intimate light, plain neutral background",NCHAR))
-J.append(slot("alex","nude_front", f"{STYLE}. Explicit adult male nude study. {ALEX}, standing full frontal, completely nude, "
+J.append(slot("alex","nude_front", f"{STYLE}. Explicit adult male nude study. {SAM}, standing full frontal, completely nude, "
     f"visible penis and testicles, arms relaxed, bare feet, natural body, candid eye contact, soft studio light, plain light background",NMALE))
-J.append(slot("alex","nude_alt", f"{STYLE}. Explicit adult male nude study. {ALEX}, sitting on the edge of his dorm bed, completely nude, "
+J.append(slot("alex","nude_alt", f"{STYLE}. Explicit adult male nude study. {SAM}, sitting on the edge of his dorm bed, completely nude, "
     f"soft half-erect penis, one knee up, leaning back on one hand, looking at the viewer, warm lamp, intimate",NMALE))
 J.append(slot("maxine","base", f"{STYLE}. {MAXINE}, in a navy cropped athletic top and low-rise track pants, white hand wraps, "
     f"sneakers, standing with a cocky grin, hand on hip, three-quarter length, plain neutral studio background",NCHAR))

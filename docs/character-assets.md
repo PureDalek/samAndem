@@ -48,7 +48,7 @@ clothing, towels, robes, sheets, props, hands, or crops that hide the breasts,
 hips, buttocks, genitals, or defining body details. Lingerie, underwear,
 implied nudity, and partial crops do not count.
 
-This applies to Alex, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna,
+This applies to Sam, Maxine, Clara, Morrigan, Brielle, Mina, Kira, Sienna,
 Nadia, Helena, Rhea, and every character added later. See
 `docs/character-art-requirements.md` for the canonical checklist.
 

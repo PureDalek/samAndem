@@ -83,25 +83,25 @@ Template-only dry run, useful even when Ollama is not running:
 
 ```powershell
 $py = "C:\Users\pured\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run
 ```
 
 Ollama-polished dry run:
 
 ```powershell
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --refresh-prompt --dry-run
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --refresh-prompt --dry-run
 ```
 
 If you want to use a different installed Ollama model, add `--llm-model`:
 
 ```powershell
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --llm-model "<installed model name>" --refresh-prompt --dry-run
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --llm-model "<installed model name>" --refresh-prompt --dry-run
 ```
 
 Tune always-on negative tags from the CLI with `--always-negative`:
 
 ```powershell
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run --always-negative "flat lighting, plastic skin, text, watermark"
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --no-llm --dry-run --always-negative "flat lighting, plastic skin, text, watermark"
 ```
 
 Force specific character anchors when the scene text is ambiguous:
@@ -124,7 +124,7 @@ same cached wording.
 Replace the checkpoint with one from `--list-resources`:
 
 ```powershell
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --seed 56530358 --checkpoint "<your checkpoint name>" --variants 2
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm --seed 56530358 --checkpoint "<your checkpoint name>" --variants 2
 ```
 
 Outputs are saved as PNG files with sidecar JSON metadata:
@@ -152,7 +152,7 @@ For the closest repeated composition, feed a selected image back through
 img2img:
 
 ```powershell
-& $py scripts\local_scene_image_pipeline.py "Maxine and Alex in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm_refine --seed 56530358 --checkpoint "<your checkpoint name>" --init-image art\generated\local_scene_pipeline\maxine_rain_dorm_seed_56530358_v00_00.png --denoise 0.35
+& $py scripts\local_scene_image_pipeline.py "Maxine and Sam in a rainlit dorm room, emotional honesty, warm lamp, blue rain window" --slug maxine_rain_dorm_refine --seed 56530358 --checkpoint "<your checkpoint name>" --init-image art\generated\local_scene_pipeline\maxine_rain_dorm_seed_56530358_v00_00.png --denoise 0.35
 ```
 
 Lower `--denoise` values keep the image closer to the input. Higher values

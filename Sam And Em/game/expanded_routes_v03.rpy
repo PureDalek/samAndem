@@ -91,7 +91,7 @@ label expanded_route_morrigan:
     menu:
         "Step between her and the crowd":
             $ route_good += 1
-            morrigan "It is chalk, Alex. It is very old chalk."
+            morrigan "It is chalk, Sam. It is very old chalk."
             mc "Then let it be my turn to stand in front of something."
         "Ask her, loud enough for everyone":
             $ route_risky += 1
@@ -136,7 +136,7 @@ label expanded_route_morrigan:
         "Let the threat out":
             $ route_risky += 1
             mc "Say her name one more time and we find out which of us the dorm believes."
-            morrigan "Alex. That is a door. You do not have to open every one."
+            morrigan "Sam. That is a door. You do not have to open every one."
     "She stepped between us anyway, chin up, and Max remembered somewhere else he had to be."
 
     scene cg morrigan_cg_05
@@ -637,7 +637,7 @@ label expanded_route_mina:
         "Take the blame, well":
             $ route_risky += 1
             mc "It was me. She was walking home and I had a brush."
-            mina "Alex—"
+            mina "Sam—"
             mc "It is a very old wall. I got excited."
     "The guard wrote something down, looked at the mural, and did not write that down."
 
@@ -914,7 +914,7 @@ label expanded_route_kira:
         "Answer for her":
             $ route_risky += 1
             mc "She made all of it. The paint is a house brand."
-            kira "Alex."
+            kira "Sam."
             "The girl asks how long it took. Kira forgets every word she has ever known and I can see her decide to be grateful anyway."
     menu:
         "Carry the helmet for her":
@@ -1457,7 +1457,7 @@ label expanded_route_nadia:
     menu:
         "Lower the temperature: clear a space and keep quiet":
             $ route_good += 1
-            "Alex gets the crowd back. Nadia gets the pulse ox on. Neither of them says anything."
+            "Sam gets the crowd back. Nadia gets the pulse ox on. Neither of them says anything."
             nadia "Good. Now sit down before you fall down too."
         "Turn the crowd into a weapon: give them jobs":
             $ route_risky += 1
@@ -1512,7 +1512,7 @@ label expanded_route_nadia:
             nadia "I am laughing at the form that says no weather events in the tent."
         "Comment on the coat":
             $ route_risky += 1
-            nadia "It is not a fashion show, Alex."
+            nadia "It is not a fashion show, Sam."
             mc "You look like a person who could keep someone alive in a field."
             nadia "That is the same sentence as asking why I never dress up."
     menu:
@@ -1601,7 +1601,7 @@ label expanded_route_nadia:
         "Stand up beside her":
             $ route_risky += 1
             mc "Whatever you decide for her, she did first what I did later. I will take the same outcome."
-            nadia "Sit down, Alex."
+            nadia "Sit down, Sam."
             mc "No."
     "The panel kept my place and her licence. Both, somehow. She cried in the lift and made me promise not to tell Max."
 
@@ -1755,7 +1755,7 @@ label expanded_route_helena:
     scene cg helena_cg_04
     with dissolve
     "Corridor, glass cabinets, regatta photographs. Max holding one photo up between two fingers."
-    "It is Alex leaving her office at midnight, tie off, and Helena in the doorway in the grammar of a half-turn."
+    "It is Sam leaving her office at midnight, tie off, and Helena in the doorway in the grammar of a half-turn."
     menu:
         "Document it: make Max a witness":
             $ route_good += 1
@@ -1915,7 +1915,7 @@ label ending_helena_neutral:
     "She stays. The ledger becomes an internal document, and she becomes the person who wrote it."
     "One hour a week, then a term, then the year ends and I graduate into a corridor where she is carefully not alone."
     "She writes one letter, in fountain pen, and leaves it in a book I am meant to be returning."
-    "DEAR ALEX. START ANYWHERE. I forgive her the capitals. They are the last thing she says with authority."
+    "DEAR SAM. START ANYWHERE. I forgive her the capitals. They are the last thing she says with authority."
     "Term's End  ג€”  Neutral ending."
     python:
         __s = set(persistent.seen_routes or set())

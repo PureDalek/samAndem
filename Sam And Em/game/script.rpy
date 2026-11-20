@@ -5,7 +5,7 @@ define dorm = Character("Clara", color="#d78355")
 define maxine = Character("Maxine", color="#66c46a")
 define mind = Character(None, what_italic=True, what_color="#8f6cff")
 
-default player_name = "Alex"
+default player_name = "Sam"
 default morality = 0
 default mind_power_control = 0
 default clara_trust = 0
@@ -84,7 +84,7 @@ label scene_dorm_lobby:
     show clara neutral at sprite_center
     with dissolve
 
-    dorm "You must be Alex."
+    dorm "You must be Sam."
 
     "The woman at the desk looked up from a clipboard. Calm eyes. Perfect posture. A smile that could welcome you or warn you depending on how smart you were."
 
@@ -103,7 +103,7 @@ label scene_dorm_lobby:
 
     maxine "That's me."
 
-    dorm "Alex Reed. Room 214."
+    dorm "Sam Reed. Room 214."
 
     mc "Wait. Same room?"
 
@@ -111,7 +111,7 @@ label scene_dorm_lobby:
 
     "She checked the page again. Then the next page. Then the page after that."
 
-    dorm "I am sorry. The system marked Alex as a girl's name."
+    dorm "I am sorry. The system marked Sam as a girl's name."
 
     maxine "It can be."
 
@@ -138,13 +138,13 @@ label scene_dorm_lobby:
     "The pressure sharpened. For one impossible second, I could feel the shape of her hesitation, like a door with my hand already on the handle."
 
     menu:
-        "Clara is debating whether to let Alex stay in Maxine's room tonight. What do you do?"
+        "Clara is debating whether to let Sam stay in Maxine's room tonight. What do you do?"
 
         "Respect the boundary and answer honestly.":
             $ morality += 1
             $ clara_trust += 1
             mc "If it makes things easier, I can sleep in the lobby or call a hotel."
-            maxine "Alex, you do not have hotel money."
+            maxine "Sam, you do not have hotel money."
             dorm "No. This is my mistake, not yours."
             "Clara exhaled, making the decision herself."
             dorm "One night. Door stays unlocked unless both of you agree otherwise. I move you tomorrow."
@@ -159,7 +159,7 @@ label scene_dorm_lobby:
             "Clara blinked, then squared her shoulders as if the decision had always been obvious."
             dorm "You can stay there for now. If either of you complains, I change the arrangement immediately."
 
-    dorm "Welcome to West Hall, Alex."
+    dorm "Welcome to West Hall, Sam."
 
     maxine "See? First day and you already survived the boss fight."
 
@@ -205,7 +205,7 @@ label scene_morning_room:
             $ morality -= 1
             "I knew I should look away."
             "I also knew I waited too long."
-            maxine "Alex?"
+            maxine "Sam?"
             "Her voice snapped me back into myself."
             mc "Sorry. I just woke up."
             maxine "Then wake up facing literally anywhere else."
@@ -256,7 +256,7 @@ label scene_shower_mistake:
     "The thoughts hit me from every direction, overlapping until the room felt too bright."
 
     menu:
-        "What does Alex do?"
+        "What does Sam do?"
 
         "Keep your eyes down and leave immediately.":
             $ morality += 1
@@ -269,7 +269,7 @@ label scene_shower_mistake:
             "The chorus of thoughts sharpened into embarrassment, irritation, and one or two amused comments I absolutely did not deserve to hear."
             mc "Right. Moving. Now."
 
-    dorm "Alex."
+    dorm "Sam."
 
     "Clara's voice cut through the steam."
 
@@ -292,7 +292,7 @@ label scene_clara_shower_plan:
 
     mc "In my defense, the sign was basically soup."
 
-    dorm "In your defense, yes. In my defense, I am running a full dorm with one broken printer, two clogged sinks, and a room assignment system that thinks your name is short for Alexandra."
+    dorm "In your defense, yes. In my defense, I am running a full dorm with one broken printer, two clogged sinks, and a room assignment system that thinks your name is short for Samantha."
 
     mind "He did try to leave. Good. Still, this cannot happen twice."
 
@@ -313,7 +313,7 @@ label scene_clara_shower_plan:
     dorm "It is meant to."
 
     menu:
-        "Clara is trying to solve the problem fairly. How does Alex answer?"
+        "Clara is trying to solve the problem fairly. How does Sam answer?"
 
         "Accept the rule without arguing.":
             $ morality += 1
@@ -328,7 +328,7 @@ label scene_clara_shower_plan:
             dorm "Technically, you get one warning."
             "Her expression made it clear there would not be a second."
 
-    dorm "And Alex?"
+    dorm "And Sam?"
 
     mc "Yeah?"
 
@@ -342,6 +342,9 @@ label scene_clara_shower_plan:
 
     "The schedule solved one problem."
     "The power in my head promised a hundred more."
+
+    call maxine_shower_scene
+    call maxine_night_scene
 
     # v0.3.0: enter the expanded route hub. The Maxine/Lady storyline is the
     # "Continue" branch inside it, so the eight recovered routes are reachable.
